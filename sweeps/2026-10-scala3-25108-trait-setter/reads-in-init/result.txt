@@ -1,0 +1,148 @@
+== org.scodec:scodec-bits_3:1.2.5  scodec$bits$Bases$Alphabets$Base64Base$_setter_$pad_$eq
+site scodec.bits.Bases$Alphabets$Base64NoPad$  (pad: C)
+  window: scodec/bits/Bases$Alphabets$Base64Base.$init$ after the setter call
+  window: scodec/bits/Bases$Alphabets$Base64NoPad$.<clinit> after scodec/bits/Bases$Alphabets$Base64Base.$init$
+  no read of pad in the window
+site scodec.bits.Bases$Alphabets$Base64$  (pad: C)
+  not an override: no initialiser of scodec/bits/Bases$Alphabets$Base64$ stores pad (it inherits the trait's val), so not an affected site
+== org.scodec:scodec-bits_3:1.2.5  scodec$bits$Bases$Alphabets$Base64UrlBase$_setter_$pad_$eq
+site scodec.bits.Bases$Alphabets$Base64Url$  (pad: C)
+  not an override: no initialiser of scodec/bits/Bases$Alphabets$Base64Url$ stores pad (it inherits the trait's val), so not an affected site
+site scodec.bits.Bases$Alphabets$Base64UrlNoPad$  (pad: C)
+  window: scodec/bits/Bases$Alphabets$Base64UrlBase.$init$ after the setter call
+  window: scodec/bits/Bases$Alphabets$Base64UrlNoPad$.<clinit> after scodec/bits/Bases$Alphabets$Base64UrlBase.$init$
+  no read of pad in the window
+== com.typesafe.play:play_3:2.9.5  play$api$data$format$Formatter$_setter_$format_$eq
+site play.api.data.format.Formats$$anon$6  (format: Lscala/Option;)
+  window: play/api/data/format/Formatter.$init$ after the setter call
+  window: play/api/data/format/Formats$$anon$6.<init> after play/api/data/format/Formatter.$init$
+  no read of format in the window
+site play.api.data.format.Formats$$anon$5  (format: Lscala/Option;)
+  window: play/api/data/format/Formatter.$init$ after the setter call
+  window: play/api/data/format/Formats$$anon$5.<init> after play/api/data/format/Formatter.$init$
+  no read of format in the window
+site play.api.data.format.Formats$$anon$4  (format: Lscala/Option;)
+  window: play/api/data/format/Formatter.$init$ after the setter call
+  window: play/api/data/format/Formats$$anon$4.<init> after play/api/data/format/Formatter.$init$
+  no read of format in the window
+site play.api.data.format.Formats$$anon$3  (format: Lscala/Option;)
+  not an override: no initialiser of play/api/data/format/Formats$$anon$3 stores format (it inherits the trait's val), so not an affected site
+site play.api.data.format.Formats$$anon$2  (format: Lscala/Option;)
+  not an override: no initialiser of play/api/data/format/Formats$$anon$2 stores format (it inherits the trait's val), so not an affected site
+site play.api.data.format.Formats$$anon$1  (format: Lscala/Option;)
+  not an override: no initialiser of play/api/data/format/Formats$$anon$1 stores format (it inherits the trait's val), so not an affected site
+site play.api.data.format.Formats$$anon$9  (format: Lscala/Option;)
+  window: play/api/data/format/Formatter.$init$ after the setter call
+  window: play/api/data/format/Formats$$anon$9.<init> after play/api/data/format/Formatter.$init$
+  no read of format in the window
+site play.api.data.format.Formats$$anon$8  (format: Lscala/Option;)
+  window: play/api/data/format/Formatter.$init$ after the setter call
+  window: play/api/data/format/Formats$$anon$8.<init> after play/api/data/format/Formatter.$init$
+  no read of format in the window
+site play.api.data.format.Formats$$anon$7  (format: Lscala/Option;)
+  window: play/api/data/format/Formatter.$init$ after the setter call
+  window: play/api/data/format/Formats$$anon$7.<init> after play/api/data/format/Formatter.$init$
+  no read of format in the window
+site play.api.data.format.Formats$$anon$11  (format: Lscala/Option;)
+  window: play/api/data/format/Formatter.$init$ after the setter call
+  window: play/api/data/format/Formats$$anon$11.<init> after play/api/data/format/Formatter.$init$
+  no read of format in the window
+site play.api.data.format.Formats$$anon$10  (format: Lscala/Option;)
+  window: play/api/data/format/Formatter.$init$ after the setter call
+  window: play/api/data/format/Formats$$anon$10.<init> after play/api/data/format/Formatter.$init$
+  no read of format in the window
+site play.api.data.format.Formats$$anon$13  (format: Lscala/Option;)
+  window: play/api/data/format/Formatter.$init$ after the setter call
+  window: play/api/data/format/Formats$$anon$13.<init> after play/api/data/format/Formatter.$init$
+  no read of format in the window
+site play.api.data.format.Formats$$anon$12  (format: Lscala/Option;)
+  window: play/api/data/format/Formatter.$init$ after the setter call
+  window: play/api/data/format/Formats$$anon$12.<init> after play/api/data/format/Formatter.$init$
+  no read of format in the window
+== com.typesafe.play:play_3:2.9.5  scala$util$parsing$combinator$RegexParsers$_setter_$whiteSpace_$eq
+site play.api.i18n.Messages$MessagesParser  (whiteSpace: Lscala/util/matching/Regex;)
+  window: scala/util/parsing/combinator/RegexParsers.$init$ after the setter call
+  window: play/api/i18n/Messages$MessagesParser.<init> after scala/util/parsing/combinator/RegexParsers.$init$
+  no read of whiteSpace in the window
+== org.playframework:play_3:3.1.0-M9  play$api$data$format$Formatter$_setter_$format_$eq
+site play.api.data.format.Formats$$anon$6  (format: Lscala/Option;)
+  window: play/api/data/format/Formatter.$init$ after the setter call
+  window: play/api/data/format/Formats$$anon$6.<init> after play/api/data/format/Formatter.$init$
+  no read of format in the window
+site play.api.data.format.Formats$$anon$5  (format: Lscala/Option;)
+  window: play/api/data/format/Formatter.$init$ after the setter call
+  window: play/api/data/format/Formats$$anon$5.<init> after play/api/data/format/Formatter.$init$
+  no read of format in the window
+site play.api.data.format.Formats$$anon$4  (format: Lscala/Option;)
+  window: play/api/data/format/Formatter.$init$ after the setter call
+  window: play/api/data/format/Formats$$anon$4.<init> after play/api/data/format/Formatter.$init$
+  no read of format in the window
+site play.api.data.format.Formats$$anon$3  (format: Lscala/Option;)
+  not an override: no initialiser of play/api/data/format/Formats$$anon$3 stores format (it inherits the trait's val), so not an affected site
+site play.api.data.format.Formats$$anon$2  (format: Lscala/Option;)
+  not an override: no initialiser of play/api/data/format/Formats$$anon$2 stores format (it inherits the trait's val), so not an affected site
+site play.api.data.format.Formats$$anon$1  (format: Lscala/Option;)
+  not an override: no initialiser of play/api/data/format/Formats$$anon$1 stores format (it inherits the trait's val), so not an affected site
+site play.api.data.format.Formats$$anon$9  (format: Lscala/Option;)
+  window: play/api/data/format/Formatter.$init$ after the setter call
+  window: play/api/data/format/Formats$$anon$9.<init> after play/api/data/format/Formatter.$init$
+  no read of format in the window
+site play.api.data.format.Formats$$anon$8  (format: Lscala/Option;)
+  window: play/api/data/format/Formatter.$init$ after the setter call
+  window: play/api/data/format/Formats$$anon$8.<init> after play/api/data/format/Formatter.$init$
+  no read of format in the window
+site play.api.data.format.Formats$$anon$7  (format: Lscala/Option;)
+  window: play/api/data/format/Formatter.$init$ after the setter call
+  window: play/api/data/format/Formats$$anon$7.<init> after play/api/data/format/Formatter.$init$
+  no read of format in the window
+site play.api.data.format.Formats$$anon$11  (format: Lscala/Option;)
+  window: play/api/data/format/Formatter.$init$ after the setter call
+  window: play/api/data/format/Formats$$anon$11.<init> after play/api/data/format/Formatter.$init$
+  no read of format in the window
+site play.api.data.format.Formats$$anon$10  (format: Lscala/Option;)
+  window: play/api/data/format/Formatter.$init$ after the setter call
+  window: play/api/data/format/Formats$$anon$10.<init> after play/api/data/format/Formatter.$init$
+  no read of format in the window
+site play.api.data.format.Formats$$anon$13  (format: Lscala/Option;)
+  window: play/api/data/format/Formatter.$init$ after the setter call
+  window: play/api/data/format/Formats$$anon$13.<init> after play/api/data/format/Formatter.$init$
+  no read of format in the window
+site play.api.data.format.Formats$$anon$12  (format: Lscala/Option;)
+  window: play/api/data/format/Formatter.$init$ after the setter call
+  window: play/api/data/format/Formats$$anon$12.<init> after play/api/data/format/Formatter.$init$
+  no read of format in the window
+== org.playframework:play_3:3.1.0-M9  scala$util$parsing$combinator$RegexParsers$_setter_$whiteSpace_$eq
+site play.api.i18n.Messages$MessagesParser  (whiteSpace: Lscala/util/matching/Regex;)
+  window: scala/util/parsing/combinator/RegexParsers.$init$ after the setter call
+  window: play/api/i18n/Messages$MessagesParser.<init> after scala/util/parsing/combinator/RegexParsers.$init$
+  no read of whiteSpace in the window
+== dev.zio:zio_3:2.1.27  zio$ZIOAppDefault$_setter_$bootstrap_$eq
+site zio.ZIOAppDefault$$anon$1  (bootstrap: Lzio/ZLayer;)
+  not an override: no initialiser of zio/ZIOAppDefault$$anon$1 stores bootstrap (it inherits the trait's val), so not an affected site
+site zio.metrics.jvm.DefaultJvmMetrics$$anon$1  (bootstrap: Lzio/ZLayer;)
+  window: zio/ZIOAppDefault.$init$ after the setter call
+  window: zio/metrics/jvm/DefaultJvmMetrics$$anon$1.<init> after zio/ZIOAppDefault.$init$
+  no read of bootstrap in the window
+== com.typesafe.slick:slick_3:4.0.0-RC2  slick$lifted$SimpleFunction$_setter_$scalar_$eq
+site slick.lifted.SimpleFunction$$anon$1  (scalar: Z)
+  window: slick/lifted/SimpleFunction.$init$ after the setter call
+  window: slick/lifted/SimpleFunction$$anon$1.<init> after slick/lifted/SimpleFunction.$init$
+  no read of scalar in the window
+== org.json4s:json4s-core_3:4.1.0-M8  org$json4s$DefaultFormats$_setter_$typeHints_$eq
+site org.json4s.DefaultFormats$  (typeHints: Lorg/json4s/TypeHints;)
+  not an override: no initialiser of org/json4s/DefaultFormats$ stores typeHints (it inherits the trait's val), so not an affected site
+site org.json4s.DefaultFormats$$anon$2  (typeHints: Lorg/json4s/TypeHints;)
+  not an override: no initialiser of org/json4s/DefaultFormats$$anon$2 stores typeHints (it inherits the trait's val), so not an affected site
+site org.json4s.DefaultFormats$$anon$3  (typeHints: Lorg/json4s/TypeHints;)
+  window: org/json4s/DefaultFormats.$init$ after the setter call
+  window: org/json4s/DefaultFormats$$anon$3.<init> after org/json4s/DefaultFormats.$init$
+  no read of typeHints in the window
+== org.scala-lang:scaladoc_3:3.7.3  dotty$tools$scaladoc$SourceLink$_setter_$path_$eq
+site dotty.tools.scaladoc.WebBasedSourceLink  (path: Lscala/Option;)
+  window: dotty/tools/scaladoc/SourceLink.$init$ after the setter call
+  window: dotty/tools/scaladoc/WebBasedSourceLink.<init> after dotty/tools/scaladoc/SourceLink.$init$
+  no read of path in the window
+site dotty.tools.scaladoc.TemplateSourceLink  (path: Lscala/Option;)
+  window: dotty/tools/scaladoc/SourceLink.$init$ after the setter call
+  window: dotty/tools/scaladoc/TemplateSourceLink.<init> after dotty/tools/scaladoc/SourceLink.$init$
+  no read of path in the window

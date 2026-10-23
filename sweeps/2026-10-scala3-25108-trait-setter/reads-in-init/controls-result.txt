@@ -1,0 +1,21 @@
+== controls/inherits.scala: Not an affected site: C inherits T's val, so the trait setter legitimately writes C's field.
+site C  (x: Lscala/Option;)
+  not an override: no initialiser of C stores x (it inherits the trait's val), so not an affected site
+== controls/no-read.scala: Negative control: nothing reads x before C's constructor stores it.
+site C  (x: Lscala/Option;)
+  no read of x in the window
+== controls/object-no-read.scala: Negative control: a top-level object overriding x; nothing reads it early.
+site C$  (x: Lscala/Option;)
+  no read of x in the window
+== controls/object-reads.scala: Positive control: a top-level object (static fields, initialised in <clinit>); T's initialiser reads x.
+site C$  (x: Lscala/Option;)
+  READ call T.x in T.$init$
+== controls/reads-in-later-trait.scala: Positive control: a trait initialised after T reads x.
+site C  (x: Lscala/Option;)
+  READ call U.x in C.<init> -> U.$init$
+== controls/reads-indirectly.scala: Positive control: T's initialiser reads x through another method.
+site C  (x: Lscala/Option;)
+  READ call T.x in T.$init$ -> T.peek
+== controls/reads.scala: Positive control: the repro from scala/scala3#25108; T's initialiser reads x after its setter call.
+site C  (x: Lscala/Option;)
+  READ call T.x in T.$init$

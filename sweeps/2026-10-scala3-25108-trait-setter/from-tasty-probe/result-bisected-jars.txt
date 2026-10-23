@@ -1,0 +1,136 @@
+org.typelevel::cats-core:latest.release: 949 tasty files, 2 fail alone
+    BAD Eval.tasty
+    BAD FunctionKMacroMethods.tasty
+org.typelevel::cats-free:latest.release: 35 tasty files, 1 fail alone
+    BAD FreeFoldStep.tasty
+org.typelevel::cats-effect:latest.release: 105 tasty files, 1 fail alone
+    BAD Platform.tasty
+org.typelevel::spire:latest.release: 895 tasty files, 0 fail alone
+co.fs2::fs2-core:latest.release: 75 tasty files, 3 fail alone
+    BAD Chunk.tasty
+    BAD ChunkAsSeq.tasty
+    BAD Stream.tasty
+co.fs2::fs2-io:latest.release: 107 tasty files, 3 fail alone
+    BAD JnrUnixDatagramSocketsProvider.tasty
+    BAD JnrUnixSocketsProvider.tasty
+    BAD SocketAddressHelpers.tasty
+org.http4s::http4s-core:latest.release: 265 tasty files, 2 fail alone
+    BAD Request.tasty
+    BAD Response.tasty
+dev.zio::zio:latest.release: 228 tasty files, 3 fail alone
+    PROBE-25108 VALUE zio.metrics.jvm.DefaultJvmMetrics.$anon zio$ZIOAppDefault$_setter_$bootstrap_$eq param=zio.ZLayer field=zio.ZLayer src=core/jvm/src/main/scala/zio/metrics/jvm/DefaultJvmMetrics.scala
+    BAD Experimental.tasty
+    BAD LayerMacroUtils.tasty
+    BAD ZLayerDerivationMacros.tasty
+dev.zio::zio-test:latest.release: 129 tasty files, 3 fail alone
+    BAD SmartAssertMacros.tasty
+    BAD SpecLayerMacros.tasty
+    BAD ZIOSpecVersionSpecificMacros.tasty
+org.scalatest::scalatest-core:latest.release: 538 tasty files, 4 fail alone
+    BAD Framework.tasty
+    BAD HtmlReporter.tasty
+    BAD ScalaTestAntTask.tasty
+    BAD ScalaTestFramework.tasty
+org.scalameta::munit:latest.release: 50 tasty files, 1 fail alone
+    BAD MacroCompatScala2.tasty
+dev.optics::monocle-core:latest.release: 221 tasty files, 8 fail alone
+    BAD FocusBase.tasty
+    BAD AsGenerator.tasty
+    BAD AtGenerator.tasty
+    BAD IndexGenerator.tasty
+    BAD SelectFieldGenerator.tasty
+dev.optics::monocle-macro:latest.release: 4 tasty files, 1 fail alone
+    BAD GenIso.tasty
+com.lihaoyi::utest:latest.release: 96 tasty files, 1 fail alone
+    BAD Tracer.tasty
+org.scodec::scodec-core:latest.release: 74 tasty files, 1 fail alone
+    BAD DiscriminatorCodec.tasty
+org.typelevel::shapeless3-deriving:latest.release: 23 tasty files, 3 fail alone
+    BAD Kind.tasty
+    BAD ErasedProductInstances1.tasty
+    BAD ErasedProductInstancesN.tasty
+io.getquill::quill-sql:latest.release: 248 tasty files, 2 fail alone
+    BAD QueryScalarsParser.tasty
+    BAD SetOperationsParser.tasty
+org.scala-lang.modules::scala-parallel-collections:latest.release: 100 tasty files, 1 fail alone
+    BAD ParMapLike.tasty
+org.parboiled::parboiled:latest.release: 47 tasty files, 1 fail alone
+    BAD OpTreeContext.tasty
+org.tpolecat::skunk-core:latest.release: 194 tasty files, 1 fail alone
+    BAD StringContextOps.tasty
+com.typesafe.slick::slick:latest.release: 428 tasty files, 2 fail alone
+    PROBE-25108 VALUE slick.lifted.SimpleFunction.$anon slick$lifted$SimpleFunction$_setter_$scalar_$eq param=Boolean field=Boolean src=slick/src/main/scala/slick/lifted/SimpleFunction.scala
+    BAD DerbyProfile.tasty
+    BAD HsqldbProfile.tasty
+org.apache.pekko::pekko-actor:latest.release: 646 tasty files, 1 fail alone
+    BAD Reflect.tasty
+org.apache.pekko::pekko-stream:latest.release: 612 tasty files, 7 fail alone
+    BAD Flow.tasty
+    BAD FlowWithContext.tasty
+    BAD Sink.tasty
+    BAD Source.tasty
+    BAD SourceWithContext.tasty
+org.apache.pekko::pekko-http-core:latest.release: 439 tasty files, 368 fail alone
+    BAD DefaultParsingErrorHandler.tasty
+    BAD ParsingErrorHandler.tasty
+    BAD Version.tasty
+    BAD HttpConnectionIdleTimeoutBidi.tasty
+    BAD HttpsProxyGraphStage.tasty
+org.apache.pekko::pekko-http:latest.release: 285 tasty files, 179 fail alone
+    BAD RoutingSettingsImpl.tasty
+    BAD ServerSentEventSettingsImpl.tasty
+    BAD CsvEntityStreamingSupport.tasty
+    BAD EntityStreamingSupport.tasty
+    BAD JsonEntityStreamingSupport.tasty
+org.typelevel::kittens:latest.release: 42 tasty files, 2 fail alone
+    BAD DerivedEmpty$package.tasty
+    BAD DerivedEmptyK$package.tasty
+com.github.julien-truffaut::monocle-core:latest.release: 215 tasty files, 5 fail alone
+    BAD AtGenerator.tasty
+    BAD IndexGenerator.tasty
+    BAD SelectFieldGenerator.tasty
+    BAD SelectOnlyFieldGenerator.tasty
+    BAD WithDefaultGenerator.tasty
+dev.zio::zio-http:latest.release: 236 tasty files, 3 fail alone
+    BAD ChannelFactories.tasty
+    BAD EventLoopGroups.tasty
+    BAD Conversions.tasty
+dev.zio::zio-prelude:latest.release: 137 tasty files, 12 fail alone
+    BAD AssociativeBoth.tasty
+    BAD AssociativeCompose.tasty
+    BAD AssociativeEither.tasty
+    BAD AssociativeFlatten.tasty
+    BAD CommutativeBoth.tasty
+com.github.ghostdogpr::caliban:latest.release: 179 tasty files, 13 fail alone
+    BAD GraphQLRequest.tasty
+    BAD GraphQLResponse.tasty
+    BAD GraphQLWSInput.tasty
+    BAD GraphQLWSOutput.tasty
+    BAD ResponseValue.tasty
+org.json4s::json4s-core:latest.release: 43 tasty files, 1 fail alone
+    PROBE-25108 VALUE org.json4s.DefaultFormats.$anon org$json4s$DefaultFormats$_setter_$typeHints_$eq param=org.json4s.TypeHints field=org.json4s.TypeHints src=core/shared/src/main/scala/org/json4s/DefaultFormats.scala
+    BAD ScalaSigReader.tasty
+org.scala-lang::scala3-compiler:3.7.3: 971 tasty files, 2 fail alone
+    BAD Scanners.tasty
+    BAD QuotesImpl.tasty
+org.scala-lang::scala3-tasty-inspector:3.7.3: 3 tasty files, 1 fail alone
+    BAD TastyInspector.tasty
+org.scala-lang::scaladoc:3.7.3: 191 tasty files, 79 fail alone
+    PROBE-25108 VALUE dotty.tools.scaladoc.TemplateSourceLink dotty$tools$scaladoc$SourceLink$_setter_$path_$eq param=Option field=Option src=scaladoc/src/dotty/tools/scaladoc/SourceLinks.scala
+    PROBE-25108 VALUE dotty.tools.scaladoc.WebBasedSourceLink dotty$tools$scaladoc$SourceLink$_setter_$path_$eq param=Option field=Option src=scaladoc/src/dotty/tools/scaladoc/SourceLinks.scala
+    BAD Annotation.tasty
+    BAD Classlike.tasty
+    BAD DRI$package.tasty
+    BAD DRI.tasty
+    BAD DocContext$package.tasty
+com.softwaremill.macwire::macros:latest.release: 17 tasty files, 2 fail alone
+    BAD MacwireMacros.tasty
+    BAD macwire$package.tasty
+org.virtuslab::besom-core:latest.release: 157 tasty files, 6 fail alone
+    BAD CodecMacros.tasty
+    BAD Encoder.tasty
+    BAD Export.tasty
+    BAD ResourceDecoder.tasty
+    BAD UpdateHelpers.tasty
+org.virtuslab::scala-yaml:latest.release: 54 tasty files, 1 fail alone
+    BAD DecoderMacros.tasty

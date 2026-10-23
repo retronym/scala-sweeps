@@ -1,0 +1,16 @@
+diff --git a/compiler/src/dotty/tools/dotc/transform/Memoize.scala b/compiler/src/dotty/tools/dotc/transform/Memoize.scala
+index 6569df4ff7..7d84fc3ca3 100644
+--- a/compiler/src/dotty/tools/dotc/transform/Memoize.scala
++++ b/compiler/src/dotty/tools/dotc/transform/Memoize.scala
+@@ -182,6 +182,11 @@ class Memoize extends MiniPhase with IdentityDenotTransformer { thisPhase =>
+           // In that case we can keep the setter as is, with a () rhs.
+           tree
+         else if isSetterForOverriddenTraitVal(sym) then
++          // PROBE-25108: before the fix, this setter assigned the trait's value to `field`
++          if !sym.is(ParamAccessor) && !field.getter.is(ParamAccessor, butNot = Mutable) then
++            val paramTpe = sym.info.firstParamTypes.head
++            val cce = !(paramTpe <:< field.info.widen)
++            System.err.nn.println(i"PROBE-25108 ${if cce then "CCE" else "VALUE"} ${sym.owner.showFullName} ${sym.name} param=${paramTpe} field=${field.info.widen} src=${ctx.source.path}")
+           // `field` belongs to the val or parameter that overrides the trait val, not to the
+           // trait val. We must keep the () rhs of the trait setter, otherwise the value
+           // inherited from the trait will overwrite the overriding value (which may not even

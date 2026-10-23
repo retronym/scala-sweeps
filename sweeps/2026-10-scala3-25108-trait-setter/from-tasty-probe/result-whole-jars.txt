@@ -1,0 +1,189 @@
+COMPILE-FAIL org.typelevel::cats-core:latest.release cats-core_3-2.13.0.jar
+      -- Error: core/src/main/scala/cats/Eval.scala:107:42 --------------------------- | -- Error: core/src/main/scala/cats/Eval.scala:114:38 ---------------------------
+COMPILE-FAIL org.typelevel::cats-free:latest.release cats-free_3-2.13.0.jar
+      -- Error: free/src/main/scala-3/cats/free/FreeFoldStep.scala:45:41 ------------- | 1 error found
+OK org.typelevel::cats-laws:latest.release cats-laws_3-2.13.0.jar
+COMPILE-FAIL org.typelevel::cats-effect:latest.release cats-effect_3-3.7.1.jar
+      -- Error: core/jvm/src/main/scala/cats/effect/Platform.scala:24:7 -------------- | 1 error found
+OK org.typelevel::cats-effect-kernel:latest.release cats-effect-kernel_3-3.7.1.jar
+OK org.typelevel::cats-effect-std:latest.release cats-effect-std_3-3.7.1.jar
+OK org.typelevel::cats-mtl:latest.release cats-mtl_3-1.7.0.jar
+OK org.typelevel::discipline-core:latest.release discipline-core_3-1.7.0.jar
+OK org.typelevel::discipline-munit:latest.release discipline-munit_3-2.0.0.jar
+OK org.typelevel::discipline-specs2:latest.release discipline-specs2_3-2.0-44-19f6d7f.jar
+OK org.typelevel::munit-cats-effect:latest.release munit-cats-effect_3-2.2.1.jar
+OK org.typelevel::scalacheck-effect:latest.release scalacheck-effect_3-2.1.0.jar
+COMPILE-FAIL org.typelevel::spire:latest.release spire_3-0.18.0.jar
+      1 error found
+OK org.typelevel::spire-macros:latest.release spire-macros_3-0.18.0.jar
+COMPILE-FAIL co.fs2::fs2-core:latest.release fs2-core_3-3.14.0.jar
+      -- Error: core/shared/src/main/scala/fs2/Chunk.scala:1622:51 ------------------- | 1 error found
+COMPILE-FAIL co.fs2::fs2-io:latest.release fs2-io_3-3.14.0.jar
+      -- Error: io/jvm/src/main/scala/fs2/io/net/SocketAddressHelpers.scala:39:28 ---- | -- Error: io/jvm/src/main/scala/fs2/io/net/JnrUnixSocketsProvider.scala:59:50 --
+COMPILE-FAIL org.http4s::http4s-core:latest.release http4s-core_3-1.0.0-M49.jar
+      -- Error: core/shared/src/main/scala/org/http4s/Message.scala:717:2 ------------ | -- Error: core/shared/src/main/scala/org/http4s/Message.scala:539:2 ------------
+OK org.http4s::http4s-server:latest.release http4s-server_3-1.0.0-M49.jar
+OK org.http4s::http4s-client:latest.release http4s-client_3-1.0.0-M49.jar
+OK org.http4s::http4s-dsl:latest.release http4s-dsl_3-1.0.0-M49.jar
+COMPILE-FAIL dev.zio::zio:latest.release zio_3-2.1.27.jar
+      -- [E217] Type Error: core/shared/src/main/scala-3/zio/Experimental.scala:33:12  | 1 error found
+OK dev.zio::zio-streams:latest.release zio-streams_3-2.1.27.jar
+COMPILE-FAIL dev.zio::zio-test:latest.release zio-test_3-2.1.27.jar
+        For non-enriched exceptions, compile with -Xno-enrich-error-messages.
+COMPILE-FAIL org.scalatest::scalatest-core:latest.release scalatest-core_3-3.3.0-SNAP4.jar
+        For non-enriched exceptions, compile with -Xno-enrich-error-messages. | -- [E111] Reference Error: dotty/core/target/scala-3.1.3/src_managed/main/org/scalatest/tools/ScalaTestFramework.scala:99:6 
+OK org.scalatest::scalatest-funsuite:latest.release scalatest-funsuite_3-3.3.0-SNAP4.jar
+OK org.scalatest::scalatest-wordspec:latest.release scalatest-wordspec_3-3.3.0-SNAP4.jar
+OK org.scalatest::scalatest-shouldmatchers:latest.release scalatest-shouldmatchers_3-3.3.0-SNAP4.jar
+OK org.scalatestplus::scalacheck-1-18:latest.release scalacheck-1-18_3-3.3.0.0-alpha.2.jar
+OK org.scalatestplus::junit-4-13:latest.release junit-4-13_3-3.3.0.0-alpha.2.jar
+OK org.scalatestplus::testng-7-10:latest.release testng-7-10_3-3.2.19.0.jar
+OK org.specs2::specs2-core:latest.release specs2-core_3-5.9.1.jar
+OK org.specs2::specs2-matcher:latest.release specs2-matcher_3-5.9.1.jar
+OK org.scalacheck::scalacheck:latest.release scalacheck_3-1.20.0.jar
+COMPILE-FAIL org.scalameta::munit:latest.release munit_3-1.3.6.jar
+        For non-enriched exceptions, compile with -Xno-enrich-error-messages. | -- Error: munit/shared/src/main/scala/munit/internal/MacroCompatScala2.scala:20:8 
+COMPILE-FAIL dev.optics::monocle-core:latest.release monocle-core_3-3.4.0-RC2.jar
+        For non-enriched exceptions, compile with -Xno-enrich-error-messages.
+COMPILE-FAIL dev.optics::monocle-macro:latest.release monocle-macro_3-3.4.0-RC2.jar
+        For non-enriched exceptions, compile with -Xno-enrich-error-messages.
+OK org.playframework::play-json:latest.release play-json_3-3.1.0-M10.jar
+OK com.lihaoyi::upickle:latest.release upickle_3-4.4.3.jar
+OK com.lihaoyi::ujson:latest.release ujson_3-4.4.3.jar
+OK com.lihaoyi::upickle-core:latest.release upickle-core_3-4.4.3.jar
+OK com.lihaoyi::os-lib:latest.release os-lib_3-0.11.9-M8.jar
+OK com.lihaoyi::cask:latest.release cask_3-0.11.3.jar
+OK com.lihaoyi::requests:latest.release requests_3-0.9.3.jar
+OK com.lihaoyi::fastparse:latest.release fastparse_3-3.1.1.jar
+OK com.lihaoyi::pprint:latest.release pprint_3-0.9.6.jar
+OK com.lihaoyi::fansi:latest.release fansi_3-0.5.1.jar
+OK com.lihaoyi::sourcecode:latest.release sourcecode_3-0.4.4.jar
+OK com.lihaoyi::geny:latest.release geny_3-1.1.1.jar
+COMPILE-FAIL com.lihaoyi::utest:latest.release utest_3-0.10.0-RC1.jar
+        For non-enriched exceptions, compile with -Xno-enrich-error-messages.
+OK com.github.pathikrit::better-files:latest.release better-files_3-3.9.2.jar
+OK io.monix::minitest:latest.release minitest_3-2.9.6.jar
+OK com.eed3si9n.verify::verify:latest.release verify_3-1.0.0.jar
+COMPILE-FAIL org.scodec::scodec-core:latest.release scodec-core_3-2.3.3.jar
+      -- Error: shared/src/main/scala/scodec/codecs/DiscriminatorCodec.scala:184:51 -- | -- Error: shared/src/main/scala/scodec/codecs/DiscriminatorCodec.scala:194:16 --
+OK org.scodec::scodec-bits:latest.release scodec-bits_3-1.2.5.jar
+    PROBE-25108 VALUE scodec.bits.Bases.Alphabets.Base64NoPad scodec$bits$Bases$Alphabets$Base64Base$_setter_$pad_$eq param=Char field=Char src=core/shared/src/main/scala/scodec/bits/Bases.scala
+    PROBE-25108 VALUE scodec.bits.Bases.Alphabets.Base64UrlNoPad scodec$bits$Bases$Alphabets$Base64UrlBase$_setter_$pad_$eq param=Char field=Char src=core/shared/src/main/scala/scodec/bits/Bases.scala
+COMPILE-FAIL org.typelevel::shapeless3-deriving:latest.release shapeless3-deriving_3-3.6.0.jar
+      -- Error: modules/deriving/src/main/scala/shapeless3/deriving/kinds.scala:175:6  | -- Error: modules/deriving/src/main/scala/shapeless3/deriving/kinds.scala:179:6 
+OK dev.zio::izumi-reflect:latest.release izumi-reflect_3-3.0.11.jar
+OK org.endpoints4s::algebra:latest.release algebra_3-1.14.0.jar
+COMPILE-FAIL io.getquill::quill-sql:latest.release quill-sql_3-4.8.6.jar
+      -- [E202] Staging Issue Error: quill-sql/src/main/scala/io/getquill/parser/Parser.scala:756:12  | -- [E202] Staging Issue Error: quill-sql/src/main/scala/io/getquill/parser/Parser.scala:758:12 
+OK com.thesamet.scalapb::scalapb-runtime:latest.release scalapb-runtime_3-1.0.0-alpha.6.jar
+OK org.ekrich::sconfig:latest.release sconfig_3-2.1.0.jar
+OK org.scala-lang.modules::scala-xml:latest.release scala-xml_3-2.5.0.jar
+OK org.scala-lang.modules::scala-parser-combinators:latest.release scala-parser-combinators_3-2.5.0.jar
+COMPILE-FAIL org.scala-lang.modules::scala-parallel-collections:latest.release scala-parallel-collections_3-1.3.0.jar
+        For non-enriched exceptions, compile with -Xno-enrich-error-messages. | Exception in thread "main" dotty.tools.dotc.core.TypeError$$anon$1: invalid prefix [U >: T, That] =>> ParMapLike.this.Copy[U, That] when trying to form [U >: T, That] =>> ParMapLike.this.Copy[U, That] . <init>
+OK org.scala-lang.modules::scala-collection-compat:latest.release scala-collection-compat_3-2.14.0.jar
+OK org.scala-lang.modules::scala-java8-compat:latest.release scala-java8-compat_3-1.0.2.jar
+COMPILE-FAIL org.parboiled::parboiled:latest.release parboiled_3-2.5.1.jar
+      -- [E202] Staging Issue Error: parboiled-core/src/main/scala-3/org/parboiled2/support/OpTreeContext.scala:836:12  | 1 error found
+OK org.scala-stm::scala-stm:latest.release scala-stm_3-0.11.1.jar
+OK com.fasterxml.jackson.module::jackson-module-scala:latest.release jackson-module-scala_3-2.22.4.jar
+OK com.github.rssh::dotty-cps-async:latest.release dotty-cps-async_3-0.9.23.jar
+OK org.scalaz::scalaz-core:latest.release scalaz-core_3-7.4.0-M17.jar
+OK org.scalaz::scalaz-effect:latest.release scalaz-effect_3-7.4.0-M17.jar
+OK de.sciss::lucre-core:latest.release lucre-core_3-4.6.6.jar
+OK de.sciss::lucre-confluent:latest.release lucre-confluent_3-4.6.6.jar
+OK de.sciss::model:latest.release model_3-0.3.5.jar
+OK de.sciss::numbers:latest.release numbers_3-0.2.1.jar
+OK de.sciss::span:latest.release span_3-2.0.2.jar
+OK de.sciss::serial:latest.release serial_3-2.0.1.jar
+OK de.sciss::log:latest.release log_3-0.1.1.jar
+OK de.sciss::asyncfile:latest.release asyncfile_3-0.2.1.jar
+OK de.sciss::fingertree:latest.release fingertree_3-1.5.5.jar
+OK de.sciss::equal:latest.release equal_3-0.1.6.jar
+RESOLVE-FAIL com.github.tarao::xml-interpolator:latest.release
+      not found: https://repo1.maven.org/maven2/com/github/tarao/xml-interpolator_3/maven-metadata.xml
+RESOLVE-FAIL io.github.alexarchambault::scala-cli-signing-shared:latest.release
+      not found: https://repo1.maven.org/maven2/io/github/alexarchambault/scala-cli-signing-shared_3/maven-metadata.xml
+RESOLVE-FAIL com.github.tomasmikula::libretto-core:latest.release
+      not found: https://repo1.maven.org/maven2/com/github/tomasmikula/libretto-core_3/maven-metadata.xml
+OK io.circe::circe-core:latest.release circe-core_3-0.15.0-M1.jar
+OK io.circe::circe-generic:latest.release circe-generic_3-0.15.0-M1.jar
+OK io.circe::circe-parser:latest.release circe-parser_3-0.15.0-M1.jar
+OK org.tpolecat::doobie-core:latest.release doobie-core_3-1.0.0-RC12.jar
+COMPILE-FAIL org.tpolecat::skunk-core:latest.release skunk-core_3-2.0.0-RC3.jar
+        For non-enriched exceptions, compile with -Xno-enrich-error-messages.
+OK com.softwaremill.sttp.client3::core:latest.release core_3-3.11.0.jar
+OK com.softwaremill.sttp.client4::core:latest.release core_3-4.1.0.jar
+OK com.softwaremill.sttp.tapir::tapir-core:latest.release tapir-core_3-1.14.0.jar
+OK com.softwaremill.sttp.tapir::tapir-server:latest.release tapir-server_3-1.14.0.jar
+OK com.softwaremill.ox::core:latest.release core_3-1.1.0.jar
+OK com.github.pureconfig::pureconfig-core:latest.release pureconfig-core_3-0.17.11.jar
+COMPILE-FAIL com.typesafe.slick::slick:latest.release slick_3-4.0.0-RC2.jar
+      -- Error: slick/src/main/scala/slick/jdbc/HsqldbProfile.scala:306:8 ------------ | -- Error: slick/src/main/scala/slick/jdbc/DerbyProfile.scala:253:8 -------------
+COMPILE-FAIL org.apache.pekko::pekko-actor:latest.release pekko-actor_3-2.0.0-M4.jar
+      -- Error: actor/src/main/scala/org/apache/pekko/util/Reflect.scala:234:8 ------- | -- Error: actor/src/main/scala/org/apache/pekko/util/Reflect.scala:237:12 ------
+COMPILE-FAIL org.apache.pekko::pekko-stream:latest.release pekko-stream_3-2.0.0-M4.jar
+      -- Error: stream/src/main/scala/org/apache/pekko/stream/javadsl/SubSource.scala:2403:6  | -- Error: stream/src/main/scala/org/apache/pekko/stream/javadsl/SubSource.scala:2462:6 
+COMPILE-FAIL org.apache.pekko::pekko-http-core:latest.release pekko-http-core_3-2.0.0-M2.jar
+        For non-enriched exceptions, compile with -Xno-enrich-error-messages.
+COMPILE-FAIL org.apache.pekko::pekko-http:latest.release pekko-http_3-2.0.0-M2.jar
+      -- Error: http/src/main/scala/org/apache/pekko/http/scaladsl/unmarshalling/sse/ServerSentEventParser.scala:109:12  | Exception in thread "main" java.lang.AssertionError: assertion failed: class ServerSentEventParser has non-class parent: AppliedType(TypeRef(TermRef(ThisType(TypeRef(NoPrefix,module class stream)),object stage),GraphStage),List(AppliedType(TypeRef(TermRef(ThisType(TypeRef(NoPrefix,module class pekko)),object stream),FlowShape),List(TypeRef(TermRef(TermRef(ThisType(TypeRef(NoPrefix,module class <root>)),object scala),Predef),String), TypeRef(TermRef(ThisType(TypeRef(NoPrefix,module class model)),object sse),ServerSentEvent)))))
+OK com.typesafe.akka::akka-actor:2.6.21 akka-actor_3-2.6.21.jar
+OK org.typelevel::log4cats-core:latest.release log4cats-core_3-2.8.0.jar
+COMPILE-FAIL org.typelevel::kittens:latest.release kittens_3-3.5.0.jar
+      -- Error: modules/deriving/src/main/scala/shapeless3/deriving/kinds.scala:176:6  | 1 error found
+OK org.typelevel::squants:latest.release squants_3-1.8.3.jar
+OK org.typelevel::cats-parse:latest.release cats-parse_3-1.1.0.jar
+OK org.typelevel::literally:latest.release literally_3-1.2.0.jar
+OK org.typelevel::fs2-grpc-runtime:latest.release fs2-grpc-runtime_3-3.1.2.jar
+COMPILE-FAIL com.github.julien-truffaut::monocle-core:latest.release monocle-core_3-3.0.0-M6.jar
+        For non-enriched exceptions, compile with -Xno-enrich-error-messages.
+OK dev.zio::zio-json:latest.release zio-json_3-1.1.1.jar
+COMPILE-FAIL dev.zio::zio-http:latest.release zio-http_3-3.11.6.jar
+        For non-enriched exceptions, compile with -Xno-enrich-error-messages. | -- Error: zio-http/jvm/src/main/scala/zio/http/netty/EventLoopGroups.scala:82:78 
+OK dev.zio::zio-schema:latest.release zio-schema_3-1.9.0.jar
+OK dev.zio::zio-config:latest.release zio-config_3-4.1.0.jar
+COMPILE-FAIL dev.zio::zio-prelude:latest.release zio-prelude_3-1.0.0-RC48.jar
+      -- Error: core/shared/src/main/scala/zio/prelude/Zivariant.scala:136:30 -------- | -- Error: core/shared/src/main/scala-3/zio/prelude/newtypes/package.scala:116:13 
+OK dev.zio::zio-kafka:latest.release zio-kafka_3-3.8.0.jar
+COMPILE-FAIL com.github.ghostdogpr::caliban:latest.release caliban_3-3.2.0.jar
+        For non-enriched exceptions, compile with -Xno-enrich-error-messages. | -- Error: core/src/main/scala/caliban/GraphQLWSOutput.scala:10:64 --------------
+OK com.disneystreaming.smithy4s::smithy4s-core:latest.release smithy4s-core_3-0.19.13.jar
+OK org.scala-js::scalajs-stubs:latest.release scalajs-stubs_3-1.1.0.jar
+OK com.outr::scribe:latest.release scribe_3-3.19.0.jar
+COMPILE-FAIL org.json4s::json4s-core:latest.release json4s-core_3-4.1.0-M8.jar
+        For non-enriched exceptions, compile with -Xno-enrich-error-messages. | -- Error: core/src/main/scala-3/org/json4s/reflect/ScalaSigReader.scala:15:4 ---
+OK org.json4s::json4s-native:latest.release json4s-native_3-4.1.0-M8.jar
+OK io.bullet::borer-core:latest.release borer-core_3-1.18.0.jar
+OK com.github.plokhotnyuk.jsoniter-scala::jsoniter-scala-core:latest.release jsoniter-scala-core_3-2.41.7.jar
+OK org.scalanlp::breeze:latest.release breeze_3-2.1.0.jar
+RESOLVE-FAIL org.apache.spark::spark-core:latest.release
+      not found: https://repo1.maven.org/maven2/org/apache/spark/spark-core_3/maven-metadata.xml
+OK com.typesafe.play::play:2.9.5 play_3-2.9.5.jar
+    PROBE-25108 VALUE play.api.data.format.Formats.$anon play$api$data$format$Formatter$_setter_$format_$eq param=Option field=Option src=core/play/src/main/scala/play/api/data/format/Format.scala
+    PROBE-25108 VALUE play.api.i18n.Messages.MessagesParser scala$util$parsing$combinator$RegexParsers$_setter_$whiteSpace_$eq param=scala.util.matching.Regex field=scala.util.matching.Regex src=core/play/src/main/scala/play/api/i18n/Messages.scala
+OK org.playframework::play:latest.release play_3-3.1.0-M9.jar
+    PROBE-25108 VALUE play.api.data.format.Formats.$anon play$api$data$format$Formatter$_setter_$format_$eq param=Option field=Option src=core/play/src/main/scala/play/api/data/format/Format.scala
+    PROBE-25108 VALUE play.api.i18n.Messages.MessagesParser scala$util$parsing$combinator$RegexParsers$_setter_$whiteSpace_$eq param=scala.util.matching.Regex field=scala.util.matching.Regex src=core/play/src/main/scala/play/api/i18n/Messages.scala
+OK org.scalameta::scalameta:latest.release scalameta_3-4.17.4.jar
+RESOLVE-FAIL org.scalameta::metals:latest.release
+      not found: https://repo1.maven.org/maven2/org/scalameta/metals_3/maven-metadata.xml
+COMPILE-FAIL org.scala-lang::scala3-compiler:3.7.3 scala3-compiler_3-3.3.6.jar
+      -- [E173] Reference Error: compiler/src/dotty/tools/dotc/parsing/Scanners.scala:608:13  | 1 error found
+COMPILE-FAIL org.scala-lang::scala3-tasty-inspector:3.7.3 scala3-tasty-inspector_3-3.7.3.jar
+      Exception in thread "main" java.lang.AssertionError: assertion failed: no owner from <none>/<none> in file.ext | 	at dotty.tools.dotc.inlines.PrepareInlineable$.dropInlineIfError(PrepareInlineable.scala:275)
+COMPILE-FAIL org.scala-lang::scaladoc:3.7.3 scaladoc_3-3.7.3.jar
+      -- Error: scaladoc/src/dotty/tools/scaladoc/ScaladocSettings.scala:15:4 -------- | -- Error: scaladoc/src/dotty/tools/scaladoc/ScaladocSettings.scala:18:4 --------
+OK ch.epfl.lamp::gears:latest.release gears_3-0.3.1.jar
+OK com.softwaremill.common::tagging:latest.release tagging_3-2.3.5.jar
+COMPILE-FAIL com.softwaremill.macwire::macros:latest.release macros_3-2.6.7.jar
+      -- Error: macros/src/main/scala-3/com/softwaremill/macwire/macwire.scala:102:4 - | 1 error found
+OK eu.timepit::refined:latest.release refined_3-0.11.4.jar
+OK io.github.iltotore::iron:latest.release iron_3-3.4.1.jar
+COMPILE-FAIL org.virtuslab::besom-core:latest.release besom-core_3-0.5.2.jar
+        For non-enriched exceptions, compile with -Xno-enrich-error-messages. |             settings: -classpath $COURSIER_CACHE/https/repo1.maven.org/maven2/org/virtuslab/besom-core_3/0.5.2/besom-core_3-0.5.2.jar:$SCALA3/library/target/scala-library-nonbootstrapped/scala-library-3.10.2-RC1-bin-SNAPSHOT-nonbootstrapped.jar:$COURSIER_CACHE/https/repo1.maven.org/maven2/org/virtuslab/besom-json_3/0.5.2/besom-json_3-0.5.2.jar:$COURSIER_CACHE/https/repo1.maven.org/maven2/org/virtuslab/besom-rpc_3/0.5.2/besom-rpc_3-0.5.2.jar:$COURSIER_CACHE/https/repo1.maven.org/maven2/org/virtuslab/besom-model_3/0.5.2/besom-model_3-0.5.2.jar:$COURSIER_CACHE/https/repo1.maven.org/maven2/com/google/protobuf/protobuf-java-util/3.25.1/protobuf-java-util-3.25.1.jar:$COURSIER_CACHE/https/repo1.maven.org/maven2/io/grpc/grpc-netty/1.64.0/grpc-netty-1.64.0.jar:$COURSIER_CACHE/https/repo1.maven.org/maven2/io/netty/netty-transport-native-kqueue/4.1.100.Final/netty-transport-native-kqueue-4.1.100.Final.jar:$COURSIER_CACHE/https/repo1.maven.org/maven2/io/netty/netty-transport-native-epoll/4.1.100.Final/netty-transport-native-epoll-4.1.100.Final.jar:$COURSIER_CACHE/https/repo1.maven.org/maven2/com/thesamet/scalapb/scalapb-runtime_3/0.11.20/scalapb-runtime_3-0.11.20.jar:$COURSIER_CACHE/https/repo1.maven.org/maven2/com/thesamet/scalapb/scalapb-runtime-grpc_3/0.11.20/scalapb-runtime-grpc_3-0.11.20.jar:$COURSIER_CACHE/https/repo1.maven.org/maven2/com/google/guava/guava/32.1.3-android/guava-32.1.3-android.jar:$COURSIER_CACHE/https/repo1.maven.org/maven2/com/outr/scribe_3/3.16.0/scribe_3-3.16.0.jar:$COURSIER_CACHE/https/repo1.maven.org/maven2/com/outr/scribe-file_3/3.16.0/scribe-file_3-3.16.0.jar:$COURSIER_CACHE/https/repo1.maven.org/maven2/com/lihaoyi/sourcecode_3/0.4.4/sourcecode_3-0.4.4.jar:$COURSIER_CACHE/https/repo1.maven.org/maven2/com/lihaoyi/pprint_3/0.9.6/pprint_3-0.9.6.jar:$COURSIER_CACHE/https/repo1.maven.org/maven2/com/google/protobuf/protobuf-java/3.25.8/protobuf-java-3.25.8.jar:$COURSIER_CACHE/https/repo1.maven.org/maven2/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:$COURSIER_CACHE/https/repo1.maven.org/maven2/com/google/code/gson/gson/2.10.1/gson-2.10.1.jar:$COURSIER_CACHE/https/repo1.maven.org/maven2/com/google/errorprone/error_prone_annotations/2.23.0/error_prone_annotations-2.23.0.jar:$COURSIER_CACHE/https/repo1.maven.org/maven2/com/google/j2objc/j2objc-annotations/2.8/j2objc-annotations-2.8.jar:$COURSIER_CACHE/https/repo1.maven.org/maven2/io/grpc/grpc-api/1.64.0/grpc-api-1.64.0.jar:$COURSIER_CACHE/https/repo1.maven.org/maven2/io/netty/netty-codec-http2/4.1.100.Final/netty-codec-http2-4.1.100.Final.jar:$COURSIER_CACHE/https/repo1.maven.org/maven2/io/grpc/grpc-core/1.64.0/grpc-core-1.64.0.jar:$COURSIER_CACHE/https/repo1.maven.org/maven2/io/netty/netty-handler-proxy/4.1.100.Final/netty-handler-proxy-4.1.100.Final.jar:$COURSIER_CACHE/https/repo1.maven.org/maven2/io/perfmark/perfmark-api/0.26.0/perfmark-api-0.26.0.jar:$COURSIER_CACHE/https/repo1.maven.org/maven2/io/netty/netty-transport-native-unix-common/4.1.100.Final/netty-transport-native-unix-common-4.1.100.Final.jar:$COURSIER_CACHE/https/repo1.maven.org/maven2/io/grpc/grpc-util/1.64.0/grpc-util-1.64.0.jar:$COURSIER_CACHE/https/repo1.maven.org/maven2/io/netty/netty-common/4.1.100.Final/netty-common-4.1.100.Final.jar:$COURSIER_CACHE/https/repo1.maven.org/maven2/io/netty/netty-buffer/4.1.100.Final/netty-buffer-4.1.100.Final.jar:$COURSIER_CACHE/https/repo1.maven.org/maven2/io/netty/netty-transport/4.1.100.Final/netty-transport-4.1.100.Final.jar:$COURSIER_CACHE/https/repo1.maven.org/maven2/io/netty/netty-transport-classes-kqueue/4.1.100.Final/netty-transport-classes-kqueue-4.1.100.Final.jar:$COURSIER_CACHE/https/repo1.maven.org/maven2/io/netty/netty-transport-classes-epoll/4.1.100.Final/netty-transport-classes-epoll-4.1.100.Final.jar:$COURSIER_CACHE/https/repo1.maven.org/maven2/com/thesamet/scalapb/lenses_3/0.11.20/lenses_3-0.11.20.jar:$COURSIER_CACHE/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-collection-compat_3/2.13.0/scala-collection-compat_3-2.13.0.jar:$COURSIER_CACHE/https/repo1.maven.org/maven2/io/grpc/grpc-stub/1.62.2/grpc-stub-1.62.2.jar:$COURSIER_CACHE/https/repo1.maven.org/maven2/io/grpc/grpc-protobuf/1.62.2/grpc-protobuf-1.62.2.jar:$COURSIER_CACHE/https/repo1.maven.org/maven2/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:$COURSIER_CACHE/https/repo1.maven.org/maven2/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:$COURSIER_CACHE/https/repo1.maven.org/maven2/org/checkerframework/checker-qual/3.37.0/checker-qual-3.37.0.jar:$COURSIER_CACHE/https/repo1.maven.org/maven2/com/outr/perfolation_3/1.2.11/perfolation_3-1.2.11.jar:$COURSIER_CACHE/https/repo1.maven.org/maven2/com/outr/moduload_3/1.1.7/moduload_3-1.1.7.jar:$COURSIER_CACHE/https/repo1.maven.org/maven2/com/lihaoyi/fansi_3/0.5.1/fansi_3-0.5.1.jar:$COURSIER_CACHE/https/repo1.maven.org/maven2/io/netty/netty-codec/4.1.100.Final/netty-codec-4.1.100.Final.jar:$COURSIER_CACHE/https/repo1.maven.org/maven2/io/netty/netty-handler/4.1.100.Final/netty-handler-4.1.100.Final.jar:$COURSIER_CACHE/https/repo1.maven.org/maven2/io/netty/netty-codec-http/4.1.100.Final/netty-codec-http-4.1.100.Final.jar:$COURSIER_CACHE/https/repo1.maven.org/maven2/com/google/android/annotations/4.1.1.4/annotations-4.1.1.4.jar:$COURSIER_CACHE/https/repo1.maven.org/maven2/org/codehaus/mojo/animal-sniffer-annotations/1.23/animal-sniffer-annotations-1.23.jar:$COURSIER_CACHE/https/repo1.maven.org/maven2/io/grpc/grpc-context/1.64.0/grpc-context-1.64.0.jar:$COURSIER_CACHE/https/repo1.maven.org/maven2/io/netty/netty-codec-socks/4.1.100.Final/netty-codec-socks-4.1.100.Final.jar:$COURSIER_CACHE/https/repo1.maven.org/maven2/io/netty/netty-resolver/4.1.100.Final/netty-resolver-4.1.100.Final.jar:$COURSIER_CACHE/https/repo1.maven.org/maven2/com/google/api/grpc/proto-google-common-protos/2.29.0/proto-google-common-protos-2.29.0.jar:$COURSIER_CACHE/https/repo1.maven.org/maven2/io/grpc/grpc-protobuf-lite/1.62.2/grpc-protobuf-lite-1.62.2.jar -color never -d $PROBE_DIR/work/tasty/org_virtuslab_besom_core_latest_release -from-tasty true -nowarn true
+COMPILE-FAIL org.virtuslab::scala-yaml:latest.release scala-yaml_3-0.3.3.jar
+        For non-enriched exceptions, compile with -Xno-enrich-error-messages.
+OK com.lihaoyi::mill-main:latest.release mill-main_3-0.13.0-M1-43-b217bc.jar
+OK org.scala-sbt::librarymanagement-core:latest.release librarymanagement-core_3-2.1.0-RC1.jar
+OK com.github.tminglei::slick-pg:latest.release slick-pg_3-0.23.1.jar

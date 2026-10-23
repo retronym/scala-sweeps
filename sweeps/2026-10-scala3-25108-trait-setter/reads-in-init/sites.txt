@@ -1,0 +1,11 @@
+# coordinate                                   trait setter reported by the -from-tasty probe
+org.scodec:scodec-bits_3:1.2.5                 scodec$bits$Bases$Alphabets$Base64Base$_setter_$pad_$eq
+org.scodec:scodec-bits_3:1.2.5                 scodec$bits$Bases$Alphabets$Base64UrlBase$_setter_$pad_$eq
+com.typesafe.play:play_3:2.9.5                 play$api$data$format$Formatter$_setter_$format_$eq
+com.typesafe.play:play_3:2.9.5                 scala$util$parsing$combinator$RegexParsers$_setter_$whiteSpace_$eq
+org.playframework:play_3:3.1.0-M9              play$api$data$format$Formatter$_setter_$format_$eq
+org.playframework:play_3:3.1.0-M9              scala$util$parsing$combinator$RegexParsers$_setter_$whiteSpace_$eq
+dev.zio:zio_3:2.1.27                           zio$ZIOAppDefault$_setter_$bootstrap_$eq
+com.typesafe.slick:slick_3:4.0.0-RC2           slick$lifted$SimpleFunction$_setter_$scalar_$eq
+org.json4s:json4s-core_3:4.1.0-M8              org$json4s$DefaultFormats$_setter_$typeHints_$eq
+org.scala-lang:scaladoc_3:3.7.3                dotty$tools$scaladoc$SourceLink$_setter_$path_$eq
