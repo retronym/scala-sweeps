@@ -27,3 +27,7 @@ The library list in the #25108 sweep (the Scala 3 community build's `_3` artifac
 ## Prerequisites
 
 JDK 17+, [coursier](https://get-coursier.io/) on the `PATH`, Python 3, and for probes that patch the compiler, a [scala3](https://github.com/scala/scala3) checkout.
+
+## License
+
+[Apache License 2.0](LICENSE).
