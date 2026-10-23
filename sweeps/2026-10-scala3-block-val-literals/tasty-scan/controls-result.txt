@@ -1,0 +1,68 @@
+== 3.3.6 block-class.scala  // expect: HIT BLOCK stats=1
+   HIT BLOCK stats=1 class [final] C.x: 42 src=block-class.scala:2 lib=control
+   SUMMARY files=1 fail-alone=0 lib=control
+== 3.3.6 block-lazy.scala  // expect: HIT BLOCK stats=1
+   HIT BLOCK stats=1 class [final,lazy] Lz.x: 1L src=block-lazy.scala:2 lib=control
+   SUMMARY files=1 fail-alone=0 lib=control
+== 3.3.6 block-local-defs.scala  // expect: HIT BLOCK stats=1
+   HIT BLOCK stats=1 class [final] L.x: 2 src=block-local-defs.scala:2 lib=control
+   SUMMARY files=1 fail-alone=0 lib=control
+== 3.3.6 block-object.scala  // expect: HIT BLOCK stats=1
+   HIT BLOCK stats=1 object [final] O$.x: "s" src=block-object.scala:2 lib=control
+   SUMMARY files=1 fail-alone=0 lib=control
+== 3.3.6 block-trait.scala  // expect: HIT BLOCK stats=1
+   HIT BLOCK stats=1 trait [final] T.x: true src=block-trait.scala:2 lib=control
+   SUMMARY files=1 fail-alone=0 lib=control
+== 3.3.6 info-if.scala  // expect: (informational) if with literal branches
+   HIT OTHER If class [final] I3.x: 1 src=info-if.scala:2 lib=control
+   SUMMARY files=1 fail-alone=0 lib=control
+== 3.3.6 info-inline-call.scala  // expect: (informational) inline def returning a literal
+   HIT OTHER Ident object [final] I2$.x: 42 src=info-inline-call.scala:2 lib=control
+   SUMMARY files=1 fail-alone=0 lib=control
+== 3.3.6 info-single-expr-braces.scala  // expect: (informational) braces around a lone literal
+   HIT BLOCK stats=0 class [final] I1.x: 42 src=info-single-expr-braces.scala:2 lib=control
+   SUMMARY files=1 fail-alone=0 lib=control
+== 3.3.6 no-explicit-literal.scala  // expect: none
+   SUMMARY files=1 fail-alone=0 lib=control
+== 3.3.6 no-explicit-widened.scala  // expect: none
+   SUMMARY files=1 fail-alone=0 lib=control
+== 3.3.6 no-literal-rhs.scala  // expect: none
+   SUMMARY files=1 fail-alone=0 lib=control
+== 3.3.6 no-nonfinal.scala  // expect: none
+   SUMMARY files=1 fail-alone=0 lib=control
+== 3.3.6 no-param.scala  // expect: none
+   SUMMARY files=1 fail-alone=0 lib=control
+== 3.7.3 block-class.scala  // expect: HIT BLOCK stats=1
+   HIT BLOCK stats=1 class [final] C.x: 42 src=block-class.scala:2 lib=control
+   SUMMARY files=1 fail-alone=0 lib=control
+== 3.7.3 block-lazy.scala  // expect: HIT BLOCK stats=1
+   HIT BLOCK stats=1 class [final,lazy] Lz.x: 1L src=block-lazy.scala:2 lib=control
+   SUMMARY files=1 fail-alone=0 lib=control
+== 3.7.3 block-local-defs.scala  // expect: HIT BLOCK stats=1
+   HIT BLOCK stats=1 class [final] L.x: 2 src=block-local-defs.scala:2 lib=control
+   SUMMARY files=1 fail-alone=0 lib=control
+== 3.7.3 block-object.scala  // expect: HIT BLOCK stats=1
+   HIT BLOCK stats=1 object [final] O$.x: "s" src=block-object.scala:2 lib=control
+   SUMMARY files=1 fail-alone=0 lib=control
+== 3.7.3 block-trait.scala  // expect: HIT BLOCK stats=1
+   HIT BLOCK stats=1 trait [final] T.x: true src=block-trait.scala:2 lib=control
+   SUMMARY files=1 fail-alone=0 lib=control
+== 3.7.3 info-if.scala  // expect: (informational) if with literal branches
+   HIT OTHER If class [final] I3.x: 1 src=info-if.scala:2 lib=control
+   SUMMARY files=1 fail-alone=0 lib=control
+== 3.7.3 info-inline-call.scala  // expect: (informational) inline def returning a literal
+   HIT OTHER Ident object [final] I2$.x: 42 src=info-inline-call.scala:2 lib=control
+   SUMMARY files=1 fail-alone=0 lib=control
+== 3.7.3 info-single-expr-braces.scala  // expect: (informational) braces around a lone literal
+   HIT BLOCK stats=0 class [final] I1.x: 42 src=info-single-expr-braces.scala:2 lib=control
+   SUMMARY files=1 fail-alone=0 lib=control
+== 3.7.3 no-explicit-literal.scala  // expect: none
+   SUMMARY files=1 fail-alone=0 lib=control
+== 3.7.3 no-explicit-widened.scala  // expect: none
+   SUMMARY files=1 fail-alone=0 lib=control
+== 3.7.3 no-literal-rhs.scala  // expect: none
+   SUMMARY files=1 fail-alone=0 lib=control
+== 3.7.3 no-nonfinal.scala  // expect: none
+   SUMMARY files=1 fail-alone=0 lib=control
+== 3.7.3 no-param.scala  // expect: none
+   SUMMARY files=1 fail-alone=0 lib=control

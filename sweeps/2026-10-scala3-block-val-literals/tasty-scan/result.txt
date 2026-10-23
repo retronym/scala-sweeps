@@ -1,0 +1,997 @@
+OK org.typelevel::cats-core:latest.release cats-core_3-2.13.0.jar
+    FAIL-ALONE cats/Eval.tasty lib=cats-core_3-2.13.0.jar
+    SUMMARY files=949 fail-alone=1 lib=cats-core_3-2.13.0.jar
+OK org.typelevel::cats-free:latest.release cats-free_3-2.13.0.jar
+    SUMMARY files=35 fail-alone=0 lib=cats-free_3-2.13.0.jar
+OK org.typelevel::cats-laws:latest.release cats-laws_3-2.13.0.jar
+    SUMMARY files=115 fail-alone=0 lib=cats-laws_3-2.13.0.jar
+OK org.typelevel::cats-effect:latest.release cats-effect_3-3.7.1.jar
+    SUMMARY files=105 fail-alone=0 lib=cats-effect_3-3.7.1.jar
+OK org.typelevel::cats-effect-kernel:latest.release cats-effect-kernel_3-3.7.1.jar
+    SUMMARY files=75 fail-alone=0 lib=cats-effect-kernel_3-3.7.1.jar
+OK org.typelevel::cats-effect-std:latest.release cats-effect-std_3-3.7.1.jar
+    SUMMARY files=54 fail-alone=0 lib=cats-effect-std_3-3.7.1.jar
+OK org.typelevel::cats-mtl:latest.release cats-mtl_3-1.7.0.jar
+    SUMMARY files=91 fail-alone=0 lib=cats-mtl_3-1.7.0.jar
+OK org.typelevel::discipline-core:latest.release discipline-core_3-1.7.0.jar
+    SUMMARY files=3 fail-alone=0 lib=discipline-core_3-1.7.0.jar
+OK org.typelevel::discipline-munit:latest.release discipline-munit_3-2.0.0.jar
+    SUMMARY files=1 fail-alone=0 lib=discipline-munit_3-2.0.0.jar
+OK org.typelevel::discipline-specs2:latest.release discipline-specs2_3-2.0-44-19f6d7f.jar
+    SUMMARY files=2 fail-alone=0 lib=discipline-specs2_3-2.0-44-19f6d7f.jar
+OK org.typelevel::munit-cats-effect:latest.release munit-cats-effect_3-2.2.1.jar
+    SUMMARY files=7 fail-alone=0 lib=munit-cats-effect_3-2.2.1.jar
+OK org.typelevel::scalacheck-effect:latest.release scalacheck-effect_3-2.1.0.jar
+    SUMMARY files=1 fail-alone=0 lib=scalacheck-effect_3-2.1.0.jar
+OK org.typelevel::spire:latest.release spire_3-0.18.0.jar
+    SUMMARY files=895 fail-alone=0 lib=spire_3-0.18.0.jar
+OK org.typelevel::spire-macros:latest.release spire-macros_3-0.18.0.jar
+    SUMMARY files=2 fail-alone=0 lib=spire-macros_3-0.18.0.jar
+OK co.fs2::fs2-core:latest.release fs2-core_3-3.14.0.jar
+    FAIL-ALONE fs2/ChunkAsSeq.tasty lib=fs2-core_3-3.14.0.jar
+    SUMMARY files=75 fail-alone=1 lib=fs2-core_3-3.14.0.jar
+OK co.fs2::fs2-io:latest.release fs2-io_3-3.14.0.jar
+    FAIL-ALONE fs2/io/net/JnrUnixDatagramSocketsProvider.tasty lib=fs2-io_3-3.14.0.jar
+    FAIL-ALONE fs2/io/net/JnrUnixSocketsProvider.tasty lib=fs2-io_3-3.14.0.jar
+    FAIL-ALONE fs2/io/net/SocketAddressHelpers.tasty lib=fs2-io_3-3.14.0.jar
+    SUMMARY files=107 fail-alone=3 lib=fs2-io_3-3.14.0.jar
+OK org.http4s::http4s-core:latest.release http4s-core_3-1.0.0-M49.jar
+    SUMMARY files=265 fail-alone=0 lib=http4s-core_3-1.0.0-M49.jar
+OK org.http4s::http4s-server:latest.release http4s-server_3-1.0.0-M49.jar
+    SUMMARY files=61 fail-alone=0 lib=http4s-server_3-1.0.0-M49.jar
+OK org.http4s::http4s-client:latest.release http4s-client_3-1.0.0-M49.jar
+    SUMMARY files=44 fail-alone=0 lib=http4s-client_3-1.0.0-M49.jar
+OK org.http4s::http4s-dsl:latest.release http4s-dsl_3-1.0.0-M49.jar
+    SUMMARY files=41 fail-alone=0 lib=http4s-dsl_3-1.0.0-M49.jar
+OK dev.zio::zio:latest.release zio_3-2.1.27.jar
+    HIT OTHER Apply object [final,private] zio.Scheduler$.MaxMillis: 9223372036854L src=core/shared/src/main/scala/zio/Scheduler.scala:31 lib=zio_3-2.1.27.jar
+    HIT OTHER Apply object [final,private] zio.internal.FiberRuntime$.MaxOperationsBeforeYield: 10240 src=core/shared/src/main/scala/zio/internal/FiberRuntime.scala:1616 lib=zio_3-2.1.27.jar
+    HIT OTHER Apply object [final] zio.RuntimeFlag$.CooperativeYielding$.mask: 128 src=core/shared/src/main/scala/zio/RuntimeFlag.scala:143 lib=zio_3-2.1.27.jar
+    HIT OTHER Apply object [final] zio.RuntimeFlag$.CurrentFiber$.mask: 2 src=core/shared/src/main/scala/zio/RuntimeFlag.scala:66 lib=zio_3-2.1.27.jar
+    HIT OTHER Apply object [final] zio.RuntimeFlag$.EagerShiftBack$.mask: 512 src=core/shared/src/main/scala/zio/RuntimeFlag.scala:173 lib=zio_3-2.1.27.jar
+    HIT OTHER Apply object [final] zio.RuntimeFlag$.FiberRoots$.mask: 32 src=core/shared/src/main/scala/zio/RuntimeFlag.scala:114 lib=zio_3-2.1.27.jar
+    HIT OTHER Apply object [final] zio.RuntimeFlag$.Interruption$.mask: 1 src=core/shared/src/main/scala/zio/RuntimeFlag.scala:54 lib=zio_3-2.1.27.jar
+    HIT OTHER Apply object [final] zio.RuntimeFlag$.OpLog$.mask: 4 src=core/shared/src/main/scala/zio/RuntimeFlag.scala:78 lib=zio_3-2.1.27.jar
+    HIT OTHER Apply object [final] zio.RuntimeFlag$.OpSupervision$.mask: 8 src=core/shared/src/main/scala/zio/RuntimeFlag.scala:90 lib=zio_3-2.1.27.jar
+    HIT OTHER Apply object [final] zio.RuntimeFlag$.RuntimeMetrics$.mask: 16 src=core/shared/src/main/scala/zio/RuntimeFlag.scala:103 lib=zio_3-2.1.27.jar
+    HIT OTHER Apply object [final] zio.RuntimeFlag$.WindDown$.mask: 64 src=core/shared/src/main/scala/zio/RuntimeFlag.scala:129 lib=zio_3-2.1.27.jar
+    HIT OTHER Apply object [final] zio.RuntimeFlag$.WorkStealing$.mask: 256 src=core/shared/src/main/scala/zio/RuntimeFlag.scala:157 lib=zio_3-2.1.27.jar
+    HIT OTHER Select class [final,override] zio.internal.LinkedQueue.capacity: 2147483647 src=core/shared/src/main/scala/zio/internal/impls/LinkedQueue.scala:39 lib=zio_3-2.1.27.jar
+    HIT OTHER Select object [final,private] zio.internal.FiberRuntime$.DisableAssertions: true src=core/shared/src/main/scala/zio/internal/FiberRuntime.scala:1626 lib=zio_3-2.1.27.jar
+    HIT OTHER Select object [final] zio.RuntimeFlag$.CooperativeYielding$.notMask: -129 src=core/shared/src/main/scala/zio/RuntimeFlag.scala:144 lib=zio_3-2.1.27.jar
+    HIT OTHER Select object [final] zio.RuntimeFlag$.CurrentFiber$.notMask: -3 src=core/shared/src/main/scala/zio/RuntimeFlag.scala:67 lib=zio_3-2.1.27.jar
+    HIT OTHER Select object [final] zio.RuntimeFlag$.EagerShiftBack$.notMask: -513 src=core/shared/src/main/scala/zio/RuntimeFlag.scala:174 lib=zio_3-2.1.27.jar
+    HIT OTHER Select object [final] zio.RuntimeFlag$.FiberRoots$.notMask: -33 src=core/shared/src/main/scala/zio/RuntimeFlag.scala:115 lib=zio_3-2.1.27.jar
+    HIT OTHER Select object [final] zio.RuntimeFlag$.Interruption$.notMask: -2 src=core/shared/src/main/scala/zio/RuntimeFlag.scala:55 lib=zio_3-2.1.27.jar
+    HIT OTHER Select object [final] zio.RuntimeFlag$.OpLog$.notMask: -5 src=core/shared/src/main/scala/zio/RuntimeFlag.scala:79 lib=zio_3-2.1.27.jar
+    HIT OTHER Select object [final] zio.RuntimeFlag$.OpSupervision$.notMask: -9 src=core/shared/src/main/scala/zio/RuntimeFlag.scala:91 lib=zio_3-2.1.27.jar
+    HIT OTHER Select object [final] zio.RuntimeFlag$.RuntimeMetrics$.notMask: -17 src=core/shared/src/main/scala/zio/RuntimeFlag.scala:104 lib=zio_3-2.1.27.jar
+    HIT OTHER Select object [final] zio.RuntimeFlag$.WindDown$.notMask: -65 src=core/shared/src/main/scala/zio/RuntimeFlag.scala:130 lib=zio_3-2.1.27.jar
+    HIT OTHER Select object [final] zio.RuntimeFlag$.WorkStealing$.notMask: -257 src=core/shared/src/main/scala/zio/RuntimeFlag.scala:158 lib=zio_3-2.1.27.jar
+    SUMMARY files=228 fail-alone=0 lib=zio_3-2.1.27.jar
+OK dev.zio::zio-streams:latest.release zio-streams_3-2.1.27.jar
+    SUMMARY files=34 fail-alone=0 lib=zio-streams_3-2.1.27.jar
+OK dev.zio::zio-test:latest.release zio-test_3-2.1.27.jar
+    SUMMARY files=129 fail-alone=0 lib=zio-test_3-2.1.27.jar
+OK org.scalatest::scalatest-core:latest.release scalatest-core_3-3.3.0-SNAP4.jar
+    FAIL-ALONE org/scalatest/tools/Framework.tasty lib=scalatest-core_3-3.3.0-SNAP4.jar
+    FAIL-ALONE org/scalatest/tools/HtmlReporter.tasty lib=scalatest-core_3-3.3.0-SNAP4.jar
+    FAIL-ALONE org/scalatest/tools/ScalaTestAntTask.tasty lib=scalatest-core_3-3.3.0-SNAP4.jar
+    FAIL-ALONE org/scalatest/tools/ScalaTestFramework.tasty lib=scalatest-core_3-3.3.0-SNAP4.jar
+    SUMMARY files=538 fail-alone=4 lib=scalatest-core_3-3.3.0-SNAP4.jar
+OK org.scalatest::scalatest-funsuite:latest.release scalatest-funsuite_3-3.3.0-SNAP4.jar
+    SUMMARY files=13 fail-alone=0 lib=scalatest-funsuite_3-3.3.0-SNAP4.jar
+OK org.scalatest::scalatest-wordspec:latest.release scalatest-wordspec_3-3.3.0-SNAP4.jar
+    SUMMARY files=13 fail-alone=0 lib=scalatest-wordspec_3-3.3.0-SNAP4.jar
+OK org.scalatest::scalatest-shouldmatchers:latest.release scalatest-shouldmatchers_3-3.3.0-SNAP4.jar
+    SUMMARY files=4 fail-alone=0 lib=scalatest-shouldmatchers_3-3.3.0-SNAP4.jar
+OK org.scalatestplus::scalacheck-1-18:latest.release scalacheck-1-18_3-3.3.0.0-alpha.2.jar
+    SUMMARY files=10 fail-alone=0 lib=scalacheck-1-18_3-3.3.0.0-alpha.2.jar
+OK org.scalatestplus::junit-4-13:latest.release junit-4-13_3-3.3.0.0-alpha.2.jar
+    SUMMARY files=14 fail-alone=0 lib=junit-4-13_3-3.3.0.0-alpha.2.jar
+OK org.scalatestplus::testng-7-10:latest.release testng-7-10_3-3.2.19.0.jar
+    SUMMARY files=6 fail-alone=0 lib=testng-7-10_3-3.2.19.0.jar
+OK org.specs2::specs2-core:latest.release specs2-core_3-5.9.1.jar
+    SUMMARY files=227 fail-alone=0 lib=specs2-core_3-5.9.1.jar
+OK org.specs2::specs2-matcher:latest.release specs2-matcher_3-5.9.1.jar
+    SUMMARY files=171 fail-alone=0 lib=specs2-matcher_3-5.9.1.jar
+OK org.scalacheck::scalacheck:latest.release scalacheck_3-1.20.0.jar
+    SUMMARY files=39 fail-alone=0 lib=scalacheck_3-1.20.0.jar
+OK org.scalameta::munit:latest.release munit_3-1.3.6.jar
+    FAIL-ALONE munit/internal/MacroCompatScala2.tasty lib=munit_3-1.3.6.jar
+    SUMMARY files=50 fail-alone=1 lib=munit_3-1.3.6.jar
+OK dev.optics::monocle-core:latest.release monocle-core_3-3.4.0-RC2.jar
+    SUMMARY files=221 fail-alone=0 lib=monocle-core_3-3.4.0-RC2.jar
+OK dev.optics::monocle-macro:latest.release monocle-macro_3-3.4.0-RC2.jar
+    SUMMARY files=4 fail-alone=0 lib=monocle-macro_3-3.4.0-RC2.jar
+OK org.playframework::play-json:latest.release play-json_3-3.1.0-M10.jar
+    SUMMARY files=87 fail-alone=0 lib=play-json_3-3.1.0-M10.jar
+OK com.lihaoyi::upickle:latest.release upickle_3-4.4.3.jar
+    SUMMARY files=10 fail-alone=0 lib=upickle_3-4.4.3.jar
+OK com.lihaoyi::ujson:latest.release ujson_3-4.4.3.jar
+    SUMMARY files=30 fail-alone=0 lib=ujson_3-4.4.3.jar
+OK com.lihaoyi::upickle-core:latest.release upickle-core_3-4.4.3.jar
+    HIT OTHER Apply trait [final,private] upickle.core.BufferingByteParser.IndexResetThreshold: 1073741824 src=/home/runner/work/upickle/upickle/out/upickle/core/jvm/3.3.7/generatedSources.dest/BufferingByteParser.scala:180 lib=upickle-core_3-4.4.3.jar
+    HIT OTHER Apply trait [final,private] upickle.core.BufferingCharParser.IndexResetThreshold: 1073741824 src=/home/runner/work/upickle/upickle/out/upickle/core/jvm/3.3.7/generatedSources.dest/BufferingCharParser.scala:180 lib=upickle-core_3-4.4.3.jar
+    SUMMARY files=37 fail-alone=0 lib=upickle-core_3-4.4.3.jar
+OK com.lihaoyi::os-lib:latest.release os-lib_3-0.11.9-M8.jar
+    SUMMARY files=83 fail-alone=0 lib=os-lib_3-0.11.9-M8.jar
+OK com.lihaoyi::cask:latest.release cask_3-0.11.3.jar
+    SUMMARY files=64 fail-alone=0 lib=cask_3-0.11.3.jar
+OK com.lihaoyi::requests:latest.release requests_3-0.9.3.jar
+    SUMMARY files=21 fail-alone=0 lib=requests_3-0.9.3.jar
+OK com.lihaoyi::fastparse:latest.release fastparse_3-3.1.1.jar
+    SUMMARY files=35 fail-alone=0 lib=fastparse_3-3.1.1.jar
+OK com.lihaoyi::pprint:latest.release pprint_3-0.9.6.jar
+    SUMMARY files=14 fail-alone=0 lib=pprint_3-0.9.6.jar
+OK com.lihaoyi::fansi:latest.release fansi_3-0.5.1.jar
+    SUMMARY files=14 fail-alone=0 lib=fansi_3-0.5.1.jar
+OK com.lihaoyi::sourcecode:latest.release sourcecode_3-0.4.4.jar
+    SUMMARY files=25 fail-alone=0 lib=sourcecode_3-0.4.4.jar
+OK com.lihaoyi::geny:latest.release geny_3-1.1.1.jar
+    SUMMARY files=7 fail-alone=0 lib=geny_3-1.1.1.jar
+OK com.lihaoyi::utest:latest.release utest_3-0.10.0-RC1.jar
+    SUMMARY files=96 fail-alone=0 lib=utest_3-0.10.0-RC1.jar
+OK com.github.pathikrit::better-files:latest.release better-files_3-3.9.2.jar
+    SUMMARY files=20 fail-alone=0 lib=better-files_3-3.9.2.jar
+OK io.monix::minitest:latest.release minitest_3-2.9.6.jar
+    SUMMARY files=24 fail-alone=0 lib=minitest_3-2.9.6.jar
+OK com.eed3si9n.verify::verify:latest.release verify_3-1.0.0.jar
+    SUMMARY files=58 fail-alone=0 lib=verify_3-1.0.0.jar
+OK org.scodec::scodec-core:latest.release scodec-core_3-2.3.3.jar
+    SUMMARY files=74 fail-alone=0 lib=scodec-core_3-2.3.3.jar
+OK org.scodec::scodec-bits:latest.release scodec-bits_3-1.2.5.jar
+    SUMMARY files=15 fail-alone=0 lib=scodec-bits_3-1.2.5.jar
+OK org.typelevel::shapeless3-deriving:latest.release shapeless3-deriving_3-3.6.0.jar
+    SUMMARY files=23 fail-alone=0 lib=shapeless3-deriving_3-3.6.0.jar
+OK dev.zio::izumi-reflect:latest.release izumi-reflect_3-3.0.11.jar
+    SUMMARY files=40 fail-alone=0 lib=izumi-reflect_3-3.0.11.jar
+OK org.endpoints4s::algebra:latest.release algebra_3-1.14.0.jar
+    SUMMARY files=32 fail-alone=0 lib=algebra_3-1.14.0.jar
+OK io.getquill::quill-sql:latest.release quill-sql_3-4.8.6.jar
+    SUMMARY files=248 fail-alone=0 lib=quill-sql_3-4.8.6.jar
+OK com.thesamet.scalapb::scalapb-runtime:latest.release scalapb-runtime_3-1.0.0-alpha.6.jar
+    SUMMARY files=164 fail-alone=0 lib=scalapb-runtime_3-1.0.0-alpha.6.jar
+OK org.ekrich::sconfig:latest.release sconfig_3-2.1.0.jar
+    SUMMARY files=113 fail-alone=0 lib=sconfig_3-2.1.0.jar
+OK org.scala-lang.modules::scala-xml:latest.release scala-xml_3-2.5.0.jar
+    SUMMARY files=112 fail-alone=0 lib=scala-xml_3-2.5.0.jar
+OK org.scala-lang.modules::scala-parser-combinators:latest.release scala-parser-combinators_3-2.5.0.jar
+    HIT OTHER Select object [final] scala.util.parsing.input.PagedSeq$.UndeterminedEnd: 2147483647 src=shared/src/main/scala/scala/util/parsing/input/PagedSeq.scala:26 lib=scala-parser-combinators_3-2.5.0.jar
+    SUMMARY files=27 fail-alone=0 lib=scala-parser-combinators_3-2.5.0.jar
+OK org.scala-lang.modules::scala-parallel-collections:latest.release scala-parallel-collections_3-1.3.0.jar
+    FAIL-ALONE scala/collection/parallel/ParMapLike.tasty lib=scala-parallel-collections_3-1.3.0.jar
+    SUMMARY files=100 fail-alone=1 lib=scala-parallel-collections_3-1.3.0.jar
+OK org.scala-lang.modules::scala-collection-compat:latest.release scala-collection-compat_3-2.14.0.jar
+    SUMMARY files=4 fail-alone=0 lib=scala-collection-compat_3-2.14.0.jar
+OK org.scala-lang.modules::scala-java8-compat:latest.release scala-java8-compat_3-1.0.2.jar
+    SUMMARY files=199 fail-alone=0 lib=scala-java8-compat_3-1.0.2.jar
+OK org.parboiled::parboiled:latest.release parboiled_3-2.5.1.jar
+    SUMMARY files=47 fail-alone=0 lib=parboiled_3-2.5.1.jar
+OK org.scala-stm::scala-stm:latest.release scala-stm_3-0.11.1.jar
+    HIT OTHER Apply class [final,private] scala.concurrent.stm.ccstm.AccessHistory.MaxRetainedBargeCapacity: 8192 src=shared/src/main/scala/scala/concurrent/stm/ccstm/AccessHistory.scala:328 lib=scala-stm_3-0.11.1.jar
+    HIT OTHER Apply class [final,private] scala.concurrent.stm.ccstm.AccessHistory.MaxRetainedReadCapacity: 8192 src=shared/src/main/scala/scala/concurrent/stm/ccstm/AccessHistory.scala:259 lib=scala-stm_3-0.11.1.jar
+    HIT OTHER Apply class [final,private] scala.concurrent.stm.ccstm.AccessHistory.MaxRetainedWriteCapacity: 4096 src=shared/src/main/scala/scala/concurrent/stm/ccstm/AccessHistory.scala:390 lib=scala-stm_3-0.11.1.jar
+    HIT OTHER Apply class [final,private] scala.concurrent.stm.skel.TxnHashTrie.contentionThreshold: 10000 src=shared/src/main/scala/scala/concurrent/stm/skel/TxnHashTrie.scala:447 lib=scala-stm_3-0.11.1.jar
+    SUMMARY files=69 fail-alone=0 lib=scala-stm_3-0.11.1.jar
+OK com.fasterxml.jackson.module::jackson-module-scala:latest.release jackson-module-scala_3-2.22.4.jar
+    SUMMARY files=143 fail-alone=0 lib=jackson-module-scala_3-2.22.4.jar
+OK com.github.rssh::dotty-cps-async:latest.release dotty-cps-async_3-0.9.23.jar
+    SUMMARY files=184 fail-alone=0 lib=dotty-cps-async_3-0.9.23.jar
+OK org.scalaz::scalaz-core:latest.release scalaz-core_3-7.4.0-M17.jar
+    SUMMARY files=1603 fail-alone=0 lib=scalaz-core_3-7.4.0-M17.jar
+OK org.scalaz::scalaz-effect:latest.release scalaz-effect_3-7.4.0-M17.jar
+    SUMMARY files=84 fail-alone=0 lib=scalaz-effect_3-7.4.0-M17.jar
+OK de.sciss::lucre-core:latest.release lucre-core_3-4.6.6.jar
+    SUMMARY files=72 fail-alone=0 lib=lucre-core_3-4.6.6.jar
+OK de.sciss::lucre-confluent:latest.release lucre-confluent_3-4.6.6.jar
+    SUMMARY files=53 fail-alone=0 lib=lucre-confluent_3-4.6.6.jar
+OK de.sciss::model:latest.release model_3-0.3.5.jar
+    SUMMARY files=4 fail-alone=0 lib=model_3-0.3.5.jar
+OK de.sciss::numbers:latest.release numbers_3-0.2.1.jar
+    HIT OTHER Apply object [final] de.sciss.numbers.package$.TwoPi: 6.283185307179586d src=shared/src/main/scala/de/sciss/numbers/package.scala:19 lib=numbers_3-0.2.1.jar
+    SUMMARY files=14 fail-alone=0 lib=numbers_3-0.2.1.jar
+OK de.sciss::span:latest.release span_3-2.0.2.jar
+    SUMMARY files=2 fail-alone=0 lib=span_3-2.0.2.jar
+OK de.sciss::serial:latest.release serial_3-2.0.1.jar
+    SUMMARY files=46 fail-alone=0 lib=serial_3-2.0.1.jar
+OK de.sciss::log:latest.release log_3-0.1.1.jar
+    HIT OTHER Select object [final] de.sciss.log.Level$.Off: 2147483647 src=shared/src/main/scala/de/sciss/log/Level.scala:22 lib=log_3-0.1.1.jar
+    SUMMARY files=3 fail-alone=0 lib=log_3-0.1.1.jar
+OK de.sciss::asyncfile:latest.release asyncfile_3-0.2.1.jar
+    SUMMARY files=20 fail-alone=0 lib=asyncfile_3-0.2.1.jar
+OK de.sciss::fingertree:latest.release fingertree_3-1.5.5.jar
+    SUMMARY files=9 fail-alone=0 lib=fingertree_3-1.5.5.jar
+OK de.sciss::equal:latest.release equal_3-0.1.6.jar
+    SUMMARY files=1 fail-alone=0 lib=equal_3-0.1.6.jar
+RESOLVE-FAIL com.github.tarao::xml-interpolator:latest.release
+      not found: https://repo1.maven.org/maven2/com/github/tarao/xml-interpolator_3/maven-metadata.xml
+RESOLVE-FAIL io.github.alexarchambault::scala-cli-signing-shared:latest.release
+      not found: https://repo1.maven.org/maven2/io/github/alexarchambault/scala-cli-signing-shared_3/maven-metadata.xml
+RESOLVE-FAIL com.github.tomasmikula::libretto-core:latest.release
+      not found: https://repo1.maven.org/maven2/com/github/tomasmikula/libretto-core_3/maven-metadata.xml
+OK io.circe::circe-core:latest.release circe-core_3-0.15.0-M1.jar
+    SUMMARY files=58 fail-alone=0 lib=circe-core_3-0.15.0-M1.jar
+OK io.circe::circe-generic:latest.release circe-generic_3-0.15.0-M1.jar
+    SUMMARY files=3 fail-alone=0 lib=circe-generic_3-0.15.0-M1.jar
+OK io.circe::circe-parser:latest.release circe-parser_3-0.15.0-M1.jar
+    SUMMARY files=1 fail-alone=0 lib=circe-parser_3-0.15.0-M1.jar
+OK org.tpolecat::doobie-core:latest.release doobie-core_3-1.0.0-RC12.jar
+    SUMMARY files=112 fail-alone=0 lib=doobie-core_3-1.0.0-RC12.jar
+OK org.tpolecat::skunk-core:latest.release skunk-core_3-2.0.0-RC3.jar
+    SUMMARY files=194 fail-alone=0 lib=skunk-core_3-2.0.0-RC3.jar
+OK com.softwaremill.sttp.client3::core:latest.release core_3-3.11.0.jar
+    SUMMARY files=108 fail-alone=0 lib=core_3-3.11.0.jar
+OK com.softwaremill.sttp.client4::core:latest.release core_3-4.1.0.jar
+    SUMMARY files=167 fail-alone=0 lib=core_3-4.1.0.jar
+OK com.softwaremill.sttp.tapir::tapir-core:latest.release tapir-core_3-1.14.0.jar
+    SUMMARY files=135 fail-alone=0 lib=tapir-core_3-1.14.0.jar
+OK com.softwaremill.sttp.tapir::tapir-server:latest.release tapir-server_3-1.14.0.jar
+    SUMMARY files=62 fail-alone=0 lib=tapir-server_3-1.14.0.jar
+OK com.softwaremill.ox::core:latest.release core_3-1.1.0.jar
+    SUMMARY files=116 fail-alone=0 lib=core_3-1.1.0.jar
+OK com.github.pureconfig::pureconfig-core:latest.release pureconfig-core_3-0.17.11.jar
+    HIT OTHER Apply object [final,private] pureconfig.DurationUtils$.dayInNanos: 86400000000000L src=core/src/main/scala/pureconfig/DurationUtils.scala:144 lib=pureconfig-core_3-0.17.11.jar
+    HIT OTHER Apply object [final,private] pureconfig.DurationUtils$.hourInNanos: 3600000000000L src=core/src/main/scala/pureconfig/DurationUtils.scala:143 lib=pureconfig-core_3-0.17.11.jar
+    HIT OTHER Apply object [final,private] pureconfig.DurationUtils$.millisecondInNanos: 1000000L src=core/src/main/scala/pureconfig/DurationUtils.scala:140 lib=pureconfig-core_3-0.17.11.jar
+    HIT OTHER Apply object [final,private] pureconfig.DurationUtils$.minuteInNanos: 60000000000L src=core/src/main/scala/pureconfig/DurationUtils.scala:142 lib=pureconfig-core_3-0.17.11.jar
+    HIT OTHER Apply object [final,private] pureconfig.DurationUtils$.secondInNanos: 1000000000L src=core/src/main/scala/pureconfig/DurationUtils.scala:141 lib=pureconfig-core_3-0.17.11.jar
+    SUMMARY files=90 fail-alone=0 lib=pureconfig-core_3-0.17.11.jar
+OK com.typesafe.slick::slick:latest.release slick_3-4.0.0-RC2.jar
+    SUMMARY files=428 fail-alone=0 lib=slick_3-4.0.0-RC2.jar
+OK org.apache.pekko::pekko-actor:latest.release pekko-actor_3-2.0.0-M4.jar
+    FAIL-ALONE org/apache/pekko/util/Reflect.tasty lib=pekko-actor_3-2.0.0-M4.jar
+    HIT OTHER Apply class [final] org.apache.pekko.io.SelectionHandler$.ChannelRegistryImpl.OP_READ_AND_WRITE: 5 src=actor/src/main/scala/org/apache/pekko/io/SelectionHandler.scala:159 lib=pekko-actor_3-2.0.0-M4.jar
+    HIT OTHER Select object [final] org.apache.pekko.dispatch.Mailbox$.shouldNotProcessMask: -3 src=actor/src/main/scala/org/apache/pekko/dispatch/Mailbox.scala:53 lib=pekko-actor_3-2.0.0-M4.jar
+    HIT OTHER Select object [final] org.apache.pekko.dispatch.Mailbox$.suspendMask: -4 src=actor/src/main/scala/org/apache/pekko/dispatch/Mailbox.scala:54 lib=pekko-actor_3-2.0.0-M4.jar
+    HIT OTHER Select trait [final] org.apache.pekko.serialization.BaseSerializer.SerializationIdentifiers: "pekko.actor.serialization-identifiers" src=actor/src/main/scala/org/apache/pekko/serialization/Serializer.scala:259 lib=pekko-actor_3-2.0.0-M4.jar
+    HIT OTHER TypeApply class [final,private] org.apache.pekko.dispatch.Mailboxes.rmqClass: classOf[org.apache.pekko.dispatch.RequiresMessageQueue[?]] src=actor/src/main/scala/org/apache/pekko/dispatch/Mailboxes.scala:112 lib=pekko-actor_3-2.0.0-M4.jar
+    SUMMARY files=646 fail-alone=1 lib=pekko-actor_3-2.0.0-M4.jar
+OK org.apache.pekko::pekko-stream:latest.release pekko-stream_3-2.0.0-M4.jar
+    HIT OTHER Apply object [final] org.apache.pekko.stream.impl.io.TlsGraphStage$.InitialPumpDeferringOutputFlag: 262144 src=stream/src/main/scala/org/apache/pekko/stream/impl/io/TlsGraphStage.scala:1104 lib=pekko-stream_3-2.0.0-M4.jar
+    HIT OTHER Apply object [final] org.apache.pekko.stream.impl.io.TlsGraphStage$.InitialPumpEnabledFlag: 4 src=stream/src/main/scala/org/apache/pekko/stream/impl/io/TlsGraphStage.scala:1088 lib=pekko-stream_3-2.0.0-M4.jar
+    HIT OTHER Apply object [final] org.apache.pekko.stream.impl.io.TlsGraphStage$.MaxInlineEngineProgressAttempts: 1024 src=stream/src/main/scala/org/apache/pekko/stream/impl/io/TlsGraphStage.scala:1075 lib=pekko-stream_3-2.0.0-M4.jar
+    HIT OTHER Apply object [final] org.apache.pekko.stream.impl.io.TlsGraphStage$.PlainDataAllowedFlag: 1 src=stream/src/main/scala/org/apache/pekko/stream/impl/io/TlsGraphStage.scala:1086 lib=pekko-stream_3-2.0.0-M4.jar
+    HIT OTHER Apply object [final] org.apache.pekko.stream.impl.io.TlsGraphStage$.StageClosedFlag: 2 src=stream/src/main/scala/org/apache/pekko/stream/impl/io/TlsGraphStage.scala:1087 lib=pekko-stream_3-2.0.0-M4.jar
+    HIT OTHER Apply object [final] org.apache.pekko.stream.impl.io.TlsGraphStage$.StageCompletionPendingFlag: 65536 src=stream/src/main/scala/org/apache/pekko/stream/impl/io/TlsGraphStage.scala:1102 lib=pekko-stream_3-2.0.0-M4.jar
+    HIT OTHER Apply object [final] org.apache.pekko.stream.impl.io.TlsGraphStage$.TransportFlushPendingFlag: 8 src=stream/src/main/scala/org/apache/pekko/stream/impl/io/TlsGraphStage.scala:1089 lib=pekko-stream_3-2.0.0-M4.jar
+    HIT OTHER Apply object [final] org.apache.pekko.stream.impl.io.TlsGraphStage$.TransportInputCancelledFlag: 512 src=stream/src/main/scala/org/apache/pekko/stream/impl/io/TlsGraphStage.scala:1095 lib=pekko-stream_3-2.0.0-M4.jar
+    HIT OTHER Apply object [final] org.apache.pekko.stream.impl.io.TlsGraphStage$.TransportInputFinishedFlag: 256 src=stream/src/main/scala/org/apache/pekko/stream/impl/io/TlsGraphStage.scala:1094 lib=pekko-stream_3-2.0.0-M4.jar
+    HIT OTHER Apply object [final] org.apache.pekko.stream.impl.io.TlsGraphStage$.TransportInputHasPendingFlag: 128 src=stream/src/main/scala/org/apache/pekko/stream/impl/io/TlsGraphStage.scala:1093 lib=pekko-stream_3-2.0.0-M4.jar
+    HIT OTHER Apply object [final] org.apache.pekko.stream.impl.io.TlsGraphStage$.TransportOutputCancelledFlag: 8192 src=stream/src/main/scala/org/apache/pekko/stream/impl/io/TlsGraphStage.scala:1099 lib=pekko-stream_3-2.0.0-M4.jar
+    HIT OTHER Apply object [final] org.apache.pekko.stream.impl.io.TlsGraphStage$.TransportOutputCompletedFlag: 16384 src=stream/src/main/scala/org/apache/pekko/stream/impl/io/TlsGraphStage.scala:1100 lib=pekko-stream_3-2.0.0-M4.jar
+    HIT OTHER Apply object [final] org.apache.pekko.stream.impl.io.TlsGraphStage$.TransportOutputErroredFlag: 32768 src=stream/src/main/scala/org/apache/pekko/stream/impl/io/TlsGraphStage.scala:1101 lib=pekko-stream_3-2.0.0-M4.jar
+    HIT OTHER Apply object [final] org.apache.pekko.stream.impl.io.TlsGraphStage$.UserInputBatchPendingFlag: 131072 src=stream/src/main/scala/org/apache/pekko/stream/impl/io/TlsGraphStage.scala:1103 lib=pekko-stream_3-2.0.0-M4.jar
+    HIT OTHER Apply object [final] org.apache.pekko.stream.impl.io.TlsGraphStage$.UserInputCancelledFlag: 64 src=stream/src/main/scala/org/apache/pekko/stream/impl/io/TlsGraphStage.scala:1092 lib=pekko-stream_3-2.0.0-M4.jar
+    HIT OTHER Apply object [final] org.apache.pekko.stream.impl.io.TlsGraphStage$.UserInputFinishedFlag: 32 src=stream/src/main/scala/org/apache/pekko/stream/impl/io/TlsGraphStage.scala:1091 lib=pekko-stream_3-2.0.0-M4.jar
+    HIT OTHER Apply object [final] org.apache.pekko.stream.impl.io.TlsGraphStage$.UserInputHasPendingFlag: 16 src=stream/src/main/scala/org/apache/pekko/stream/impl/io/TlsGraphStage.scala:1090 lib=pekko-stream_3-2.0.0-M4.jar
+    HIT OTHER Apply object [final] org.apache.pekko.stream.impl.io.TlsGraphStage$.UserInputQueueMask: 63 src=stream/src/main/scala/org/apache/pekko/stream/impl/io/TlsGraphStage.scala:1082 lib=pekko-stream_3-2.0.0-M4.jar
+    HIT OTHER Apply object [final] org.apache.pekko.stream.impl.io.TlsGraphStage$.UserOutputCancelledFlag: 1024 src=stream/src/main/scala/org/apache/pekko/stream/impl/io/TlsGraphStage.scala:1096 lib=pekko-stream_3-2.0.0-M4.jar
+    HIT OTHER Apply object [final] org.apache.pekko.stream.impl.io.TlsGraphStage$.UserOutputCompletedFlag: 2048 src=stream/src/main/scala/org/apache/pekko/stream/impl/io/TlsGraphStage.scala:1097 lib=pekko-stream_3-2.0.0-M4.jar
+    HIT OTHER Apply object [final] org.apache.pekko.stream.impl.io.TlsGraphStage$.UserOutputErroredFlag: 4096 src=stream/src/main/scala/org/apache/pekko/stream/impl/io/TlsGraphStage.scala:1098 lib=pekko-stream_3-2.0.0-M4.jar
+    HIT OTHER Apply object [final] org.apache.pekko.stream.scaladsl.Compression$.MaxBytesPerChunkDefault: 65536 src=stream/src/main/scala/org/apache/pekko/stream/scaladsl/Compression.scala:24 lib=pekko-stream_3-2.0.0-M4.jar
+    HIT OTHER Ident object [final] org.apache.pekko.stream.impl.io.TlsGraphStage$.UserInputQueueSize: 64 src=stream/src/main/scala/org/apache/pekko/stream/impl/io/TlsGraphStage.scala:1081 lib=pekko-stream_3-2.0.0-M4.jar
+    SUMMARY files=612 fail-alone=0 lib=pekko-stream_3-2.0.0-M4.jar
+OK org.apache.pekko::pekko-http-core:latest.release pekko-http-core_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/DefaultParsingErrorHandler.tasty lib=pekko-http-core_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/ParsingErrorHandler.tasty lib=pekko-http-core_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/Version.tasty lib=pekko-http-core_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/impl/engine/HttpConnectionIdleTimeoutBidi.tasty lib=pekko-http-core_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/impl/engine/client/HttpsProxyGraphStage.tasty lib=pekko-http-core_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/impl/engine/client/OutgoingConnectionBlueprint.tasty lib=pekko-http-core_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/impl/engine/client/PoolInterface.tasty lib=pekko-http-core_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/impl/engine/client/PoolMaster.tasty lib=pekko-http-core_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/impl/engine/client/PoolMasterActor.tasty lib=pekko-http-core_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/impl/engine/client/pool/NewHostConnectionPool.tasty lib=pekko-http-core_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/impl/engine/client/pool/SlotState.tasty lib=pekko-http-core_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/impl/engine/http2/BufferedOutletExtended.tasty lib=pekko-http-core_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/impl/engine/http2/ConfigurablePing.tasty lib=pekko-http-core_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/impl/engine/http2/FrameLogger.tasty lib=pekko-http-core_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/impl/engine/http2/GenericOutletSupport.tasty lib=pekko-http-core_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/impl/engine/http2/Http2.tasty lib=pekko-http-core_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/impl/engine/http2/Http2Blueprint.tasty lib=pekko-http-core_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/impl/engine/http2/Http2ClientDemux.tasty lib=pekko-http-core_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/impl/engine/http2/Http2Demux.tasty lib=pekko-http-core_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/impl/engine/http2/Http2Ext.tasty lib=pekko-http-core_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/impl/engine/http2/Http2MultiplexerSupport.tasty lib=pekko-http-core_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/impl/engine/http2/Http2Protocol.tasty lib=pekko-http-core_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/impl/engine/http2/Http2ServerDemux.tasty lib=pekko-http-core_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/impl/engine/http2/Http2StreamHandling.tasty lib=pekko-http-core_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/impl/engine/http2/Http2SubStream.tasty lib=pekko-http-core_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/impl/engine/http2/HttpMessageRendering.tasty lib=pekko-http-core_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/impl/engine/http2/MessageRendering.tasty lib=pekko-http-core_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/impl/engine/http2/NoOpTelemetry.tasty lib=pekko-http-core_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/impl/engine/http2/OutgoingConnectionBuilderImpl.tasty lib=pekko-http-core_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/impl/engine/http2/ProtocolSwitch.tasty lib=pekko-http-core_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/impl/engine/http2/RequestErrorFlow.tasty lib=pekko-http-core_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/impl/engine/http2/RequestParsing.tasty lib=pekko-http-core_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/impl/engine/http2/TelemetryAttributes.tasty lib=pekko-http-core_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/impl/engine/http2/TelemetrySpi.tasty lib=pekko-http-core_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/impl/engine/http2/client/PersistentConnection.tasty lib=pekko-http-core_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/impl/engine/http2/client/ResponseParsing.tasty lib=pekko-http-core_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/impl/engine/http2/framing/FrameRenderer.tasty lib=pekko-http-core_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/impl/engine/http2/framing/Http2FrameParsing.tasty lib=pekko-http-core_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/impl/engine/http2/hpack/HandleOrPassOnStage.tasty lib=pekko-http-core_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/impl/engine/http2/hpack/HeaderCompression.tasty lib=pekko-http-core_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/impl/engine/http2/hpack/HeaderDecompression.tasty lib=pekko-http-core_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/impl/engine/parsing/BodyPartParser.tasty lib=pekko-http-core_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/impl/engine/parsing/HttpHeaderParser.tasty lib=pekko-http-core_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/impl/engine/parsing/HttpMessageParser.tasty lib=pekko-http-core_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/impl/engine/parsing/HttpRequestParser.tasty lib=pekko-http-core_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/impl/engine/parsing/HttpResponseParser.tasty lib=pekko-http-core_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/impl/engine/parsing/package.tasty lib=pekko-http-core_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/impl/engine/rendering/BodyPartRenderer.tasty lib=pekko-http-core_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/impl/engine/rendering/DateHeaderRendering.tasty lib=pekko-http-core_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/impl/engine/rendering/HttpRequestRendererFactory.tasty lib=pekko-http-core_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/impl/engine/rendering/HttpResponseRendererFactory.tasty lib=pekko-http-core_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/impl/engine/rendering/RenderSupport.tasty lib=pekko-http-core_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/impl/engine/server/GracefulTerminatorStage.tasty lib=pekko-http-core_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/impl/engine/server/HttpAttributes.tasty lib=pekko-http-core_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/impl/engine/server/HttpServerBluePrint.tasty lib=pekko-http-core_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/impl/engine/server/MasterServerTerminator.tasty lib=pekko-http-core_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/impl/engine/server/ServerTerminationDeadlineReached.tasty lib=pekko-http-core_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/impl/engine/server/ServerTerminator.tasty lib=pekko-http-core_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/impl/engine/ws/FrameEvent.tasty lib=pekko-http-core_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/impl/engine/ws/FrameEventParser.tasty lib=pekko-http-core_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/impl/engine/ws/FrameEventRenderer.tasty lib=pekko-http-core_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/impl/engine/ws/FrameHandler.tasty lib=pekko-http-core_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/impl/engine/ws/FrameLogger.tasty lib=pekko-http-core_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/impl/engine/ws/FrameOutHandler.tasty lib=pekko-http-core_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/impl/engine/ws/Handshake.tasty lib=pekko-http-core_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/impl/engine/ws/Masking.tasty lib=pekko-http-core_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/impl/engine/ws/MessageToFrameRenderer.tasty lib=pekko-http-core_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/impl/engine/ws/PerMessageDeflate.tasty lib=pekko-http-core_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/impl/engine/ws/UpgradeToWebSocketLowLevel.tasty lib=pekko-http-core_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/impl/engine/ws/Utf8Decoder.tasty lib=pekko-http-core_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/impl/engine/ws/Utf8Encoder.tasty lib=pekko-http-core_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/impl/engine/ws/WebSocket.tasty lib=pekko-http-core_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/impl/engine/ws/WebSocketClientBlueprint.tasty lib=pekko-http-core_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/impl/model/JavaQuery.tasty lib=pekko-http-core_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/impl/model/parser/HeaderParser.tasty lib=pekko-http-core_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/impl/settings/ClientConnectionSettingsImpl.tasty lib=pekko-http-core_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/impl/settings/ConnectionPoolSettingsImpl.tasty lib=pekko-http-core_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/impl/settings/HttpsProxySettingsImpl.tasty lib=pekko-http-core_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/impl/settings/ParserSettingsImpl.tasty lib=pekko-http-core_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/impl/settings/ServerSettingsImpl.tasty lib=pekko-http-core_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/impl/settings/WebSocketCompressionSettingsImpl.tasty lib=pekko-http-core_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/impl/settings/WebSocketSettingsImpl.tasty lib=pekko-http-core_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/impl/util/ByteArrayRendering.tasty lib=pekko-http-core_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/impl/util/ByteStringOutputStream.tasty lib=pekko-http-core_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/impl/util/ByteStringParserInput.tasty lib=pekko-http-core_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/impl/util/ByteStringRendering.tasty lib=pekko-http-core_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/impl/util/CustomCharsetByteStringRendering.tasty lib=pekko-http-core_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/impl/util/DefaultNoLogging.tasty lib=pekko-http-core_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/impl/util/EnhancedByteStringSource.tasty lib=pekko-http-core_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/impl/util/EnhancedByteStringTraversableOnce.tasty lib=pekko-http-core_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/impl/util/EnhancedConfig.tasty lib=pekko-http-core_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/impl/util/EventStreamLogger.tasty lib=pekko-http-core_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/impl/util/ExposeAttributes.tasty lib=pekko-http-core_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/impl/util/JavaMapping.tasty lib=pekko-http-core_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/impl/util/LazyValueBytesRenderable.tasty lib=pekko-http-core_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/impl/util/LogByteStringTools.tasty lib=pekko-http-core_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/impl/util/LogMessages.tasty lib=pekko-http-core_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/impl/util/One2OneBidiFlow.tasty lib=pekko-http-core_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/impl/util/Renderer.tasty lib=pekko-http-core_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/impl/util/Rendering.tasty lib=pekko-http-core_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/impl/util/SettingsCompanionImpl.tasty lib=pekko-http-core_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/impl/util/SingletonValueRenderable.tasty lib=pekko-http-core_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/impl/util/SocketOptionSettings.tasty lib=pekko-http-core_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/impl/util/StageLoggingWithOverride.tasty lib=pekko-http-core_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/impl/util/StreamUtils.tasty lib=pekko-http-core_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/impl/util/StringRendering.tasty lib=pekko-http-core_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/impl/util/ToStrict.tasty lib=pekko-http-core_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/impl/util/package.tasty lib=pekko-http-core_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/javadsl/ClientTransport.tasty lib=pekko-http-core_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/javadsl/ConnectHttp.tasty lib=pekko-http-core_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/javadsl/ConnectionContext.tasty lib=pekko-http-core_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/javadsl/Http.tasty lib=pekko-http-core_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/javadsl/IncomingConnection.tasty lib=pekko-http-core_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/javadsl/OutgoingConnection.tasty lib=pekko-http-core_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/javadsl/OutgoingConnectionBuilder.tasty lib=pekko-http-core_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/javadsl/ServerBinding.tasty lib=pekko-http-core_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/javadsl/ServerBuilder.tasty lib=pekko-http-core_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/javadsl/model/SslSessionInfo.tasty lib=pekko-http-core_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/javadsl/model/ws/BinaryMessage.tasty lib=pekko-http-core_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/javadsl/model/ws/TextMessage.tasty lib=pekko-http-core_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/javadsl/model/ws/WebSocket.tasty lib=pekko-http-core_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/javadsl/model/ws/WebSocketUpgrade.tasty lib=pekko-http-core_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/javadsl/settings/ClientConnectionSettings.tasty lib=pekko-http-core_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/javadsl/settings/ConnectionPoolSettings.tasty lib=pekko-http-core_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/javadsl/settings/Http2ServerSettings.tasty lib=pekko-http-core_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/javadsl/settings/HttpsProxySettings.tasty lib=pekko-http-core_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/javadsl/settings/ParserSettings.tasty lib=pekko-http-core_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/javadsl/settings/ServerSettings.tasty lib=pekko-http-core_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/javadsl/settings/SettingsCompanion.tasty lib=pekko-http-core_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/scaladsl/ClientTransport.tasty lib=pekko-http-core_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/scaladsl/Http.tasty lib=pekko-http-core_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/scaladsl/HttpExt.tasty lib=pekko-http-core_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/scaladsl/OutgoingConnectionBuilder.tasty lib=pekko-http-core_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/scaladsl/ServerBuilder.tasty lib=pekko-http-core_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/scaladsl/model/ContentRange.tasty lib=pekko-http-core_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/scaladsl/model/ContentType.tasty lib=pekko-http-core_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/scaladsl/model/ContentTypeRange.tasty lib=pekko-http-core_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/scaladsl/model/DateTime.tasty lib=pekko-http-core_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/scaladsl/model/ErrorInfo.tasty lib=pekko-http-core_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/scaladsl/model/FormData.tasty lib=pekko-http-core_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/scaladsl/model/HttpCharsetRange.tasty lib=pekko-http-core_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/scaladsl/model/HttpEntity.tasty lib=pekko-http-core_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/scaladsl/model/HttpHeader.tasty lib=pekko-http-core_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/scaladsl/model/HttpMessage.tasty lib=pekko-http-core_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/scaladsl/model/HttpRequest.tasty lib=pekko-http-core_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/scaladsl/model/HttpResponse.tasty lib=pekko-http-core_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/scaladsl/model/MediaRange.tasty lib=pekko-http-core_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/scaladsl/model/MediaType.tasty lib=pekko-http-core_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/scaladsl/model/MediaTypes.tasty lib=pekko-http-core_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/scaladsl/model/Multipart.tasty lib=pekko-http-core_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/scaladsl/model/RemoteAddress.tasty lib=pekko-http-core_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/scaladsl/model/SslSessionInfo.tasty lib=pekko-http-core_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/scaladsl/model/TransferEncodings.tasty lib=pekko-http-core_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/scaladsl/model/Uri.tasty lib=pekko-http-core_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/scaladsl/model/UriRendering.tasty lib=pekko-http-core_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/scaladsl/model/headers/Accept$minusCharset.tasty lib=pekko-http-core_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/scaladsl/model/headers/Accept$minusEncoding.tasty lib=pekko-http-core_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/scaladsl/model/headers/Accept$minusLanguage.tasty lib=pekko-http-core_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/scaladsl/model/headers/Accept$minusQuery.tasty lib=pekko-http-core_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/scaladsl/model/headers/Accept$minusRanges.tasty lib=pekko-http-core_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/scaladsl/model/headers/Accept.tasty lib=pekko-http-core_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/scaladsl/model/headers/Access$minusControl$minusAllow$minusCredentials.tasty lib=pekko-http-core_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/scaladsl/model/headers/Access$minusControl$minusAllow$minusHeaders.tasty lib=pekko-http-core_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/scaladsl/model/headers/Access$minusControl$minusAllow$minusMethods.tasty lib=pekko-http-core_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/scaladsl/model/headers/Access$minusControl$minusAllow$minusOrigin.tasty lib=pekko-http-core_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/scaladsl/model/headers/Access$minusControl$minusExpose$minusHeaders.tasty lib=pekko-http-core_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/scaladsl/model/headers/Access$minusControl$minusMax$minusAge.tasty lib=pekko-http-core_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/scaladsl/model/headers/Access$minusControl$minusRequest$minusHeaders.tasty lib=pekko-http-core_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/scaladsl/model/headers/Access$minusControl$minusRequest$minusMethod.tasty lib=pekko-http-core_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/scaladsl/model/headers/Age.tasty lib=pekko-http-core_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/scaladsl/model/headers/Allow.tasty lib=pekko-http-core_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/scaladsl/model/headers/Authorization.tasty lib=pekko-http-core_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/scaladsl/model/headers/BasicHttpCredentials.tasty lib=pekko-http-core_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/scaladsl/model/headers/ByteRange.tasty lib=pekko-http-core_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/scaladsl/model/headers/Cache$minusControl.tasty lib=pekko-http-core_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/scaladsl/model/headers/CacheDirective.tasty lib=pekko-http-core_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/scaladsl/model/headers/CacheDirectives.tasty lib=pekko-http-core_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/scaladsl/model/headers/Connection.tasty lib=pekko-http-core_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/scaladsl/model/headers/Content$minusDisposition.tasty lib=pekko-http-core_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/scaladsl/model/headers/Content$minusEncoding.tasty lib=pekko-http-core_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/scaladsl/model/headers/Content$minusLength.tasty lib=pekko-http-core_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/scaladsl/model/headers/Content$minusLocation.tasty lib=pekko-http-core_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/scaladsl/model/headers/Content$minusRange.tasty lib=pekko-http-core_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/scaladsl/model/headers/Content$minusType.tasty lib=pekko-http-core_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/scaladsl/model/headers/ContentDispositionTypes.tasty lib=pekko-http-core_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/scaladsl/model/headers/Cookie.tasty lib=pekko-http-core_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/scaladsl/model/headers/CustomHeader.tasty lib=pekko-http-core_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/scaladsl/model/headers/ETag.tasty lib=pekko-http-core_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/scaladsl/model/headers/EntityTag.tasty lib=pekko-http-core_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/scaladsl/model/headers/EntityTagRange.tasty lib=pekko-http-core_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/scaladsl/model/headers/Expect.tasty lib=pekko-http-core_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/scaladsl/model/headers/GenericHttpCredentials.tasty lib=pekko-http-core_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/scaladsl/model/headers/Host.tasty lib=pekko-http-core_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/scaladsl/model/headers/HttpChallenge.tasty lib=pekko-http-core_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/scaladsl/model/headers/HttpCookie.tasty lib=pekko-http-core_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/scaladsl/model/headers/HttpCookiePair.tasty lib=pekko-http-core_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/scaladsl/model/headers/HttpEncodingRange.tasty lib=pekko-http-core_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/scaladsl/model/headers/HttpOrigin.tasty lib=pekko-http-core_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/scaladsl/model/headers/HttpOriginRange.tasty lib=pekko-http-core_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/scaladsl/model/headers/If$minusMatch.tasty lib=pekko-http-core_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/scaladsl/model/headers/If$minusNone$minusMatch.tasty lib=pekko-http-core_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/scaladsl/model/headers/If$minusRange.tasty lib=pekko-http-core_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/scaladsl/model/headers/Language.tasty lib=pekko-http-core_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/scaladsl/model/headers/LanguageRange.tasty lib=pekko-http-core_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/scaladsl/model/headers/Last$minusEvent$minusID.tasty lib=pekko-http-core_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/scaladsl/model/headers/Link.tasty lib=pekko-http-core_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/scaladsl/model/headers/LinkParams.tasty lib=pekko-http-core_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/scaladsl/model/headers/LinkValue.tasty lib=pekko-http-core_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/scaladsl/model/headers/Location.tasty lib=pekko-http-core_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/scaladsl/model/headers/ModeledCompanion.tasty lib=pekko-http-core_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/scaladsl/model/headers/OAuth2BearerToken.tasty lib=pekko-http-core_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/scaladsl/model/headers/Origin.tasty lib=pekko-http-core_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/scaladsl/model/headers/ProductVersion.tasty lib=pekko-http-core_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/scaladsl/model/headers/Proxy$minusAuthenticate.tasty lib=pekko-http-core_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/scaladsl/model/headers/Proxy$minusAuthorization.tasty lib=pekko-http-core_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/scaladsl/model/headers/Range.tasty lib=pekko-http-core_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/scaladsl/model/headers/RangeUnits.tasty lib=pekko-http-core_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/scaladsl/model/headers/Raw$minusRequest$minusURI.tasty lib=pekko-http-core_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/scaladsl/model/headers/RawHeader.tasty lib=pekko-http-core_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/scaladsl/model/headers/Referer.tasty lib=pekko-http-core_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/scaladsl/model/headers/Retry$minusAfter.tasty lib=pekko-http-core_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/scaladsl/model/headers/SameSite.tasty lib=pekko-http-core_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/scaladsl/model/headers/Sec$minusWebSocket$minusAccept.tasty lib=pekko-http-core_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/scaladsl/model/headers/Sec$minusWebSocket$minusExtensions.tasty lib=pekko-http-core_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/scaladsl/model/headers/Sec$minusWebSocket$minusKey.tasty lib=pekko-http-core_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/scaladsl/model/headers/Sec$minusWebSocket$minusProtocol.tasty lib=pekko-http-core_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/scaladsl/model/headers/Sec$minusWebSocket$minusVersion.tasty lib=pekko-http-core_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/scaladsl/model/headers/Server.tasty lib=pekko-http-core_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/scaladsl/model/headers/Set$minusCookie.tasty lib=pekko-http-core_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/scaladsl/model/headers/Strict$minusTransport$minusSecurity.tasty lib=pekko-http-core_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/scaladsl/model/headers/TE.tasty lib=pekko-http-core_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/scaladsl/model/headers/Timeout$minusAccess.tasty lib=pekko-http-core_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/scaladsl/model/headers/Tls$minusSession$minusInfo.tasty lib=pekko-http-core_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/scaladsl/model/headers/Trailer.tasty lib=pekko-http-core_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/scaladsl/model/headers/Transfer$minusEncoding.tasty lib=pekko-http-core_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/scaladsl/model/headers/Upgrade.tasty lib=pekko-http-core_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/scaladsl/model/headers/UpgradeProtocol.tasty lib=pekko-http-core_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/scaladsl/model/headers/User$minusAgent.tasty lib=pekko-http-core_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/scaladsl/model/headers/WWW$minusAuthenticate.tasty lib=pekko-http-core_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/scaladsl/model/headers/WebSocketExtension.tasty lib=pekko-http-core_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/scaladsl/model/headers/X$minusForwarded$minusFor.tasty lib=pekko-http-core_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/scaladsl/model/headers/X$minusForwarded$minusHost.tasty lib=pekko-http-core_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/scaladsl/model/headers/X$minusForwarded$minusProto.tasty lib=pekko-http-core_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/scaladsl/model/headers/X$minusReal$minusIp.tasty lib=pekko-http-core_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/scaladsl/model/http2/Http2SettingsHeader.tasty lib=pekko-http-core_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/scaladsl/model/sse/ServerSentEvent.tasty lib=pekko-http-core_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/scaladsl/model/ws/BinaryMessage.tasty lib=pekko-http-core_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/scaladsl/model/ws/TextMessage.tasty lib=pekko-http-core_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/scaladsl/model/ws/WebSocketUpgrade.tasty lib=pekko-http-core_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/scaladsl/settings/ClientConnectionSettings.tasty lib=pekko-http-core_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/scaladsl/settings/ConnectionPoolSettings.tasty lib=pekko-http-core_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/scaladsl/settings/Http2ClientSettings.tasty lib=pekko-http-core_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/scaladsl/settings/Http2ServerSettings.tasty lib=pekko-http-core_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/scaladsl/settings/HttpsProxySettings.tasty lib=pekko-http-core_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/scaladsl/settings/ParserSettings.tasty lib=pekko-http-core_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/scaladsl/settings/ServerSettings.tasty lib=pekko-http-core_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/scaladsl/settings/SettingsCompanion.tasty lib=pekko-http-core_3-2.0.0-M2.jar
+    SUMMARY files=439 fail-alone=257 lib=pekko-http-core_3-2.0.0-M2.jar
+OK org.apache.pekko::pekko-http:latest.release pekko-http_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/impl/settings/RoutingSettingsImpl.tasty lib=pekko-http_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/impl/settings/ServerSentEventSettingsImpl.tasty lib=pekko-http_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/javadsl/server/ExceptionHandler.tasty lib=pekko-http_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/javadsl/server/Route.tasty lib=pekko-http_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/javadsl/server/directives/BasicDirectives.tasty lib=pekko-http_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/javadsl/server/directives/FileUploadDirectives.tasty lib=pekko-http_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/javadsl/server/directives/FramedEntityStreamingDirectives.tasty lib=pekko-http_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/javadsl/server/directives/HeaderDirectives.tasty lib=pekko-http_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/javadsl/server/directives/LogEntry.tasty lib=pekko-http_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/javadsl/server/directives/RouteAdapter.tasty lib=pekko-http_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/javadsl/server/directives/RouteDirectives.tasty lib=pekko-http_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/javadsl/server/directives/SecurityDirectives.tasty lib=pekko-http_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/javadsl/server/directives/WebSocketDirectives.tasty lib=pekko-http_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/javadsl/settings/RoutingSettings.tasty lib=pekko-http_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/javadsl/settings/ServerSentEventSettings.tasty lib=pekko-http_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/javadsl/unmarshalling/Unmarshaller.tasty lib=pekko-http_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/javadsl/unmarshalling/sse/EventStreamUnmarshalling.tasty lib=pekko-http_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/scaladsl/client/RequestBuilding.tasty lib=pekko-http_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/scaladsl/client/TransformerPipelineSupport.tasty lib=pekko-http_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/scaladsl/coding/DataMapper.tasty lib=pekko-http_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/scaladsl/coding/Decoder.tasty lib=pekko-http_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/scaladsl/coding/Deflate.tasty lib=pekko-http_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/scaladsl/coding/DeflateCompressor.tasty lib=pekko-http_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/scaladsl/coding/DeflateDecompressor.tasty lib=pekko-http_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/scaladsl/coding/DeflateDecompressorBase.tasty lib=pekko-http_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/scaladsl/coding/Encoder.tasty lib=pekko-http_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/scaladsl/coding/Gzip.tasty lib=pekko-http_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/scaladsl/coding/GzipCompressor.tasty lib=pekko-http_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/scaladsl/coding/GzipDecompressor.tasty lib=pekko-http_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/scaladsl/coding/StreamDecoder.tasty lib=pekko-http_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/scaladsl/common/CsvEntityStreamingSupport.tasty lib=pekko-http_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/scaladsl/common/EntityStreamingSupport.tasty lib=pekko-http_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/scaladsl/common/JsonEntityStreamingSupport.tasty lib=pekko-http_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/scaladsl/common/StrictForm.tasty lib=pekko-http_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/scaladsl/marshalling/LowPriorityToResponseMarshallerImplicits.tasty lib=pekko-http_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/scaladsl/marshalling/MultipartMarshallers.tasty lib=pekko-http_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/scaladsl/marshalling/PredefinedToEntityMarshallers.tasty lib=pekko-http_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/scaladsl/marshalling/PredefinedToResponseMarshallers.tasty lib=pekko-http_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/scaladsl/marshalling/sse/EventStreamMarshalling.tasty lib=pekko-http_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/scaladsl/server/ExceptionHandler.tasty lib=pekko-http_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/scaladsl/server/RejectionHandler.tasty lib=pekko-http_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/scaladsl/server/RequestContextImpl.tasty lib=pekko-http_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/scaladsl/server/Route.tasty lib=pekko-http_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/scaladsl/server/RouteResult.tasty lib=pekko-http_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/scaladsl/server/directives/BasicDirectives.tasty lib=pekko-http_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/scaladsl/server/directives/CodingDirectives.tasty lib=pekko-http_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/scaladsl/server/directives/FileAndResourceDirectives.tasty lib=pekko-http_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/scaladsl/server/directives/FileUploadDirectives.tasty lib=pekko-http_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/scaladsl/server/directives/FramedEntityStreamingDirectives.tasty lib=pekko-http_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/scaladsl/server/directives/FutureDirectives.tasty lib=pekko-http_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/scaladsl/server/directives/HeaderDirectives.tasty lib=pekko-http_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/scaladsl/server/directives/LogEntry.tasty lib=pekko-http_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/scaladsl/server/directives/LoggingMagnet.tasty lib=pekko-http_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/scaladsl/server/directives/RangeDirectives.tasty lib=pekko-http_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/scaladsl/server/directives/TimeoutDirectives.tasty lib=pekko-http_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/scaladsl/server/directives/UploadTempFiles.tasty lib=pekko-http_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/scaladsl/server/directives/WebSocketDirectives.tasty lib=pekko-http_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/scaladsl/settings/RoutingSettings.tasty lib=pekko-http_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/scaladsl/settings/ServerSentEventSettings.tasty lib=pekko-http_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/scaladsl/unmarshalling/MultipartUnmarshallers.tasty lib=pekko-http_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/scaladsl/unmarshalling/PredefinedFromEntityUnmarshallers.tasty lib=pekko-http_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/scaladsl/unmarshalling/PredefinedFromStringUnmarshallers.tasty lib=pekko-http_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/scaladsl/unmarshalling/Unmarshaller.tasty lib=pekko-http_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/scaladsl/unmarshalling/sse/EventStreamParser.tasty lib=pekko-http_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/scaladsl/unmarshalling/sse/EventStreamUnmarshalling.tasty lib=pekko-http_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/scaladsl/unmarshalling/sse/LineParser.tasty lib=pekko-http_3-2.0.0-M2.jar
+    FAIL-ALONE org/apache/pekko/http/scaladsl/unmarshalling/sse/ServerSentEventParser.tasty lib=pekko-http_3-2.0.0-M2.jar
+    SUMMARY files=285 fail-alone=67 lib=pekko-http_3-2.0.0-M2.jar
+OK com.typesafe.akka::akka-actor:2.6.21 akka-actor_3-2.6.21.jar
+    HIT OTHER Apply class [final] akka.io.SelectionHandler$.ChannelRegistryImpl.OP_READ_AND_WRITE: 5 src=akka-actor/src/main/scala/akka/io/SelectionHandler.scala:148 lib=akka-actor_3-2.6.21.jar
+    HIT OTHER Select object [final] akka.dispatch.Mailbox$.shouldNotProcessMask: -3 src=akka-actor/src/main/scala/akka/dispatch/Mailbox.scala:43 lib=akka-actor_3-2.6.21.jar
+    HIT OTHER Select object [final] akka.dispatch.Mailbox$.suspendMask: -4 src=akka-actor/src/main/scala/akka/dispatch/Mailbox.scala:44 lib=akka-actor_3-2.6.21.jar
+    HIT OTHER Select trait [final] akka.serialization.BaseSerializer.SerializationIdentifiers: "akka.actor.serialization-identifiers" src=akka-actor/src/main/scala/akka/serialization/Serializer.scala:238 lib=akka-actor_3-2.6.21.jar
+    HIT OTHER TypeApply class [final,private] akka.dispatch.Mailboxes.rmqClass: classOf[akka.dispatch.RequiresMessageQueue[?]] src=akka-actor/src/main/scala/akka/dispatch/Mailboxes.scala:102 lib=akka-actor_3-2.6.21.jar
+    SUMMARY files=660 fail-alone=0 lib=akka-actor_3-2.6.21.jar
+OK org.typelevel::log4cats-core:latest.release log4cats-core_3-2.8.0.jar
+    SUMMARY files=29 fail-alone=0 lib=log4cats-core_3-2.8.0.jar
+OK org.typelevel::kittens:latest.release kittens_3-3.5.0.jar
+    SUMMARY files=42 fail-alone=0 lib=kittens_3-3.5.0.jar
+OK org.typelevel::squants:latest.release squants_3-1.8.3.jar
+    SUMMARY files=692 fail-alone=0 lib=squants_3-1.8.3.jar
+OK org.typelevel::cats-parse:latest.release cats-parse_3-1.1.0.jar
+    SUMMARY files=18 fail-alone=0 lib=cats-parse_3-1.1.0.jar
+OK org.typelevel::literally:latest.release literally_3-1.2.0.jar
+    SUMMARY files=1 fail-alone=0 lib=literally_3-1.2.0.jar
+OK org.typelevel::fs2-grpc-runtime:latest.release fs2-grpc-runtime_3-3.1.2.jar
+    SUMMARY files=37 fail-alone=0 lib=fs2-grpc-runtime_3-3.1.2.jar
+OK com.github.julien-truffaut::monocle-core:latest.release monocle-core_3-3.0.0-M6.jar
+    SUMMARY files=215 fail-alone=0 lib=monocle-core_3-3.0.0-M6.jar
+OK dev.zio::zio-json:latest.release zio-json_3-1.1.1.jar
+    SUMMARY files=111 fail-alone=0 lib=zio-json_3-1.1.1.jar
+OK dev.zio::zio-http:latest.release zio-http_3-3.11.6.jar
+    FAIL-ALONE zio/http/netty/ChannelFactories.tasty lib=zio-http_3-3.11.6.jar
+    FAIL-ALONE zio/http/netty/EventLoopGroups.tasty lib=zio-http_3-3.11.6.jar
+    FAIL-ALONE zio/http/netty/model/Conversions.tasty lib=zio-http_3-3.11.6.jar
+    HIT OTHER Apply object [final] zio.http.Path$.Flag$.LeadingSlash$.mask: 1 src=zio-http/shared/src/main/scala/zio/http/Path.scala:486 lib=zio-http_3-3.11.6.jar
+    HIT OTHER Apply object [final] zio.http.Path$.Flag$.TrailingSlash$.mask: 2 src=zio-http/shared/src/main/scala/zio/http/Path.scala:496 lib=zio-http_3-3.11.6.jar
+    HIT OTHER Select object [final] zio.http.Path$.Flag$.LeadingSlash$.invertMask: -2 src=zio-http/shared/src/main/scala/zio/http/Path.scala:487 lib=zio-http_3-3.11.6.jar
+    HIT OTHER Select object [final] zio.http.Path$.Flag$.TrailingSlash$.invertMask: -3 src=zio-http/shared/src/main/scala/zio/http/Path.scala:497 lib=zio-http_3-3.11.6.jar
+    SUMMARY files=236 fail-alone=3 lib=zio-http_3-3.11.6.jar
+OK dev.zio::zio-schema:latest.release zio-schema_3-1.9.0.jar
+    SUMMARY files=67 fail-alone=0 lib=zio-schema_3-1.9.0.jar
+OK dev.zio::zio-config:latest.release zio-config_3-4.1.0.jar
+    SUMMARY files=12 fail-alone=0 lib=zio-config_3-4.1.0.jar
+OK dev.zio::zio-prelude:latest.release zio-prelude_3-1.0.0-RC48.jar
+    SUMMARY files=137 fail-alone=0 lib=zio-prelude_3-1.0.0-RC48.jar
+OK dev.zio::zio-kafka:latest.release zio-kafka_3-3.8.0.jar
+    SUMMARY files=79 fail-alone=0 lib=zio-kafka_3-3.8.0.jar
+OK com.github.ghostdogpr::caliban:latest.release caliban_3-3.2.0.jar
+    FAIL-ALONE caliban/GraphQLRequest.tasty lib=caliban_3-3.2.0.jar
+    FAIL-ALONE caliban/GraphQLWSInput.tasty lib=caliban_3-3.2.0.jar
+    FAIL-ALONE caliban/GraphQLWSOutput.tasty lib=caliban_3-3.2.0.jar
+    FAIL-ALONE caliban/interop/circe/json.tasty lib=caliban_3-3.2.0.jar
+    FAIL-ALONE caliban/interop/jsoniter/ValueJsoniter.tasty lib=caliban_3-3.2.0.jar
+    FAIL-ALONE caliban/interop/play/json.tasty lib=caliban_3-3.2.0.jar
+    FAIL-ALONE caliban/interop/tapir/schema.tasty lib=caliban_3-3.2.0.jar
+    FAIL-ALONE caliban/interop/zio/json.tasty lib=caliban_3-3.2.0.jar
+    SUMMARY files=179 fail-alone=8 lib=caliban_3-3.2.0.jar
+OK com.disneystreaming.smithy4s::smithy4s-core:latest.release smithy4s-core_3-0.19.13.jar
+    SUMMARY files=371 fail-alone=0 lib=smithy4s-core_3-0.19.13.jar
+OK org.scala-js::scalajs-stubs:latest.release scalajs-stubs_3-1.1.0.jar
+    SUMMARY files=4 fail-alone=0 lib=scalajs-stubs_3-1.1.0.jar
+OK com.outr::scribe:latest.release scribe_3-3.19.0.jar
+    SUMMARY files=90 fail-alone=0 lib=scribe_3-3.19.0.jar
+OK org.json4s::json4s-core:latest.release json4s-core_3-4.1.0-M8.jar
+    FAIL-ALONE org/json4s/reflect/ScalaSigReader.tasty lib=json4s-core_3-4.1.0-M8.jar
+    SUMMARY files=43 fail-alone=1 lib=json4s-core_3-4.1.0-M8.jar
+OK org.json4s::json4s-native:latest.release json4s-native_3-4.1.0-M8.jar
+    SUMMARY files=3 fail-alone=0 lib=json4s-native_3-4.1.0-M8.jar
+OK io.bullet::borer-core:latest.release borer-core_3-1.18.0.jar
+    HIT OTHER Apply class [final,private] io.bullet.borer.cbor.CborValidation$.Receiver.MAP: 1073741824 src=core/src/main/scala/io/bullet/borer/cbor/CborValidation.scala:54 lib=borer-core_3-1.18.0.jar
+    HIT OTHER Apply class [final,private] io.bullet.borer.cbor.CborValidation$.Receiver.UNBOUNDED: -2147483648 src=core/src/main/scala/io/bullet/borer/cbor/CborValidation.scala:55 lib=borer-core_3-1.18.0.jar
+    HIT OTHER Apply object [final] io.bullet.borer.DataItem$.AllButBreak: 15728639 src=core/src/main/scala/io/bullet/borer/DataItem.scala:73 lib=borer-core_3-1.18.0.jar
+    HIT OTHER Apply object [final] io.bullet.borer.DataItem$.ArrayHeader: 65536 src=core/src/main/scala/io/bullet/borer/DataItem.scala:60 lib=borer-core_3-1.18.0.jar
+    HIT OTHER Apply object [final] io.bullet.borer.DataItem$.ArrayStart: 131072 src=core/src/main/scala/io/bullet/borer/DataItem.scala:61 lib=borer-core_3-1.18.0.jar
+    HIT OTHER Apply object [final] io.bullet.borer.DataItem$.Boolean: 4 src=core/src/main/scala/io/bullet/borer/DataItem.scala:46 lib=borer-core_3-1.18.0.jar
+    HIT OTHER Apply object [final] io.bullet.borer.DataItem$.Break: 1048576 src=core/src/main/scala/io/bullet/borer/DataItem.scala:64 lib=borer-core_3-1.18.0.jar
+    HIT OTHER Apply object [final] io.bullet.borer.DataItem$.Bytes: 16384 src=core/src/main/scala/io/bullet/borer/DataItem.scala:58 lib=borer-core_3-1.18.0.jar
+    HIT OTHER Apply object [final] io.bullet.borer.DataItem$.BytesStart: 32768 src=core/src/main/scala/io/bullet/borer/DataItem.scala:59 lib=borer-core_3-1.18.0.jar
+    HIT OTHER Apply object [final] io.bullet.borer.DataItem$.Chars: 2048 src=core/src/main/scala/io/bullet/borer/DataItem.scala:55 lib=borer-core_3-1.18.0.jar
+    HIT OTHER Apply object [final] io.bullet.borer.DataItem$.Complex: 1024000 src=core/src/main/scala/io/bullet/borer/DataItem.scala:72 lib=borer-core_3-1.18.0.jar
+    HIT OTHER Apply object [final] io.bullet.borer.DataItem$.Double: 256 src=core/src/main/scala/io/bullet/borer/DataItem.scala:52 lib=borer-core_3-1.18.0.jar
+    HIT OTHER Apply object [final] io.bullet.borer.DataItem$.EndOfInput: 8388608 src=core/src/main/scala/io/bullet/borer/DataItem.scala:67 lib=borer-core_3-1.18.0.jar
+    HIT OTHER Apply object [final] io.bullet.borer.DataItem$.Float16: 64 src=core/src/main/scala/io/bullet/borer/DataItem.scala:50 lib=borer-core_3-1.18.0.jar
+    HIT OTHER Apply object [final] io.bullet.borer.DataItem$.Float: 128 src=core/src/main/scala/io/bullet/borer/DataItem.scala:51 lib=borer-core_3-1.18.0.jar
+    HIT OTHER Apply object [final] io.bullet.borer.DataItem$.Int: 8 src=core/src/main/scala/io/bullet/borer/DataItem.scala:47 lib=borer-core_3-1.18.0.jar
+    HIT OTHER Apply object [final] io.bullet.borer.DataItem$.Long: 16 src=core/src/main/scala/io/bullet/borer/DataItem.scala:48 lib=borer-core_3-1.18.0.jar
+    HIT OTHER Apply object [final] io.bullet.borer.DataItem$.MapHeader: 262144 src=core/src/main/scala/io/bullet/borer/DataItem.scala:62 lib=borer-core_3-1.18.0.jar
+    HIT OTHER Apply object [final] io.bullet.borer.DataItem$.MapStart: 524288 src=core/src/main/scala/io/bullet/borer/DataItem.scala:63 lib=borer-core_3-1.18.0.jar
+    HIT OTHER Apply object [final] io.bullet.borer.DataItem$.Null: 1 src=core/src/main/scala/io/bullet/borer/DataItem.scala:44 lib=borer-core_3-1.18.0.jar
+    HIT OTHER Apply object [final] io.bullet.borer.DataItem$.NumberString: 512 src=core/src/main/scala/io/bullet/borer/DataItem.scala:53 lib=borer-core_3-1.18.0.jar
+    HIT OTHER Apply object [final] io.bullet.borer.DataItem$.OverLong: 32 src=core/src/main/scala/io/bullet/borer/DataItem.scala:49 lib=borer-core_3-1.18.0.jar
+    HIT OTHER Apply object [final] io.bullet.borer.DataItem$.SimpleValue: 4194304 src=core/src/main/scala/io/bullet/borer/DataItem.scala:66 lib=borer-core_3-1.18.0.jar
+    HIT OTHER Apply object [final] io.bullet.borer.DataItem$.String: 1024 src=core/src/main/scala/io/bullet/borer/DataItem.scala:54 lib=borer-core_3-1.18.0.jar
+    HIT OTHER Apply object [final] io.bullet.borer.DataItem$.Tag: 2097152 src=core/src/main/scala/io/bullet/borer/DataItem.scala:65 lib=borer-core_3-1.18.0.jar
+    HIT OTHER Apply object [final] io.bullet.borer.DataItem$.Text: 4096 src=core/src/main/scala/io/bullet/borer/DataItem.scala:56 lib=borer-core_3-1.18.0.jar
+    HIT OTHER Apply object [final] io.bullet.borer.DataItem$.TextStart: 8192 src=core/src/main/scala/io/bullet/borer/DataItem.scala:57 lib=borer-core_3-1.18.0.jar
+    HIT OTHER Apply object [final] io.bullet.borer.DataItem$.Undefined: 2 src=core/src/main/scala/io/bullet/borer/DataItem.scala:45 lib=borer-core_3-1.18.0.jar
+    HIT OTHER Select class [final,private] io.bullet.borer.cbor.CborValidation$.Receiver.DEFAULT_MASK: 15728639 src=core/src/main/scala/io/bullet/borer/cbor/CborValidation.scala:53 lib=borer-core_3-1.18.0.jar
+    SUMMARY files=75 fail-alone=0 lib=borer-core_3-1.18.0.jar
+OK com.github.plokhotnyuk.jsoniter-scala::jsoniter-scala-core:latest.release jsoniter-scala-core_3-2.41.7.jar
+    SUMMARY files=11 fail-alone=0 lib=jsoniter-scala-core_3-2.41.7.jar
+OK org.scalanlp::breeze:latest.release breeze_3-2.1.0.jar
+    SUMMARY files=641 fail-alone=0 lib=breeze_3-2.1.0.jar
+RESOLVE-FAIL org.apache.spark::spark-core:latest.release
+      not found: https://repo1.maven.org/maven2/org/apache/spark/spark-core_3/maven-metadata.xml
+OK com.typesafe.play::play:2.9.5 play_3-2.9.5.jar
+    SUMMARY files=480 fail-alone=0 lib=play_3-2.9.5.jar
+OK org.playframework::play:latest.release play_3-3.1.0-M9.jar
+    SUMMARY files=477 fail-alone=0 lib=play_3-3.1.0-M9.jar
+OK org.scalameta::scalameta:latest.release scalameta_3-4.17.4.jar
+    SUMMARY files=31 fail-alone=0 lib=scalameta_3-4.17.4.jar
+RESOLVE-FAIL org.scalameta::metals:latest.release
+      not found: https://repo1.maven.org/maven2/org/scalameta/metals_3/maven-metadata.xml
+OK org.scala-lang::scala3-compiler:3.7.3 scala3-compiler_3-3.3.6.jar
+    HIT BLOCK stats=0 class [inline,private] dotty.tools.backend.sjs.JSCodeGen.GenericGlobalObjectInformationMsg: "\n  See https://www.scala-js.org/doc/interoperability/global-scope.html for further information." src=compiler/src/dotty/tools/backend/sjs/JSCodeGen.scala:4555 lib=scala3-compiler_3-3.3.6.jar
+    HIT OTHER Apply class [final] dotty.tools.backend.jvm.GenBCodeOps.PrivateStaticFinal: 26 src=compiler/src/dotty/tools/backend/jvm/GenBCodeOps.scala:15 lib=scala3-compiler_3-3.3.6.jar
+    HIT OTHER Apply class [final] dotty.tools.backend.jvm.GenBCodeOps.PublicStatic: 9 src=compiler/src/dotty/tools/backend/jvm/GenBCodeOps.scala:13 lib=scala3-compiler_3-3.3.6.jar
+    HIT OTHER Apply class [final] dotty.tools.backend.jvm.GenBCodeOps.PublicStaticFinal: 25 src=compiler/src/dotty/tools/backend/jvm/GenBCodeOps.scala:14 lib=scala3-compiler_3-3.3.6.jar
+    HIT OTHER Apply local [inline] dotty.tools.dotc.core.NameOps$.funArity.MaxSafeInt: 214748364 src=compiler/src/dotty/tools/dotc/core/NameOps.scala:207 lib=scala3-compiler_3-3.3.6.jar
+    HIT OTHER Apply object [final,private] dotty.tools.sjs.ir.Trees$.ApplyFlags$.ConstructorBit: 2 src=out/bootstrap/scala3-compiler-bootstrapped/scala-3.3.6-bin-nonbootstrapped/src_managed/main/scalajs-ir-src/org/scalajs/ir/Trees.scala:1309 lib=scala3-compiler_3-3.3.6.jar
+    HIT OTHER Apply object [final,private] dotty.tools.sjs.ir.Trees$.ApplyFlags$.PrivateBit: 1 src=out/bootstrap/scala3-compiler-bootstrapped/scala-3.3.6-bin-nonbootstrapped/src_managed/main/scalajs-ir-src/org/scalajs/ir/Trees.scala:1306 lib=scala3-compiler_3-3.3.6.jar
+    HIT OTHER Apply object [final,private] dotty.tools.sjs.ir.Trees$.MemberFlags$.MutableBit: 8 src=out/bootstrap/scala3-compiler-bootstrapped/scala-3.3.6-bin-nonbootstrapped/src_managed/main/scalajs-ir-src/org/scalajs/ir/Trees.scala:1415 lib=scala3-compiler_3-3.3.6.jar
+    HIT OTHER Apply object [final,private] dotty.tools.sjs.ir.Trees$.MemberNamespace$.ConstructorFlag: 4 src=out/bootstrap/scala3-compiler-bootstrapped/scala-3.3.6-bin-nonbootstrapped/src_managed/main/scalajs-ir-src/org/scalajs/ir/Trees.scala:1351 lib=scala3-compiler_3-3.3.6.jar
+    HIT OTHER Apply object [final,private] dotty.tools.sjs.ir.Trees$.MemberNamespace$.PrivateFlag: 2 src=out/bootstrap/scala3-compiler-bootstrapped/scala-3.3.6-bin-nonbootstrapped/src_managed/main/scalajs-ir-src/org/scalajs/ir/Trees.scala:1348 lib=scala3-compiler_3-3.3.6.jar
+    HIT OTHER Apply object [final,private] dotty.tools.sjs.ir.Trees$.MemberNamespace$.StaticFlag: 1 src=out/bootstrap/scala3-compiler-bootstrapped/scala-3.3.6-bin-nonbootstrapped/src_managed/main/scalajs-ir-src/org/scalajs/ir/Trees.scala:1345 lib=scala3-compiler_3-3.3.6.jar
+    HIT OTHER Apply object [final,private] dotty.tools.sjs.ir.Trees$.OptimizerHints$.InlineMask: 1 src=out/bootstrap/scala3-compiler-bootstrapped/scala-3.3.6-bin-nonbootstrapped/src_managed/main/scalajs-ir-src/org/scalajs/ir/Trees.scala:1273 lib=scala3-compiler_3-3.3.6.jar
+    HIT OTHER Apply object [final,private] dotty.tools.sjs.ir.Trees$.OptimizerHints$.NoinlineMask: 2 src=out/bootstrap/scala3-compiler-bootstrapped/scala-3.3.6-bin-nonbootstrapped/src_managed/main/scalajs-ir-src/org/scalajs/ir/Trees.scala:1276 lib=scala3-compiler_3-3.3.6.jar
+    HIT OTHER Apply object [final] dotty.tools.sjs.ir.Tags$.TagApply: 23 src=out/bootstrap/scala3-compiler-bootstrapped/scala-3.3.6-bin-nonbootstrapped/src_managed/main/scalajs-ir-src/org/scalajs/ir/Tags.scala:48 lib=scala3-compiler_3-3.3.6.jar
+    HIT OTHER Apply object [final] dotty.tools.sjs.ir.Tags$.TagApplyDynamicImport: 74 src=out/bootstrap/scala3-compiler-bootstrapped/scala-3.3.6-bin-nonbootstrapped/src_managed/main/scalajs-ir-src/org/scalajs/ir/Tags.scala:112 lib=scala3-compiler_3-3.3.6.jar
+    HIT OTHER Apply object [final] dotty.tools.sjs.ir.Tags$.TagApplyStatic: 25 src=out/bootstrap/scala3-compiler-bootstrapped/scala-3.3.6-bin-nonbootstrapped/src_managed/main/scalajs-ir-src/org/scalajs/ir/Tags.scala:50 lib=scala3-compiler_3-3.3.6.jar
+    HIT OTHER Apply object [final] dotty.tools.sjs.ir.Tags$.TagApplyStatically: 24 src=out/bootstrap/scala3-compiler-bootstrapped/scala-3.3.6-bin-nonbootstrapped/src_managed/main/scalajs-ir-src/org/scalajs/ir/Tags.scala:49 lib=scala3-compiler_3-3.3.6.jar
+    HIT OTHER Apply object [final] dotty.tools.sjs.ir.Tags$.TagArrayLength: 30 src=out/bootstrap/scala3-compiler-bootstrapped/scala-3.3.6-bin-nonbootstrapped/src_managed/main/scalajs-ir-src/org/scalajs/ir/Tags.scala:55 lib=scala3-compiler_3-3.3.6.jar
+    HIT OTHER Apply object [final] dotty.tools.sjs.ir.Tags$.TagArraySelect: 31 src=out/bootstrap/scala3-compiler-bootstrapped/scala-3.3.6-bin-nonbootstrapped/src_managed/main/scalajs-ir-src/org/scalajs/ir/Tags.scala:56 lib=scala3-compiler_3-3.3.6.jar
+    HIT OTHER Apply object [final] dotty.tools.sjs.ir.Tags$.TagArrayType: 15 src=out/bootstrap/scala3-compiler-bootstrapped/scala-3.3.6-bin-nonbootstrapped/src_managed/main/scalajs-ir-src/org/scalajs/ir/Tags.scala:170 lib=scala3-compiler_3-3.3.6.jar
+    HIT OTHER Apply object [final] dotty.tools.sjs.ir.Tags$.TagArrayTypeRef: 13 src=out/bootstrap/scala3-compiler-bootstrapped/scala-3.3.6-bin-nonbootstrapped/src_managed/main/scalajs-ir-src/org/scalajs/ir/Tags.scala:188 lib=scala3-compiler_3-3.3.6.jar
+    HIT OTHER Apply object [final] dotty.tools.sjs.ir.Tags$.TagArrayValue: 29 src=out/bootstrap/scala3-compiler-bootstrapped/scala-3.3.6-bin-nonbootstrapped/src_managed/main/scalajs-ir-src/org/scalajs/ir/Tags.scala:54 lib=scala3-compiler_3-3.3.6.jar
+    HIT OTHER Apply object [final] dotty.tools.sjs.ir.Tags$.TagAsInstanceOf: 35 src=out/bootstrap/scala3-compiler-bootstrapped/scala-3.3.6-bin-nonbootstrapped/src_managed/main/scalajs-ir-src/org/scalajs/ir/Tags.scala:60 lib=scala3-compiler_3-3.3.6.jar
+    HIT OTHER Apply object [final] dotty.tools.sjs.ir.Tags$.TagAssign: 7 src=out/bootstrap/scala3-compiler-bootstrapped/scala-3.3.6-bin-nonbootstrapped/src_managed/main/scalajs-ir-src/org/scalajs/ir/Tags.scala:31 lib=scala3-compiler_3-3.3.6.jar
+    HIT OTHER Apply object [final] dotty.tools.sjs.ir.Tags$.TagBinaryOp: 27 src=out/bootstrap/scala3-compiler-bootstrapped/scala-3.3.6-bin-nonbootstrapped/src_managed/main/scalajs-ir-src/org/scalajs/ir/Tags.scala:52 lib=scala3-compiler_3-3.3.6.jar
+    HIT OTHER Apply object [final] dotty.tools.sjs.ir.Tags$.TagBlock: 5 src=out/bootstrap/scala3-compiler-bootstrapped/scala-3.3.6-bin-nonbootstrapped/src_managed/main/scalajs-ir-src/org/scalajs/ir/Tags.scala:29 lib=scala3-compiler_3-3.3.6.jar
+    HIT OTHER Apply object [final] dotty.tools.sjs.ir.Tags$.TagBooleanLiteral: 58 src=out/bootstrap/scala3-compiler-bootstrapped/scala-3.3.6-bin-nonbootstrapped/src_managed/main/scalajs-ir-src/org/scalajs/ir/Tags.scala:85 lib=scala3-compiler_3-3.3.6.jar
+    HIT OTHER Apply object [final] dotty.tools.sjs.ir.Tags$.TagBooleanRef: 2 src=out/bootstrap/scala3-compiler-bootstrapped/scala-3.3.6-bin-nonbootstrapped/src_managed/main/scalajs-ir-src/org/scalajs/ir/Tags.scala:177 lib=scala3-compiler_3-3.3.6.jar
+    HIT OTHER Apply object [final] dotty.tools.sjs.ir.Tags$.TagBooleanType: 4 src=out/bootstrap/scala3-compiler-bootstrapped/scala-3.3.6-bin-nonbootstrapped/src_managed/main/scalajs-ir-src/org/scalajs/ir/Tags.scala:159 lib=scala3-compiler_3-3.3.6.jar
+    HIT OTHER Apply object [final] dotty.tools.sjs.ir.Tags$.TagByteLiteral: 60 src=out/bootstrap/scala3-compiler-bootstrapped/scala-3.3.6-bin-nonbootstrapped/src_managed/main/scalajs-ir-src/org/scalajs/ir/Tags.scala:87 lib=scala3-compiler_3-3.3.6.jar
+    HIT OTHER Apply object [final] dotty.tools.sjs.ir.Tags$.TagByteRef: 4 src=out/bootstrap/scala3-compiler-bootstrapped/scala-3.3.6-bin-nonbootstrapped/src_managed/main/scalajs-ir-src/org/scalajs/ir/Tags.scala:179 lib=scala3-compiler_3-3.3.6.jar
+    HIT OTHER Apply object [final] dotty.tools.sjs.ir.Tags$.TagByteType: 6 src=out/bootstrap/scala3-compiler-bootstrapped/scala-3.3.6-bin-nonbootstrapped/src_managed/main/scalajs-ir-src/org/scalajs/ir/Tags.scala:161 lib=scala3-compiler_3-3.3.6.jar
+    HIT OTHER Apply object [final] dotty.tools.sjs.ir.Tags$.TagCharLiteral: 59 src=out/bootstrap/scala3-compiler-bootstrapped/scala-3.3.6-bin-nonbootstrapped/src_managed/main/scalajs-ir-src/org/scalajs/ir/Tags.scala:86 lib=scala3-compiler_3-3.3.6.jar
+    HIT OTHER Apply object [final] dotty.tools.sjs.ir.Tags$.TagCharRef: 3 src=out/bootstrap/scala3-compiler-bootstrapped/scala-3.3.6-bin-nonbootstrapped/src_managed/main/scalajs-ir-src/org/scalajs/ir/Tags.scala:178 lib=scala3-compiler_3-3.3.6.jar
+    HIT OTHER Apply object [final] dotty.tools.sjs.ir.Tags$.TagCharType: 5 src=out/bootstrap/scala3-compiler-bootstrapped/scala-3.3.6-bin-nonbootstrapped/src_managed/main/scalajs-ir-src/org/scalajs/ir/Tags.scala:160 lib=scala3-compiler_3-3.3.6.jar
+    HIT OTHER Apply object [final] dotty.tools.sjs.ir.Tags$.TagClassOf: 67 src=out/bootstrap/scala3-compiler-bootstrapped/scala-3.3.6-bin-nonbootstrapped/src_managed/main/scalajs-ir-src/org/scalajs/ir/Tags.scala:94 lib=scala3-compiler_3-3.3.6.jar
+    HIT OTHER Apply object [final] dotty.tools.sjs.ir.Tags$.TagClassRef: 12 src=out/bootstrap/scala3-compiler-bootstrapped/scala-3.3.6-bin-nonbootstrapped/src_managed/main/scalajs-ir-src/org/scalajs/ir/Tags.scala:187 lib=scala3-compiler_3-3.3.6.jar
+    HIT OTHER Apply object [final] dotty.tools.sjs.ir.Tags$.TagClassType: 14 src=out/bootstrap/scala3-compiler-bootstrapped/scala-3.3.6-bin-nonbootstrapped/src_managed/main/scalajs-ir-src/org/scalajs/ir/Tags.scala:169 lib=scala3-compiler_3-3.3.6.jar
+    HIT OTHER Apply object [final] dotty.tools.sjs.ir.Tags$.TagClone: 75 src=out/bootstrap/scala3-compiler-bootstrapped/scala-3.3.6-bin-nonbootstrapped/src_managed/main/scalajs-ir-src/org/scalajs/ir/Tags.scala:116 lib=scala3-compiler_3-3.3.6.jar
+    HIT OTHER Apply object [final] dotty.tools.sjs.ir.Tags$.TagClosure: 70 src=out/bootstrap/scala3-compiler-bootstrapped/scala-3.3.6-bin-nonbootstrapped/src_managed/main/scalajs-ir-src/org/scalajs/ir/Tags.scala:98 lib=scala3-compiler_3-3.3.6.jar
+    HIT OTHER Apply object [final] dotty.tools.sjs.ir.Tags$.TagCreateJSClass: 71 src=out/bootstrap/scala3-compiler-bootstrapped/scala-3.3.6-bin-nonbootstrapped/src_managed/main/scalajs-ir-src/org/scalajs/ir/Tags.scala:99 lib=scala3-compiler_3-3.3.6.jar
+    HIT OTHER Apply object [final] dotty.tools.sjs.ir.Tags$.TagDebugger: 17 src=out/bootstrap/scala3-compiler-bootstrapped/scala-3.3.6-bin-nonbootstrapped/src_managed/main/scalajs-ir-src/org/scalajs/ir/Tags.scala:41 lib=scala3-compiler_3-3.3.6.jar
+    HIT OTHER Apply object [final] dotty.tools.sjs.ir.Tags$.TagDoWhile: 11 src=out/bootstrap/scala3-compiler-bootstrapped/scala-3.3.6-bin-nonbootstrapped/src_managed/main/scalajs-ir-src/org/scalajs/ir/Tags.scala:35 lib=scala3-compiler_3-3.3.6.jar
+    HIT OTHER Apply object [final] dotty.tools.sjs.ir.Tags$.TagDoubleLiteral: 65 src=out/bootstrap/scala3-compiler-bootstrapped/scala-3.3.6-bin-nonbootstrapped/src_managed/main/scalajs-ir-src/org/scalajs/ir/Tags.scala:92 lib=scala3-compiler_3-3.3.6.jar
+    HIT OTHER Apply object [final] dotty.tools.sjs.ir.Tags$.TagDoubleRef: 9 src=out/bootstrap/scala3-compiler-bootstrapped/scala-3.3.6-bin-nonbootstrapped/src_managed/main/scalajs-ir-src/org/scalajs/ir/Tags.scala:184 lib=scala3-compiler_3-3.3.6.jar
+    HIT OTHER Apply object [final] dotty.tools.sjs.ir.Tags$.TagDoubleType: 11 src=out/bootstrap/scala3-compiler-bootstrapped/scala-3.3.6-bin-nonbootstrapped/src_managed/main/scalajs-ir-src/org/scalajs/ir/Tags.scala:166 lib=scala3-compiler_3-3.3.6.jar
+    HIT OTHER Apply object [final] dotty.tools.sjs.ir.Tags$.TagFloatLiteral: 64 src=out/bootstrap/scala3-compiler-bootstrapped/scala-3.3.6-bin-nonbootstrapped/src_managed/main/scalajs-ir-src/org/scalajs/ir/Tags.scala:91 lib=scala3-compiler_3-3.3.6.jar
+    HIT OTHER Apply object [final] dotty.tools.sjs.ir.Tags$.TagFloatRef: 8 src=out/bootstrap/scala3-compiler-bootstrapped/scala-3.3.6-bin-nonbootstrapped/src_managed/main/scalajs-ir-src/org/scalajs/ir/Tags.scala:183 lib=scala3-compiler_3-3.3.6.jar
+    HIT OTHER Apply object [final] dotty.tools.sjs.ir.Tags$.TagFloatType: 10 src=out/bootstrap/scala3-compiler-bootstrapped/scala-3.3.6-bin-nonbootstrapped/src_managed/main/scalajs-ir-src/org/scalajs/ir/Tags.scala:165 lib=scala3-compiler_3-3.3.6.jar
+    HIT OTHER Apply object [final] dotty.tools.sjs.ir.Tags$.TagForIn: 12 src=out/bootstrap/scala3-compiler-bootstrapped/scala-3.3.6-bin-nonbootstrapped/src_managed/main/scalajs-ir-src/org/scalajs/ir/Tags.scala:36 lib=scala3-compiler_3-3.3.6.jar
+    HIT OTHER Apply object [final] dotty.tools.sjs.ir.Tags$.TagGetClass: 36 src=out/bootstrap/scala3-compiler-bootstrapped/scala-3.3.6-bin-nonbootstrapped/src_managed/main/scalajs-ir-src/org/scalajs/ir/Tags.scala:61 lib=scala3-compiler_3-3.3.6.jar
+    HIT OTHER Apply object [final] dotty.tools.sjs.ir.Tags$.TagIdentityHashCode: 72 src=out/bootstrap/scala3-compiler-bootstrapped/scala-3.3.6-bin-nonbootstrapped/src_managed/main/scalajs-ir-src/org/scalajs/ir/Tags.scala:107 lib=scala3-compiler_3-3.3.6.jar
+    HIT OTHER Apply object [final] dotty.tools.sjs.ir.Tags$.TagIf: 9 src=out/bootstrap/scala3-compiler-bootstrapped/scala-3.3.6-bin-nonbootstrapped/src_managed/main/scalajs-ir-src/org/scalajs/ir/Tags.scala:33 lib=scala3-compiler_3-3.3.6.jar
+    HIT OTHER Apply object [final] dotty.tools.sjs.ir.Tags$.TagIntLiteral: 62 src=out/bootstrap/scala3-compiler-bootstrapped/scala-3.3.6-bin-nonbootstrapped/src_managed/main/scalajs-ir-src/org/scalajs/ir/Tags.scala:89 lib=scala3-compiler_3-3.3.6.jar
+    HIT OTHER Apply object [final] dotty.tools.sjs.ir.Tags$.TagIntRef: 6 src=out/bootstrap/scala3-compiler-bootstrapped/scala-3.3.6-bin-nonbootstrapped/src_managed/main/scalajs-ir-src/org/scalajs/ir/Tags.scala:181 lib=scala3-compiler_3-3.3.6.jar
+    HIT OTHER Apply object [final] dotty.tools.sjs.ir.Tags$.TagIntType: 8 src=out/bootstrap/scala3-compiler-bootstrapped/scala-3.3.6-bin-nonbootstrapped/src_managed/main/scalajs-ir-src/org/scalajs/ir/Tags.scala:163 lib=scala3-compiler_3-3.3.6.jar
+    HIT OTHER Apply object [final] dotty.tools.sjs.ir.Tags$.TagIsInstanceOf: 34 src=out/bootstrap/scala3-compiler-bootstrapped/scala-3.3.6-bin-nonbootstrapped/src_managed/main/scalajs-ir-src/org/scalajs/ir/Tags.scala:59 lib=scala3-compiler_3-3.3.6.jar
+    HIT OTHER Apply object [final] dotty.tools.sjs.ir.Tags$.TagJSArrayConstr: 51 src=out/bootstrap/scala3-compiler-bootstrapped/scala-3.3.6-bin-nonbootstrapped/src_managed/main/scalajs-ir-src/org/scalajs/ir/Tags.scala:77 lib=scala3-compiler_3-3.3.6.jar
+    HIT OTHER Apply object [final] dotty.tools.sjs.ir.Tags$.TagJSBinaryOp: 50 src=out/bootstrap/scala3-compiler-bootstrapped/scala-3.3.6-bin-nonbootstrapped/src_managed/main/scalajs-ir-src/org/scalajs/ir/Tags.scala:76 lib=scala3-compiler_3-3.3.6.jar
+    HIT OTHER Apply object [final] dotty.tools.sjs.ir.Tags$.TagJSConstructorDef: 7 src=out/bootstrap/scala3-compiler-bootstrapped/scala-3.3.6-bin-nonbootstrapped/src_managed/main/scalajs-ir-src/org/scalajs/ir/Tags.scala:145 lib=scala3-compiler_3-3.3.6.jar
+    HIT OTHER Apply object [final] dotty.tools.sjs.ir.Tags$.TagJSDelete: 48 src=out/bootstrap/scala3-compiler-bootstrapped/scala-3.3.6-bin-nonbootstrapped/src_managed/main/scalajs-ir-src/org/scalajs/ir/Tags.scala:74 lib=scala3-compiler_3-3.3.6.jar
+    HIT OTHER Apply object [final] dotty.tools.sjs.ir.Tags$.TagJSFieldDef: 2 src=out/bootstrap/scala3-compiler-bootstrapped/scala-3.3.6-bin-nonbootstrapped/src_managed/main/scalajs-ir-src/org/scalajs/ir/Tags.scala:134 lib=scala3-compiler_3-3.3.6.jar
+    HIT OTHER Apply object [final] dotty.tools.sjs.ir.Tags$.TagJSFunctionApply: 40 src=out/bootstrap/scala3-compiler-bootstrapped/scala-3.3.6-bin-nonbootstrapped/src_managed/main/scalajs-ir-src/org/scalajs/ir/Tags.scala:66 lib=scala3-compiler_3-3.3.6.jar
+    HIT OTHER Apply object [final] dotty.tools.sjs.ir.Tags$.TagJSGlobalRef: 53 src=out/bootstrap/scala3-compiler-bootstrapped/scala-3.3.6-bin-nonbootstrapped/src_managed/main/scalajs-ir-src/org/scalajs/ir/Tags.scala:79 lib=scala3-compiler_3-3.3.6.jar
+    HIT OTHER Apply object [final] dotty.tools.sjs.ir.Tags$.TagJSImportCall: 45 src=out/bootstrap/scala3-compiler-bootstrapped/scala-3.3.6-bin-nonbootstrapped/src_managed/main/scalajs-ir-src/org/scalajs/ir/Tags.scala:71 lib=scala3-compiler_3-3.3.6.jar
+    HIT OTHER Apply object [final] dotty.tools.sjs.ir.Tags$.TagJSImportMeta: 76 src=out/bootstrap/scala3-compiler-bootstrapped/scala-3.3.6-bin-nonbootstrapped/src_managed/main/scalajs-ir-src/org/scalajs/ir/Tags.scala:120 lib=scala3-compiler_3-3.3.6.jar
+    HIT OTHER Apply object [final] dotty.tools.sjs.ir.Tags$.TagJSLinkingInfo: 55 src=out/bootstrap/scala3-compiler-bootstrapped/scala-3.3.6-bin-nonbootstrapped/src_managed/main/scalajs-ir-src/org/scalajs/ir/Tags.scala:81 lib=scala3-compiler_3-3.3.6.jar
+    HIT OTHER Apply object [final] dotty.tools.sjs.ir.Tags$.TagJSMethodApply: 41 src=out/bootstrap/scala3-compiler-bootstrapped/scala-3.3.6-bin-nonbootstrapped/src_managed/main/scalajs-ir-src/org/scalajs/ir/Tags.scala:67 lib=scala3-compiler_3-3.3.6.jar
+    HIT OTHER Apply object [final] dotty.tools.sjs.ir.Tags$.TagJSMethodDef: 4 src=out/bootstrap/scala3-compiler-bootstrapped/scala-3.3.6-bin-nonbootstrapped/src_managed/main/scalajs-ir-src/org/scalajs/ir/Tags.scala:136 lib=scala3-compiler_3-3.3.6.jar
+    HIT OTHER Apply object [final] dotty.tools.sjs.ir.Tags$.TagJSNativeLoadSpecGlobal: 1 src=out/bootstrap/scala3-compiler-bootstrapped/scala-3.3.6-bin-nonbootstrapped/src_managed/main/scalajs-ir-src/org/scalajs/ir/Tags.scala:193 lib=scala3-compiler_3-3.3.6.jar
+    HIT OTHER Apply object [final] dotty.tools.sjs.ir.Tags$.TagJSNativeLoadSpecImport: 2 src=out/bootstrap/scala3-compiler-bootstrapped/scala-3.3.6-bin-nonbootstrapped/src_managed/main/scalajs-ir-src/org/scalajs/ir/Tags.scala:194 lib=scala3-compiler_3-3.3.6.jar
+    HIT OTHER Apply object [final] dotty.tools.sjs.ir.Tags$.TagJSNativeLoadSpecImportWithGlobalFallback: 3 src=out/bootstrap/scala3-compiler-bootstrapped/scala-3.3.6-bin-nonbootstrapped/src_managed/main/scalajs-ir-src/org/scalajs/ir/Tags.scala:195 lib=scala3-compiler_3-3.3.6.jar
+    HIT OTHER Apply object [final] dotty.tools.sjs.ir.Tags$.TagJSNativeMemberDef: 6 src=out/bootstrap/scala3-compiler-bootstrapped/scala-3.3.6-bin-nonbootstrapped/src_managed/main/scalajs-ir-src/org/scalajs/ir/Tags.scala:141 lib=scala3-compiler_3-3.3.6.jar
+    HIT OTHER Apply object [final] dotty.tools.sjs.ir.Tags$.TagJSNew: 37 src=out/bootstrap/scala3-compiler-bootstrapped/scala-3.3.6-bin-nonbootstrapped/src_managed/main/scalajs-ir-src/org/scalajs/ir/Tags.scala:63 lib=scala3-compiler_3-3.3.6.jar
+    HIT OTHER Apply object [final] dotty.tools.sjs.ir.Tags$.TagJSNewTarget: 77 src=out/bootstrap/scala3-compiler-bootstrapped/scala-3.3.6-bin-nonbootstrapped/src_managed/main/scalajs-ir-src/org/scalajs/ir/Tags.scala:124 lib=scala3-compiler_3-3.3.6.jar
+    HIT OTHER Apply object [final] dotty.tools.sjs.ir.Tags$.TagJSObjectConstr: 52 src=out/bootstrap/scala3-compiler-bootstrapped/scala-3.3.6-bin-nonbootstrapped/src_managed/main/scalajs-ir-src/org/scalajs/ir/Tags.scala:78 lib=scala3-compiler_3-3.3.6.jar
+    HIT OTHER Apply object [final] dotty.tools.sjs.ir.Tags$.TagJSPrivateSelect: 38 src=out/bootstrap/scala3-compiler-bootstrapped/scala-3.3.6-bin-nonbootstrapped/src_managed/main/scalajs-ir-src/org/scalajs/ir/Tags.scala:64 lib=scala3-compiler_3-3.3.6.jar
+    HIT OTHER Apply object [final] dotty.tools.sjs.ir.Tags$.TagJSPropertyDef: 5 src=out/bootstrap/scala3-compiler-bootstrapped/scala-3.3.6-bin-nonbootstrapped/src_managed/main/scalajs-ir-src/org/scalajs/ir/Tags.scala:137 lib=scala3-compiler_3-3.3.6.jar
+    HIT OTHER Apply object [final] dotty.tools.sjs.ir.Tags$.TagJSSelect: 39 src=out/bootstrap/scala3-compiler-bootstrapped/scala-3.3.6-bin-nonbootstrapped/src_managed/main/scalajs-ir-src/org/scalajs/ir/Tags.scala:65 lib=scala3-compiler_3-3.3.6.jar
+    HIT OTHER Apply object [final] dotty.tools.sjs.ir.Tags$.TagJSSpread: 2 src=out/bootstrap/scala3-compiler-bootstrapped/scala-3.3.6-bin-nonbootstrapped/src_managed/main/scalajs-ir-src/org/scalajs/ir/Tags.scala:24 lib=scala3-compiler_3-3.3.6.jar
+    HIT OTHER Apply object [final] dotty.tools.sjs.ir.Tags$.TagJSSuperConstructorCall: 44 src=out/bootstrap/scala3-compiler-bootstrapped/scala-3.3.6-bin-nonbootstrapped/src_managed/main/scalajs-ir-src/org/scalajs/ir/Tags.scala:70 lib=scala3-compiler_3-3.3.6.jar
+    HIT OTHER Apply object [final] dotty.tools.sjs.ir.Tags$.TagJSSuperMethodCall: 43 src=out/bootstrap/scala3-compiler-bootstrapped/scala-3.3.6-bin-nonbootstrapped/src_managed/main/scalajs-ir-src/org/scalajs/ir/Tags.scala:69 lib=scala3-compiler_3-3.3.6.jar
+    HIT OTHER Apply object [final] dotty.tools.sjs.ir.Tags$.TagJSSuperSelect: 42 src=out/bootstrap/scala3-compiler-bootstrapped/scala-3.3.6-bin-nonbootstrapped/src_managed/main/scalajs-ir-src/org/scalajs/ir/Tags.scala:68 lib=scala3-compiler_3-3.3.6.jar
+    HIT OTHER Apply object [final] dotty.tools.sjs.ir.Tags$.TagJSTypeOfGlobalRef: 54 src=out/bootstrap/scala3-compiler-bootstrapped/scala-3.3.6-bin-nonbootstrapped/src_managed/main/scalajs-ir-src/org/scalajs/ir/Tags.scala:80 lib=scala3-compiler_3-3.3.6.jar
+    HIT OTHER Apply object [final] dotty.tools.sjs.ir.Tags$.TagJSUnaryOp: 49 src=out/bootstrap/scala3-compiler-bootstrapped/scala-3.3.6-bin-nonbootstrapped/src_managed/main/scalajs-ir-src/org/scalajs/ir/Tags.scala:75 lib=scala3-compiler_3-3.3.6.jar
+    HIT OTHER Apply object [final] dotty.tools.sjs.ir.Tags$.TagLabeled: 6 src=out/bootstrap/scala3-compiler-bootstrapped/scala-3.3.6-bin-nonbootstrapped/src_managed/main/scalajs-ir-src/org/scalajs/ir/Tags.scala:30 lib=scala3-compiler_3-3.3.6.jar
+    HIT OTHER Apply object [final] dotty.tools.sjs.ir.Tags$.TagLoadJSConstructor: 46 src=out/bootstrap/scala3-compiler-bootstrapped/scala-3.3.6-bin-nonbootstrapped/src_managed/main/scalajs-ir-src/org/scalajs/ir/Tags.scala:72 lib=scala3-compiler_3-3.3.6.jar
+    HIT OTHER Apply object [final] dotty.tools.sjs.ir.Tags$.TagLoadJSModule: 47 src=out/bootstrap/scala3-compiler-bootstrapped/scala-3.3.6-bin-nonbootstrapped/src_managed/main/scalajs-ir-src/org/scalajs/ir/Tags.scala:73 lib=scala3-compiler_3-3.3.6.jar
+    HIT OTHER Apply object [final] dotty.tools.sjs.ir.Tags$.TagLoadModule: 19 src=out/bootstrap/scala3-compiler-bootstrapped/scala-3.3.6-bin-nonbootstrapped/src_managed/main/scalajs-ir-src/org/scalajs/ir/Tags.scala:44 lib=scala3-compiler_3-3.3.6.jar
+    HIT OTHER Apply object [final] dotty.tools.sjs.ir.Tags$.TagLongLiteral: 63 src=out/bootstrap/scala3-compiler-bootstrapped/scala-3.3.6-bin-nonbootstrapped/src_managed/main/scalajs-ir-src/org/scalajs/ir/Tags.scala:90 lib=scala3-compiler_3-3.3.6.jar
+    HIT OTHER Apply object [final] dotty.tools.sjs.ir.Tags$.TagLongRef: 7 src=out/bootstrap/scala3-compiler-bootstrapped/scala-3.3.6-bin-nonbootstrapped/src_managed/main/scalajs-ir-src/org/scalajs/ir/Tags.scala:182 lib=scala3-compiler_3-3.3.6.jar
+    HIT OTHER Apply object [final] dotty.tools.sjs.ir.Tags$.TagLongType: 9 src=out/bootstrap/scala3-compiler-bootstrapped/scala-3.3.6-bin-nonbootstrapped/src_managed/main/scalajs-ir-src/org/scalajs/ir/Tags.scala:164 lib=scala3-compiler_3-3.3.6.jar
+    HIT OTHER Apply object [final] dotty.tools.sjs.ir.Tags$.TagMatch: 16 src=out/bootstrap/scala3-compiler-bootstrapped/scala-3.3.6-bin-nonbootstrapped/src_managed/main/scalajs-ir-src/org/scalajs/ir/Tags.scala:40 lib=scala3-compiler_3-3.3.6.jar
+    HIT OTHER Apply object [final] dotty.tools.sjs.ir.Tags$.TagMethodDef: 3 src=out/bootstrap/scala3-compiler-bootstrapped/scala-3.3.6-bin-nonbootstrapped/src_managed/main/scalajs-ir-src/org/scalajs/ir/Tags.scala:135 lib=scala3-compiler_3-3.3.6.jar
+    HIT OTHER Apply object [final] dotty.tools.sjs.ir.Tags$.TagNew: 18 src=out/bootstrap/scala3-compiler-bootstrapped/scala-3.3.6-bin-nonbootstrapped/src_managed/main/scalajs-ir-src/org/scalajs/ir/Tags.scala:43 lib=scala3-compiler_3-3.3.6.jar
+    HIT OTHER Apply object [final] dotty.tools.sjs.ir.Tags$.TagNewArray: 28 src=out/bootstrap/scala3-compiler-bootstrapped/scala-3.3.6-bin-nonbootstrapped/src_managed/main/scalajs-ir-src/org/scalajs/ir/Tags.scala:53 lib=scala3-compiler_3-3.3.6.jar
+    HIT OTHER Apply object [final] dotty.tools.sjs.ir.Tags$.TagNoType: 17 src=out/bootstrap/scala3-compiler-bootstrapped/scala-3.3.6-bin-nonbootstrapped/src_managed/main/scalajs-ir-src/org/scalajs/ir/Tags.scala:172 lib=scala3-compiler_3-3.3.6.jar
+    HIT OTHER Apply object [final] dotty.tools.sjs.ir.Tags$.TagNothingRef: 11 src=out/bootstrap/scala3-compiler-bootstrapped/scala-3.3.6-bin-nonbootstrapped/src_managed/main/scalajs-ir-src/org/scalajs/ir/Tags.scala:186 lib=scala3-compiler_3-3.3.6.jar
+    HIT OTHER Apply object [final] dotty.tools.sjs.ir.Tags$.TagNothingType: 2 src=out/bootstrap/scala3-compiler-bootstrapped/scala-3.3.6-bin-nonbootstrapped/src_managed/main/scalajs-ir-src/org/scalajs/ir/Tags.scala:157 lib=scala3-compiler_3-3.3.6.jar
+    HIT OTHER Apply object [final] dotty.tools.sjs.ir.Tags$.TagNull: 57 src=out/bootstrap/scala3-compiler-bootstrapped/scala-3.3.6-bin-nonbootstrapped/src_managed/main/scalajs-ir-src/org/scalajs/ir/Tags.scala:84 lib=scala3-compiler_3-3.3.6.jar
+    HIT OTHER Apply object [final] dotty.tools.sjs.ir.Tags$.TagNullRef: 10 src=out/bootstrap/scala3-compiler-bootstrapped/scala-3.3.6-bin-nonbootstrapped/src_managed/main/scalajs-ir-src/org/scalajs/ir/Tags.scala:185 lib=scala3-compiler_3-3.3.6.jar
+    HIT OTHER Apply object [final] dotty.tools.sjs.ir.Tags$.TagNullType: 13 src=out/bootstrap/scala3-compiler-bootstrapped/scala-3.3.6-bin-nonbootstrapped/src_managed/main/scalajs-ir-src/org/scalajs/ir/Tags.scala:168 lib=scala3-compiler_3-3.3.6.jar
+    HIT OTHER Apply object [final] dotty.tools.sjs.ir.Tags$.TagRecordSelect: 33 src=out/bootstrap/scala3-compiler-bootstrapped/scala-3.3.6-bin-nonbootstrapped/src_managed/main/scalajs-ir-src/org/scalajs/ir/Tags.scala:58 lib=scala3-compiler_3-3.3.6.jar
+    HIT OTHER Apply object [final] dotty.tools.sjs.ir.Tags$.TagRecordType: 16 src=out/bootstrap/scala3-compiler-bootstrapped/scala-3.3.6-bin-nonbootstrapped/src_managed/main/scalajs-ir-src/org/scalajs/ir/Tags.scala:171 lib=scala3-compiler_3-3.3.6.jar
+    HIT OTHER Apply object [final] dotty.tools.sjs.ir.Tags$.TagRecordValue: 32 src=out/bootstrap/scala3-compiler-bootstrapped/scala-3.3.6-bin-nonbootstrapped/src_managed/main/scalajs-ir-src/org/scalajs/ir/Tags.scala:57 lib=scala3-compiler_3-3.3.6.jar
+    HIT OTHER Apply object [final] dotty.tools.sjs.ir.Tags$.TagReturn: 8 src=out/bootstrap/scala3-compiler-bootstrapped/scala-3.3.6-bin-nonbootstrapped/src_managed/main/scalajs-ir-src/org/scalajs/ir/Tags.scala:32 lib=scala3-compiler_3-3.3.6.jar
+    HIT OTHER Apply object [final] dotty.tools.sjs.ir.Tags$.TagSelect: 21 src=out/bootstrap/scala3-compiler-bootstrapped/scala-3.3.6-bin-nonbootstrapped/src_managed/main/scalajs-ir-src/org/scalajs/ir/Tags.scala:46 lib=scala3-compiler_3-3.3.6.jar
+    HIT OTHER Apply object [final] dotty.tools.sjs.ir.Tags$.TagSelectJSNativeMember: 73 src=out/bootstrap/scala3-compiler-bootstrapped/scala-3.3.6-bin-nonbootstrapped/src_managed/main/scalajs-ir-src/org/scalajs/ir/Tags.scala:108 lib=scala3-compiler_3-3.3.6.jar
+    HIT OTHER Apply object [final] dotty.tools.sjs.ir.Tags$.TagSelectStatic: 22 src=out/bootstrap/scala3-compiler-bootstrapped/scala-3.3.6-bin-nonbootstrapped/src_managed/main/scalajs-ir-src/org/scalajs/ir/Tags.scala:47 lib=scala3-compiler_3-3.3.6.jar
+    HIT OTHER Apply object [final] dotty.tools.sjs.ir.Tags$.TagShortLiteral: 61 src=out/bootstrap/scala3-compiler-bootstrapped/scala-3.3.6-bin-nonbootstrapped/src_managed/main/scalajs-ir-src/org/scalajs/ir/Tags.scala:88 lib=scala3-compiler_3-3.3.6.jar
+    HIT OTHER Apply object [final] dotty.tools.sjs.ir.Tags$.TagShortRef: 5 src=out/bootstrap/scala3-compiler-bootstrapped/scala-3.3.6-bin-nonbootstrapped/src_managed/main/scalajs-ir-src/org/scalajs/ir/Tags.scala:180 lib=scala3-compiler_3-3.3.6.jar
+    HIT OTHER Apply object [final] dotty.tools.sjs.ir.Tags$.TagShortType: 7 src=out/bootstrap/scala3-compiler-bootstrapped/scala-3.3.6-bin-nonbootstrapped/src_managed/main/scalajs-ir-src/org/scalajs/ir/Tags.scala:162 lib=scala3-compiler_3-3.3.6.jar
+    HIT OTHER Apply object [final] dotty.tools.sjs.ir.Tags$.TagSkip: 4 src=out/bootstrap/scala3-compiler-bootstrapped/scala-3.3.6-bin-nonbootstrapped/src_managed/main/scalajs-ir-src/org/scalajs/ir/Tags.scala:28 lib=scala3-compiler_3-3.3.6.jar
+    HIT OTHER Apply object [final] dotty.tools.sjs.ir.Tags$.TagStoreModule: 20 src=out/bootstrap/scala3-compiler-bootstrapped/scala-3.3.6-bin-nonbootstrapped/src_managed/main/scalajs-ir-src/org/scalajs/ir/Tags.scala:45 lib=scala3-compiler_3-3.3.6.jar
+    HIT OTHER Apply object [final] dotty.tools.sjs.ir.Tags$.TagStringLiteral: 66 src=out/bootstrap/scala3-compiler-bootstrapped/scala-3.3.6-bin-nonbootstrapped/src_managed/main/scalajs-ir-src/org/scalajs/ir/Tags.scala:93 lib=scala3-compiler_3-3.3.6.jar
+    HIT OTHER Apply object [final] dotty.tools.sjs.ir.Tags$.TagStringType: 12 src=out/bootstrap/scala3-compiler-bootstrapped/scala-3.3.6-bin-nonbootstrapped/src_managed/main/scalajs-ir-src/org/scalajs/ir/Tags.scala:167 lib=scala3-compiler_3-3.3.6.jar
+    HIT OTHER Apply object [final] dotty.tools.sjs.ir.Tags$.TagThis: 69 src=out/bootstrap/scala3-compiler-bootstrapped/scala-3.3.6-bin-nonbootstrapped/src_managed/main/scalajs-ir-src/org/scalajs/ir/Tags.scala:97 lib=scala3-compiler_3-3.3.6.jar
+    HIT OTHER Apply object [final] dotty.tools.sjs.ir.Tags$.TagThrow: 15 src=out/bootstrap/scala3-compiler-bootstrapped/scala-3.3.6-bin-nonbootstrapped/src_managed/main/scalajs-ir-src/org/scalajs/ir/Tags.scala:39 lib=scala3-compiler_3-3.3.6.jar
+    HIT OTHER Apply object [final] dotty.tools.sjs.ir.Tags$.TagTopLevelFieldExportDef: 4 src=out/bootstrap/scala3-compiler-bootstrapped/scala-3.3.6-bin-nonbootstrapped/src_managed/main/scalajs-ir-src/org/scalajs/ir/Tags.scala:152 lib=scala3-compiler_3-3.3.6.jar
+    HIT OTHER Apply object [final] dotty.tools.sjs.ir.Tags$.TagTopLevelMethodExportDef: 3 src=out/bootstrap/scala3-compiler-bootstrapped/scala-3.3.6-bin-nonbootstrapped/src_managed/main/scalajs-ir-src/org/scalajs/ir/Tags.scala:151 lib=scala3-compiler_3-3.3.6.jar
+    HIT OTHER Apply object [final] dotty.tools.sjs.ir.Tags$.TagTopLevelModuleExportDef: 2 src=out/bootstrap/scala3-compiler-bootstrapped/scala-3.3.6-bin-nonbootstrapped/src_managed/main/scalajs-ir-src/org/scalajs/ir/Tags.scala:150 lib=scala3-compiler_3-3.3.6.jar
+    HIT OTHER Apply object [final] dotty.tools.sjs.ir.Tags$.TagTryCatch: 13 src=out/bootstrap/scala3-compiler-bootstrapped/scala-3.3.6-bin-nonbootstrapped/src_managed/main/scalajs-ir-src/org/scalajs/ir/Tags.scala:37 lib=scala3-compiler_3-3.3.6.jar
+    HIT OTHER Apply object [final] dotty.tools.sjs.ir.Tags$.TagTryFinally: 14 src=out/bootstrap/scala3-compiler-bootstrapped/scala-3.3.6-bin-nonbootstrapped/src_managed/main/scalajs-ir-src/org/scalajs/ir/Tags.scala:38 lib=scala3-compiler_3-3.3.6.jar
+    HIT OTHER Apply object [final] dotty.tools.sjs.ir.Tags$.TagUnaryOp: 26 src=out/bootstrap/scala3-compiler-bootstrapped/scala-3.3.6-bin-nonbootstrapped/src_managed/main/scalajs-ir-src/org/scalajs/ir/Tags.scala:51 lib=scala3-compiler_3-3.3.6.jar
+    HIT OTHER Apply object [final] dotty.tools.sjs.ir.Tags$.TagUndefType: 3 src=out/bootstrap/scala3-compiler-bootstrapped/scala-3.3.6-bin-nonbootstrapped/src_managed/main/scalajs-ir-src/org/scalajs/ir/Tags.scala:158 lib=scala3-compiler_3-3.3.6.jar
+    HIT OTHER Apply object [final] dotty.tools.sjs.ir.Tags$.TagUndefined: 56 src=out/bootstrap/scala3-compiler-bootstrapped/scala-3.3.6-bin-nonbootstrapped/src_managed/main/scalajs-ir-src/org/scalajs/ir/Tags.scala:83 lib=scala3-compiler_3-3.3.6.jar
+    HIT OTHER Apply object [final] dotty.tools.sjs.ir.Tags$.TagUnwrapFromThrowable: 79 src=out/bootstrap/scala3-compiler-bootstrapped/scala-3.3.6-bin-nonbootstrapped/src_managed/main/scalajs-ir-src/org/scalajs/ir/Tags.scala:129 lib=scala3-compiler_3-3.3.6.jar
+    HIT OTHER Apply object [final] dotty.tools.sjs.ir.Tags$.TagVarDef: 3 src=out/bootstrap/scala3-compiler-bootstrapped/scala-3.3.6-bin-nonbootstrapped/src_managed/main/scalajs-ir-src/org/scalajs/ir/Tags.scala:26 lib=scala3-compiler_3-3.3.6.jar
+    HIT OTHER Apply object [final] dotty.tools.sjs.ir.Tags$.TagVarRef: 68 src=out/bootstrap/scala3-compiler-bootstrapped/scala-3.3.6-bin-nonbootstrapped/src_managed/main/scalajs-ir-src/org/scalajs/ir/Tags.scala:96 lib=scala3-compiler_3-3.3.6.jar
+    HIT OTHER Apply object [final] dotty.tools.sjs.ir.Tags$.TagWhile: 10 src=out/bootstrap/scala3-compiler-bootstrapped/scala-3.3.6-bin-nonbootstrapped/src_managed/main/scalajs-ir-src/org/scalajs/ir/Tags.scala:34 lib=scala3-compiler_3-3.3.6.jar
+    HIT OTHER Apply object [final] dotty.tools.sjs.ir.Tags$.TagWrapAsThrowable: 78 src=out/bootstrap/scala3-compiler-bootstrapped/scala-3.3.6-bin-nonbootstrapped/src_managed/main/scalajs-ir-src/org/scalajs/ir/Tags.scala:128 lib=scala3-compiler_3-3.3.6.jar
+    HIT OTHER Apply object [inline,private] dotty.tools.dotc.core.Flags$.KINDFLAGS: 3 src=compiler/src/dotty/tools/dotc/core/Flags.scala:166 lib=scala3-compiler_3-3.3.6.jar
+    HIT OTHER Apply object [inline,private] dotty.tools.dotc.core.Flags$.TERMS: 1 src=compiler/src/dotty/tools/dotc/core/Flags.scala:164 lib=scala3-compiler_3-3.3.6.jar
+    HIT OTHER Apply object [inline,private] dotty.tools.dotc.core.Flags$.TYPES: 2 src=compiler/src/dotty/tools/dotc/core/Flags.scala:165 lib=scala3-compiler_3-3.3.6.jar
+    HIT OTHER Apply object [inline,private] dotty.tools.dotc.core.Scopes$.FillFactor: 0.6666666666666666d src=compiler/src/dotty/tools/dotc/core/Scopes.scala:26 lib=scala3-compiler_3-3.3.6.jar
+    HIT OTHER Apply object [inline,private] dotty.tools.dotc.core.unpickleScala2.PickleBuffer$.ChunkSize: 256 src=compiler/src/dotty/tools/dotc/core/unpickleScala2/PickleBuffer.scala:194 lib=scala3-compiler_3-3.3.6.jar
+    HIT OTHER Apply object [inline,private] dotty.tools.dotc.transform.sjs.JSExportUtils$.MethodExportPrefix: "$js$exported$meth$" src=compiler/src/dotty/tools/dotc/transform/sjs/JSExportUtils.scala:15 lib=scala3-compiler_3-3.3.6.jar
+    HIT OTHER Apply object [inline,private] dotty.tools.dotc.transform.sjs.JSExportUtils$.PropExportPrefix: "$js$exported$prop$" src=compiler/src/dotty/tools/dotc/transform/sjs/JSExportUtils.scala:16 lib=scala3-compiler_3-3.3.6.jar
+    HIT OTHER Apply object [inline,private] dotty.tools.dotc.util.Spans$.StartEndMask: 67108863L src=compiler/src/dotty/tools/dotc/util/Spans.scala:20 lib=scala3-compiler_3-3.3.6.jar
+    HIT OTHER Apply object [inline,private] dotty.tools.dotc.util.Spans$.SyntheticPointDelta: 4095 src=compiler/src/dotty/tools/dotc/util/Spans.scala:21 lib=scala3-compiler_3-3.3.6.jar
+    HIT OTHER Apply object [inline] dotty.tools.backend.sjs.JSPrimitives$.ARR_CREATE: 302 src=compiler/src/dotty/tools/backend/sjs/JSPrimitives.scala:21 lib=scala3-compiler_3-3.3.6.jar
+    HIT OTHER Apply object [inline] dotty.tools.backend.sjs.JSPrimitives$.CONSTRUCTOROF: 309 src=compiler/src/dotty/tools/backend/sjs/JSPrimitives.scala:33 lib=scala3-compiler_3-3.3.6.jar
+    HIT OTHER Apply object [inline] dotty.tools.backend.sjs.JSPrimitives$.CREATE_INNER_JS_CLASS: 310 src=compiler/src/dotty/tools/backend/sjs/JSPrimitives.scala:34 lib=scala3-compiler_3-3.3.6.jar
+    HIT OTHER Apply object [inline] dotty.tools.backend.sjs.JSPrimitives$.CREATE_LOCAL_JS_CLASS: 311 src=compiler/src/dotty/tools/backend/sjs/JSPrimitives.scala:35 lib=scala3-compiler_3-3.3.6.jar
+    HIT OTHER Apply object [inline] dotty.tools.backend.sjs.JSPrimitives$.DEBUGGER: 324 src=compiler/src/dotty/tools/backend/sjs/JSPrimitives.scala:49 lib=scala3-compiler_3-3.3.6.jar
+    HIT OTHER Apply object [inline] dotty.tools.backend.sjs.JSPrimitives$.DELETE: 318 src=compiler/src/dotty/tools/backend/sjs/JSPrimitives.scala:43 lib=scala3-compiler_3-3.3.6.jar
+    HIT OTHER Apply object [inline] dotty.tools.backend.sjs.JSPrimitives$.DYNAMIC_IMPORT: 314 src=compiler/src/dotty/tools/backend/sjs/JSPrimitives.scala:38 lib=scala3-compiler_3-3.3.6.jar
+    HIT OTHER Apply object [inline] dotty.tools.backend.sjs.JSPrimitives$.DYNNEW: 301 src=compiler/src/dotty/tools/backend/sjs/JSPrimitives.scala:19 lib=scala3-compiler_3-3.3.6.jar
+    HIT OTHER Apply object [inline] dotty.tools.backend.sjs.JSPrimitives$.FORIN: 319 src=compiler/src/dotty/tools/backend/sjs/JSPrimitives.scala:44 lib=scala3-compiler_3-3.3.6.jar
+    HIT OTHER Apply object [inline] dotty.tools.backend.sjs.JSPrimitives$.IN: 316 src=compiler/src/dotty/tools/backend/sjs/JSPrimitives.scala:41 lib=scala3-compiler_3-3.3.6.jar
+    HIT OTHER Apply object [inline] dotty.tools.backend.sjs.JSPrimitives$.INSTANCEOF: 317 src=compiler/src/dotty/tools/backend/sjs/JSPrimitives.scala:42 lib=scala3-compiler_3-3.3.6.jar
+    HIT OTHER Apply object [inline] dotty.tools.backend.sjs.JSPrimitives$.JS_IMPORT: 307 src=compiler/src/dotty/tools/backend/sjs/JSPrimitives.scala:30 lib=scala3-compiler_3-3.3.6.jar
+    HIT OTHER Apply object [inline] dotty.tools.backend.sjs.JSPrimitives$.JS_IMPORT_META: 308 src=compiler/src/dotty/tools/backend/sjs/JSPrimitives.scala:31 lib=scala3-compiler_3-3.3.6.jar
+    HIT OTHER Apply object [inline] dotty.tools.backend.sjs.JSPrimitives$.JS_NATIVE: 304 src=compiler/src/dotty/tools/backend/sjs/JSPrimitives.scala:24 lib=scala3-compiler_3-3.3.6.jar
+    HIT OTHER Apply object [inline] dotty.tools.backend.sjs.JSPrimitives$.JS_NEW_TARGET: 306 src=compiler/src/dotty/tools/backend/sjs/JSPrimitives.scala:28 lib=scala3-compiler_3-3.3.6.jar
+    HIT OTHER Apply object [inline] dotty.tools.backend.sjs.JSPrimitives$.JS_THROW: 320 src=compiler/src/dotty/tools/backend/sjs/JSPrimitives.scala:45 lib=scala3-compiler_3-3.3.6.jar
+    HIT OTHER Apply object [inline] dotty.tools.backend.sjs.JSPrimitives$.JS_TRY_CATCH: 321 src=compiler/src/dotty/tools/backend/sjs/JSPrimitives.scala:46 lib=scala3-compiler_3-3.3.6.jar
+    HIT OTHER Apply object [inline] dotty.tools.backend.sjs.JSPrimitives$.LINKING_INFO: 313 src=compiler/src/dotty/tools/backend/sjs/JSPrimitives.scala:37 lib=scala3-compiler_3-3.3.6.jar
+    HIT OTHER Apply object [inline] dotty.tools.backend.sjs.JSPrimitives$.REFLECT_SELECTABLE_APPLYDYN: 329 src=compiler/src/dotty/tools/backend/sjs/JSPrimitives.scala:57 lib=scala3-compiler_3-3.3.6.jar
+    HIT OTHER Apply object [inline] dotty.tools.backend.sjs.JSPrimitives$.REFLECT_SELECTABLE_SELECTDYN: 328 src=compiler/src/dotty/tools/backend/sjs/JSPrimitives.scala:56 lib=scala3-compiler_3-3.3.6.jar
+    HIT OTHER Apply object [inline] dotty.tools.backend.sjs.JSPrimitives$.STRICT_EQ: 315 src=compiler/src/dotty/tools/backend/sjs/JSPrimitives.scala:40 lib=scala3-compiler_3-3.3.6.jar
+    HIT OTHER Apply object [inline] dotty.tools.backend.sjs.JSPrimitives$.THROW: 325 src=compiler/src/dotty/tools/backend/sjs/JSPrimitives.scala:51 lib=scala3-compiler_3-3.3.6.jar
+    HIT OTHER Apply object [inline] dotty.tools.backend.sjs.JSPrimitives$.TYPEOF: 303 src=compiler/src/dotty/tools/backend/sjs/JSPrimitives.scala:23 lib=scala3-compiler_3-3.3.6.jar
+    HIT OTHER Apply object [inline] dotty.tools.backend.sjs.JSPrimitives$.UNION_FROM: 326 src=compiler/src/dotty/tools/backend/sjs/JSPrimitives.scala:53 lib=scala3-compiler_3-3.3.6.jar
+    HIT OTHER Apply object [inline] dotty.tools.backend.sjs.JSPrimitives$.UNION_FROM_TYPE_CONSTRUCTOR: 327 src=compiler/src/dotty/tools/backend/sjs/JSPrimitives.scala:54 lib=scala3-compiler_3-3.3.6.jar
+    HIT OTHER Apply object [inline] dotty.tools.backend.sjs.JSPrimitives$.UNITVAL: 305 src=compiler/src/dotty/tools/backend/sjs/JSPrimitives.scala:26 lib=scala3-compiler_3-3.3.6.jar
+    HIT OTHER Apply object [inline] dotty.tools.backend.sjs.JSPrimitives$.UNWRAP_FROM_THROWABLE: 323 src=compiler/src/dotty/tools/backend/sjs/JSPrimitives.scala:48 lib=scala3-compiler_3-3.3.6.jar
+    HIT OTHER Apply object [inline] dotty.tools.backend.sjs.JSPrimitives$.WITH_CONTEXTUAL_JS_CLASS_VALUE: 312 src=compiler/src/dotty/tools/backend/sjs/JSPrimitives.scala:36 lib=scala3-compiler_3-3.3.6.jar
+    HIT OTHER Apply object [inline] dotty.tools.backend.sjs.JSPrimitives$.WRAP_AS_THROWABLE: 322 src=compiler/src/dotty/tools/backend/sjs/JSPrimitives.scala:47 lib=scala3-compiler_3-3.3.6.jar
+    HIT OTHER Apply object [inline] dotty.tools.dotc.core.Periods$.MaxPossibleRunId: 131071 src=compiler/src/dotty/tools/dotc/core/Periods.scala:166 lib=scala3-compiler_3-3.3.6.jar
+    HIT OTHER Apply object [inline] dotty.tools.dotc.core.Periods$.PhaseMask: 127 src=compiler/src/dotty/tools/dotc/core/Periods.scala:175 lib=scala3-compiler_3-3.3.6.jar
+    HIT OTHER Apply object [inline] dotty.tools.dotc.core.Periods$.RunWidth: 17 src=compiler/src/dotty/tools/dotc/core/Periods.scala:165 lib=scala3-compiler_3-3.3.6.jar
+    HIT OTHER Apply object [inline] dotty.tools.dotc.core.unpickleScala2.Scala2Flags$.ABSOVERRIDE: 262144 src=compiler/src/dotty/tools/dotc/core/unpickleScala2/Scala2Flags.scala:34 lib=scala3-compiler_3-3.3.6.jar
+    HIT OTHER Apply object [inline] dotty.tools.dotc.core.unpickleScala2.Scala2Flags$.ABSTRACT: 8 src=compiler/src/dotty/tools/dotc/core/unpickleScala2/Scala2Flags.scala:23 lib=scala3-compiler_3-3.3.6.jar
+    HIT OTHER Apply object [inline] dotty.tools.dotc.core.unpickleScala2.Scala2Flags$.ABSTRACT_PKL: 128 src=compiler/src/dotty/tools/dotc/core/unpickleScala2/Scala2Flags.scala:102 lib=scala3-compiler_3-3.3.6.jar
+    HIT OTHER Apply object [inline] dotty.tools.dotc.core.unpickleScala2.Scala2Flags$.ACCESSOR: 134217728 src=compiler/src/dotty/tools/dotc/core/unpickleScala2/Scala2Flags.scala:70 lib=scala3-compiler_3-3.3.6.jar
+    HIT OTHER Apply object [inline] dotty.tools.dotc.core.unpickleScala2.Scala2Flags$.ARTIFACT: 70368744177664L src=compiler/src/dotty/tools/dotc/core/unpickleScala2/Scala2Flags.scala:49 lib=scala3-compiler_3-3.3.6.jar
+    HIT OTHER Apply object [inline] dotty.tools.dotc.core.unpickleScala2.Scala2Flags$.AccessFlags: 524293 src=compiler/src/dotty/tools/dotc/core/unpickleScala2/Scala2Flags.scala:56 lib=scala3-compiler_3-3.3.6.jar
+    HIT OTHER Apply object [inline] dotty.tools.dotc.core.unpickleScala2.Scala2Flags$.BRIDGE: 67108864 src=compiler/src/dotty/tools/dotc/core/unpickleScala2/Scala2Flags.scala:69 lib=scala3-compiler_3-3.3.6.jar
+    HIT OTHER Apply object [inline] dotty.tools.dotc.core.unpickleScala2.Scala2Flags$.BYNAMEPARAM: 65536 src=compiler/src/dotty/tools/dotc/core/unpickleScala2/Scala2Flags.scala:32 lib=scala3-compiler_3-3.3.6.jar
+    HIT OTHER Apply object [inline] dotty.tools.dotc.core.unpickleScala2.Scala2Flags$.CAPTURED: 65536 src=compiler/src/dotty/tools/dotc/core/unpickleScala2/Scala2Flags.scala:62 lib=scala3-compiler_3-3.3.6.jar
+    HIT OTHER Apply object [inline] dotty.tools.dotc.core.unpickleScala2.Scala2Flags$.CASE: 2048 src=compiler/src/dotty/tools/dotc/core/unpickleScala2/Scala2Flags.scala:22 lib=scala3-compiler_3-3.3.6.jar
+    HIT OTHER Apply object [inline] dotty.tools.dotc.core.unpickleScala2.Scala2Flags$.CASEACCESSOR: 16777216 src=compiler/src/dotty/tools/dotc/core/unpickleScala2/Scala2Flags.scala:39 lib=scala3-compiler_3-3.3.6.jar
+    HIT OTHER Apply object [inline] dotty.tools.dotc.core.unpickleScala2.Scala2Flags$.CASE_PKL: 64 src=compiler/src/dotty/tools/dotc/core/unpickleScala2/Scala2Flags.scala:101 lib=scala3-compiler_3-3.3.6.jar
+    HIT OTHER Apply object [inline] dotty.tools.dotc.core.unpickleScala2.Scala2Flags$.CONTRAVARIANT: 131072 src=compiler/src/dotty/tools/dotc/core/unpickleScala2/Scala2Flags.scala:33 lib=scala3-compiler_3-3.3.6.jar
+    HIT OTHER Apply object [inline] dotty.tools.dotc.core.unpickleScala2.Scala2Flags$.COVARIANT: 65536 src=compiler/src/dotty/tools/dotc/core/unpickleScala2/Scala2Flags.scala:31 lib=scala3-compiler_3-3.3.6.jar
+    HIT OTHER Apply object [inline] dotty.tools.dotc.core.unpickleScala2.Scala2Flags$.DEFAULTINIT: 2199023255552L src=compiler/src/dotty/tools/dotc/core/unpickleScala2/Scala2Flags.scala:48 lib=scala3-compiler_3-3.3.6.jar
+    HIT OTHER Apply object [inline] dotty.tools.dotc.core.unpickleScala2.Scala2Flags$.DEFAULTMETHOD: 140737488355328L src=compiler/src/dotty/tools/dotc/core/unpickleScala2/Scala2Flags.scala:51 lib=scala3-compiler_3-3.3.6.jar
+    HIT OTHER Apply object [inline] dotty.tools.dotc.core.unpickleScala2.Scala2Flags$.DEFAULTPARAM: 33554432 src=compiler/src/dotty/tools/dotc/core/unpickleScala2/Scala2Flags.scala:41 lib=scala3-compiler_3-3.3.6.jar
+    HIT OTHER Apply object [inline] dotty.tools.dotc.core.unpickleScala2.Scala2Flags$.DEFERRED: 16 src=compiler/src/dotty/tools/dotc/core/unpickleScala2/Scala2Flags.scala:25 lib=scala3-compiler_3-3.3.6.jar
+    HIT OTHER Apply object [inline] dotty.tools.dotc.core.unpickleScala2.Scala2Flags$.DEFERRED_PKL: 256 src=compiler/src/dotty/tools/dotc/core/unpickleScala2/Scala2Flags.scala:103 lib=scala3-compiler_3-3.3.6.jar
+    HIT OTHER Apply object [inline] dotty.tools.dotc.core.unpickleScala2.Scala2Flags$.ENUM: 281474976710656L src=compiler/src/dotty/tools/dotc/core/unpickleScala2/Scala2Flags.scala:52 lib=scala3-compiler_3-3.3.6.jar
+    HIT OTHER Apply object [inline] dotty.tools.dotc.core.unpickleScala2.Scala2Flags$.EXISTENTIAL: 34359738368L src=compiler/src/dotty/tools/dotc/core/unpickleScala2/Scala2Flags.scala:81 lib=scala3-compiler_3-3.3.6.jar
+    HIT OTHER Apply object [inline] dotty.tools.dotc.core.unpickleScala2.Scala2Flags$.EXPANDEDNAME: 68719476736L src=compiler/src/dotty/tools/dotc/core/unpickleScala2/Scala2Flags.scala:82 lib=scala3-compiler_3-3.3.6.jar
+    HIT OTHER Apply object [inline] dotty.tools.dotc.core.unpickleScala2.Scala2Flags$.FINAL: 32 src=compiler/src/dotty/tools/dotc/core/unpickleScala2/Scala2Flags.scala:16 lib=scala3-compiler_3-3.3.6.jar
+    HIT OTHER Apply object [inline] dotty.tools.dotc.core.unpickleScala2.Scala2Flags$.FINAL_PKL: 2 src=compiler/src/dotty/tools/dotc/core/unpickleScala2/Scala2Flags.scala:96 lib=scala3-compiler_3-3.3.6.jar
+    HIT OTHER Apply object [inline] dotty.tools.dotc.core.unpickleScala2.Scala2Flags$.IMPLICIT: 512 src=compiler/src/dotty/tools/dotc/core/unpickleScala2/Scala2Flags.scala:15 lib=scala3-compiler_3-3.3.6.jar
+    HIT OTHER Apply object [inline] dotty.tools.dotc.core.unpickleScala2.Scala2Flags$.IMPLICIT_PKL: 1 src=compiler/src/dotty/tools/dotc/core/unpickleScala2/Scala2Flags.scala:95 lib=scala3-compiler_3-3.3.6.jar
+    HIT OTHER Apply object [inline] dotty.tools.dotc.core.unpickleScala2.Scala2Flags$.INCONSTRUCTOR: 131072 src=compiler/src/dotty/tools/dotc/core/unpickleScala2/Scala2Flags.scala:64 lib=scala3-compiler_3-3.3.6.jar
+    HIT OTHER Apply object [inline] dotty.tools.dotc.core.unpickleScala2.Scala2Flags$.INTERFACE: 128 src=compiler/src/dotty/tools/dotc/core/unpickleScala2/Scala2Flags.scala:26 lib=scala3-compiler_3-3.3.6.jar
+    HIT OTHER Apply object [inline] dotty.tools.dotc.core.unpickleScala2.Scala2Flags$.INTERFACE_PKL: 2048 src=compiler/src/dotty/tools/dotc/core/unpickleScala2/Scala2Flags.scala:106 lib=scala3-compiler_3-3.3.6.jar
+    HIT OTHER Apply object [inline] dotty.tools.dotc.core.unpickleScala2.Scala2Flags$.IS_ERROR: 4294967296L src=compiler/src/dotty/tools/dotc/core/unpickleScala2/Scala2Flags.scala:75 lib=scala3-compiler_3-3.3.6.jar
+    HIT OTHER Apply object [inline] dotty.tools.dotc.core.unpickleScala2.Scala2Flags$.JAVA: 1048576 src=compiler/src/dotty/tools/dotc/core/unpickleScala2/Scala2Flags.scala:37 lib=scala3-compiler_3-3.3.6.jar
+    HIT OTHER Apply object [inline] dotty.tools.dotc.core.unpickleScala2.Scala2Flags$.LABEL: 131072 src=compiler/src/dotty/tools/dotc/core/unpickleScala2/Scala2Flags.scala:63 lib=scala3-compiler_3-3.3.6.jar
+    HIT OTHER Apply object [inline] dotty.tools.dotc.core.unpickleScala2.Scala2Flags$.LAZY: 2147483648L src=compiler/src/dotty/tools/dotc/core/unpickleScala2/Scala2Flags.scala:46 lib=scala3-compiler_3-3.3.6.jar
+    HIT OTHER Apply object [inline] dotty.tools.dotc.core.unpickleScala2.Scala2Flags$.LIFTED: 17179869184L src=compiler/src/dotty/tools/dotc/core/unpickleScala2/Scala2Flags.scala:77 lib=scala3-compiler_3-3.3.6.jar
+    HIT OTHER Apply object [inline] dotty.tools.dotc.core.unpickleScala2.Scala2Flags$.LOCAL: 524288 src=compiler/src/dotty/tools/dotc/core/unpickleScala2/Scala2Flags.scala:35 lib=scala3-compiler_3-3.3.6.jar
+    HIT OTHER Apply object [inline] dotty.tools.dotc.core.unpickleScala2.Scala2Flags$.LOCKED: 549755813888L src=compiler/src/dotty/tools/dotc/core/unpickleScala2/Scala2Flags.scala:85 lib=scala3-compiler_3-3.3.6.jar
+    HIT OTHER Apply object [inline] dotty.tools.dotc.core.unpickleScala2.Scala2Flags$.MACRO: 32768 src=compiler/src/dotty/tools/dotc/core/unpickleScala2/Scala2Flags.scala:29 lib=scala3-compiler_3-3.3.6.jar
+    HIT OTHER Apply object [inline] dotty.tools.dotc.core.unpickleScala2.Scala2Flags$.METHOD: 64 src=compiler/src/dotty/tools/dotc/core/unpickleScala2/Scala2Flags.scala:58 lib=scala3-compiler_3-3.3.6.jar
+    HIT OTHER Apply object [inline] dotty.tools.dotc.core.unpickleScala2.Scala2Flags$.METHOD_PKL: 512 src=compiler/src/dotty/tools/dotc/core/unpickleScala2/Scala2Flags.scala:104 lib=scala3-compiler_3-3.3.6.jar
+    HIT OTHER Apply object [inline] dotty.tools.dotc.core.unpickleScala2.Scala2Flags$.MIXEDIN: 34359738368L src=compiler/src/dotty/tools/dotc/core/unpickleScala2/Scala2Flags.scala:80 lib=scala3-compiler_3-3.3.6.jar
+    HIT OTHER Apply object [inline] dotty.tools.dotc.core.unpickleScala2.Scala2Flags$.MODULE: 256 src=compiler/src/dotty/tools/dotc/core/unpickleScala2/Scala2Flags.scala:59 lib=scala3-compiler_3-3.3.6.jar
+    HIT OTHER Apply object [inline] dotty.tools.dotc.core.unpickleScala2.Scala2Flags$.MODULEVAR: 1073741824 src=compiler/src/dotty/tools/dotc/core/unpickleScala2/Scala2Flags.scala:73 lib=scala3-compiler_3-3.3.6.jar
+    HIT OTHER Apply object [inline] dotty.tools.dotc.core.unpickleScala2.Scala2Flags$.MODULE_PKL: 1024 src=compiler/src/dotty/tools/dotc/core/unpickleScala2/Scala2Flags.scala:105 lib=scala3-compiler_3-3.3.6.jar
+    HIT OTHER Apply object [inline] dotty.tools.dotc.core.unpickleScala2.Scala2Flags$.MUTABLE: 4096 src=compiler/src/dotty/tools/dotc/core/unpickleScala2/Scala2Flags.scala:27 lib=scala3-compiler_3-3.3.6.jar
+    HIT OTHER Apply object [inline] dotty.tools.dotc.core.unpickleScala2.Scala2Flags$.OVERLOADED: 8589934592L src=compiler/src/dotty/tools/dotc/core/unpickleScala2/Scala2Flags.scala:76 lib=scala3-compiler_3-3.3.6.jar
+    HIT OTHER Apply object [inline] dotty.tools.dotc.core.unpickleScala2.Scala2Flags$.OVERRIDE: 2 src=compiler/src/dotty/tools/dotc/core/unpickleScala2/Scala2Flags.scala:21 lib=scala3-compiler_3-3.3.6.jar
+    HIT OTHER Apply object [inline] dotty.tools.dotc.core.unpickleScala2.Scala2Flags$.OVERRIDE_PKL: 32 src=compiler/src/dotty/tools/dotc/core/unpickleScala2/Scala2Flags.scala:100 lib=scala3-compiler_3-3.3.6.jar
+    HIT OTHER Apply object [inline] dotty.tools.dotc.core.unpickleScala2.Scala2Flags$.PACKAGE: 16384 src=compiler/src/dotty/tools/dotc/core/unpickleScala2/Scala2Flags.scala:60 lib=scala3-compiler_3-3.3.6.jar
+    HIT OTHER Apply object [inline] dotty.tools.dotc.core.unpickleScala2.Scala2Flags$.PARAM: 8192 src=compiler/src/dotty/tools/dotc/core/unpickleScala2/Scala2Flags.scala:28 lib=scala3-compiler_3-3.3.6.jar
+    HIT OTHER Apply object [inline] dotty.tools.dotc.core.unpickleScala2.Scala2Flags$.PARAMACCESSOR: 536870912 src=compiler/src/dotty/tools/dotc/core/unpickleScala2/Scala2Flags.scala:42 lib=scala3-compiler_3-3.3.6.jar
+    HIT OTHER Apply object [inline] dotty.tools.dotc.core.unpickleScala2.Scala2Flags$.PRESUPER: 137438953472L src=compiler/src/dotty/tools/dotc/core/unpickleScala2/Scala2Flags.scala:47 lib=scala3-compiler_3-3.3.6.jar
+    HIT OTHER Apply object [inline] dotty.tools.dotc.core.unpickleScala2.Scala2Flags$.PRIVATE: 4 src=compiler/src/dotty/tools/dotc/core/unpickleScala2/Scala2Flags.scala:17 lib=scala3-compiler_3-3.3.6.jar
+    HIT OTHER Apply object [inline] dotty.tools.dotc.core.unpickleScala2.Scala2Flags$.PRIVATE_PKL: 4 src=compiler/src/dotty/tools/dotc/core/unpickleScala2/Scala2Flags.scala:97 lib=scala3-compiler_3-3.3.6.jar
+    HIT OTHER Apply object [inline] dotty.tools.dotc.core.unpickleScala2.Scala2Flags$.PROTECTED: 1 src=compiler/src/dotty/tools/dotc/core/unpickleScala2/Scala2Flags.scala:18 lib=scala3-compiler_3-3.3.6.jar
+    HIT OTHER Apply object [inline] dotty.tools.dotc.core.unpickleScala2.Scala2Flags$.PROTECTED_PKL: 8 src=compiler/src/dotty/tools/dotc/core/unpickleScala2/Scala2Flags.scala:98 lib=scala3-compiler_3-3.3.6.jar
+    HIT OTHER Apply object [inline] dotty.tools.dotc.core.unpickleScala2.Scala2Flags$.PrivateLocal: 524292 src=compiler/src/dotty/tools/dotc/core/unpickleScala2/Scala2Flags.scala:54 lib=scala3-compiler_3-3.3.6.jar
+    HIT OTHER Apply object [inline] dotty.tools.dotc.core.unpickleScala2.Scala2Flags$.ProtectedLocal: 524289 src=compiler/src/dotty/tools/dotc/core/unpickleScala2/Scala2Flags.scala:55 lib=scala3-compiler_3-3.3.6.jar
+    HIT OTHER Apply object [inline] dotty.tools.dotc.core.unpickleScala2.Scala2Flags$.SEALED: 1024 src=compiler/src/dotty/tools/dotc/core/unpickleScala2/Scala2Flags.scala:20 lib=scala3-compiler_3-3.3.6.jar
+    HIT OTHER Apply object [inline] dotty.tools.dotc.core.unpickleScala2.Scala2Flags$.SEALED_PKL: 16 src=compiler/src/dotty/tools/dotc/core/unpickleScala2/Scala2Flags.scala:99 lib=scala3-compiler_3-3.3.6.jar
+    HIT OTHER Apply object [inline] dotty.tools.dotc.core.unpickleScala2.Scala2Flags$.SPECIALIZED: 1099511627776L src=compiler/src/dotty/tools/dotc/core/unpickleScala2/Scala2Flags.scala:86 lib=scala3-compiler_3-3.3.6.jar
+    HIT OTHER Apply object [inline] dotty.tools.dotc.core.unpickleScala2.Scala2Flags$.STABLE: 4194304 src=compiler/src/dotty/tools/dotc/core/unpickleScala2/Scala2Flags.scala:66 lib=scala3-compiler_3-3.3.6.jar
+    HIT OTHER Apply object [inline] dotty.tools.dotc.core.unpickleScala2.Scala2Flags$.STATIC: 8388608 src=compiler/src/dotty/tools/dotc/core/unpickleScala2/Scala2Flags.scala:38 lib=scala3-compiler_3-3.3.6.jar
+    HIT OTHER Apply object [inline] dotty.tools.dotc.core.unpickleScala2.Scala2Flags$.SUPERACCESSOR: 268435456 src=compiler/src/dotty/tools/dotc/core/unpickleScala2/Scala2Flags.scala:72 lib=scala3-compiler_3-3.3.6.jar
+    HIT OTHER Apply object [inline] dotty.tools.dotc.core.unpickleScala2.Scala2Flags$.SYNCHRONIZED: 35184372088832L src=compiler/src/dotty/tools/dotc/core/unpickleScala2/Scala2Flags.scala:93 lib=scala3-compiler_3-3.3.6.jar
+    HIT OTHER Apply object [inline] dotty.tools.dotc.core.unpickleScala2.Scala2Flags$.SYNTHETIC: 2097152 src=compiler/src/dotty/tools/dotc/core/unpickleScala2/Scala2Flags.scala:65 lib=scala3-compiler_3-3.3.6.jar
+    HIT OTHER Apply object [inline] dotty.tools.dotc.core.unpickleScala2.Scala2Flags$.TRAIT: 33554432 src=compiler/src/dotty/tools/dotc/core/unpickleScala2/Scala2Flags.scala:40 lib=scala3-compiler_3-3.3.6.jar
+    HIT OTHER Apply object [inline] dotty.tools.dotc.core.unpickleScala2.Scala2Flags$.TRANS_FLAG: 274877906944L src=compiler/src/dotty/tools/dotc/core/unpickleScala2/Scala2Flags.scala:83 lib=scala3-compiler_3-3.3.6.jar
+    HIT OTHER Apply object [inline] dotty.tools.dotc.core.unpickleScala2.Scala2Flags$.TRIEDCOOKING: 17592186044416L src=compiler/src/dotty/tools/dotc/core/unpickleScala2/Scala2Flags.scala:90 lib=scala3-compiler_3-3.3.6.jar
+    HIT OTHER Apply object [inline] dotty.tools.dotc.core.unpickleScala2.Scala2Flags$.VARARGS: 8796093022208L src=compiler/src/dotty/tools/dotc/core/unpickleScala2/Scala2Flags.scala:89 lib=scala3-compiler_3-3.3.6.jar
+    HIT OTHER Apply object [inline] dotty.tools.dotc.core.unpickleScala2.Scala2Flags$.VBRIDGE: 4398046511104L src=compiler/src/dotty/tools/dotc/core/unpickleScala2/Scala2Flags.scala:87 lib=scala3-compiler_3-3.3.6.jar
+    HIT OTHER Apply object [inline] dotty.tools.dotc.util.SixteenNibbles$.Mask: 15 src=compiler/src/dotty/tools/dotc/util/SixteenNibbles.scala:26 lib=scala3-compiler_3-3.3.6.jar
+    HIT OTHER Ident object [inline] dotty.tools.backend.sjs.JSPrimitives$.LastJSPrimitiveCode: 329 src=compiler/src/dotty/tools/backend/sjs/JSPrimitives.scala:59 lib=scala3-compiler_3-3.3.6.jar
+    HIT OTHER Ident object [inline] dotty.tools.dotc.core.Periods$.MaxPossiblePhaseId: 127 src=compiler/src/dotty/tools/dotc/core/Periods.scala:176 lib=scala3-compiler_3-3.3.6.jar
+    HIT OTHER Ident object [inline] dotty.tools.dotc.core.unpickleScala2.PickleFormat$.firstSymTag: 3 src=compiler/src/dotty/tools/dotc/core/unpickleScala2/PickleFormat.scala:218 lib=scala3-compiler_3-3.3.6.jar
+    HIT OTHER Ident object [inline] dotty.tools.dotc.core.unpickleScala2.PickleFormat$.lastExtSymTag: 10 src=compiler/src/dotty/tools/dotc/core/unpickleScala2/PickleFormat.scala:220 lib=scala3-compiler_3-3.3.6.jar
+    HIT OTHER Ident object [inline] dotty.tools.dotc.core.unpickleScala2.PickleFormat$.lastSymTag: 8 src=compiler/src/dotty/tools/dotc/core/unpickleScala2/PickleFormat.scala:219 lib=scala3-compiler_3-3.3.6.jar
+    HIT OTHER Ident object [inline] dotty.tools.dotc.parsing.JavaTokens$.minToken: 0 src=compiler/src/dotty/tools/dotc/parsing/JavaTokens.scala:8 lib=scala3-compiler_3-3.3.6.jar
+    HIT OTHER Ident object [inline] dotty.tools.dotc.parsing.Tokens$.minToken: 0 src=compiler/src/dotty/tools/dotc/parsing/Tokens.scala:146 lib=scala3-compiler_3-3.3.6.jar
+    HIT OTHER Select class [inline] dotty.tools.dotc.parsing.TokensCommon.firstParen: 91 src=compiler/src/dotty/tools/dotc/parsing/Tokens.scala:127 lib=scala3-compiler_3-3.3.6.jar
+    HIT OTHER Select class [inline] dotty.tools.dotc.parsing.TokensCommon.lastParen: 98 src=compiler/src/dotty/tools/dotc/parsing/Tokens.scala:128 lib=scala3-compiler_3-3.3.6.jar
+    HIT OTHER Select object [final] dotty.tools.repl.Rendering$.REPL_WRAPPER_NAME_PREFIX: "rs$line$" src=compiler/src/dotty/tools/repl/Rendering.scala:192 lib=scala3-compiler_3-3.3.6.jar
+    HIT OTHER Select object [inline] dotty.tools.dotc.core.Hashable$.NotCachedAlt: -2147483648 src=compiler/src/dotty/tools/dotc/core/Hashable.scala:31 lib=scala3-compiler_3-3.3.6.jar
+    SUMMARY files=971 fail-alone=0 lib=scala3-compiler_3-3.3.6.jar
+OK org.scala-lang::scala3-tasty-inspector:3.7.3 scala3-tasty-inspector_3-3.7.3.jar
+    SUMMARY files=3 fail-alone=0 lib=scala3-tasty-inspector_3-3.7.3.jar
+OK org.scala-lang::scaladoc:3.7.3 scaladoc_3-3.7.3.jar
+    FAIL-ALONE dotty/tools/scaladoc/ScaladocSettings.tasty lib=scaladoc_3-3.7.3.jar
+    FAIL-ALONE dotty/tools/scaladoc/snippets/SnippetChecker.tasty lib=scaladoc_3-3.7.3.jar
+    SUMMARY files=191 fail-alone=2 lib=scaladoc_3-3.7.3.jar
+OK ch.epfl.lamp::gears:latest.release gears_3-0.3.1.jar
+    SUMMARY files=53 fail-alone=0 lib=gears_3-0.3.1.jar
+OK com.softwaremill.common::tagging:latest.release tagging_3-2.3.5.jar
+    SUMMARY files=3 fail-alone=0 lib=tagging_3-2.3.5.jar
+OK com.softwaremill.macwire::macros:latest.release macros_3-2.6.7.jar
+    SUMMARY files=17 fail-alone=0 lib=macros_3-2.6.7.jar
+OK eu.timepit::refined:latest.release refined_3-0.11.4.jar
+    SUMMARY files=78 fail-alone=0 lib=refined_3-0.11.4.jar
+OK io.github.iltotore::iron:latest.release iron_3-3.4.1.jar
+    SUMMARY files=27 fail-alone=0 lib=iron_3-3.4.1.jar
+OK org.virtuslab::besom-core:latest.release besom-core_3-0.5.2.jar
+    SUMMARY files=157 fail-alone=0 lib=besom-core_3-0.5.2.jar
+OK org.virtuslab::scala-yaml:latest.release scala-yaml_3-0.3.3.jar
+    SUMMARY files=54 fail-alone=0 lib=scala-yaml_3-0.3.3.jar
+OK com.lihaoyi::mill-main:latest.release mill-main_3-0.13.0-M1-43-b217bc.jar
+    SUMMARY files=11 fail-alone=0 lib=mill-main_3-0.13.0-M1-43-b217bc.jar
+OK org.scala-sbt::librarymanagement-core:latest.release librarymanagement-core_3-2.1.0-RC1.jar
+    HIT OTHER Apply object [final] sbt.librarymanagement.ScalaArtifacts$.Scala3CompilerPrefix: "scala3-compiler_" src=lm-core/src/main/scala/sbt/librarymanagement/ScalaArtifacts.scala:24 lib=librarymanagement-core_3-2.1.0-RC1.jar
+    HIT OTHER Apply object [final] sbt.librarymanagement.ScalaArtifacts$.Scala3DocPrefix: "scala3doc_" src=lm-core/src/main/scala/sbt/librarymanagement/ScalaArtifacts.scala:27 lib=librarymanagement-core_3-2.1.0-RC1.jar
+    HIT OTHER Apply object [final] sbt.librarymanagement.ScalaArtifacts$.Scala3LibraryPrefix: "scala3-library_" src=lm-core/src/main/scala/sbt/librarymanagement/ScalaArtifacts.scala:23 lib=librarymanagement-core_3-2.1.0-RC1.jar
+    HIT OTHER Apply object [final] sbt.librarymanagement.ScalaArtifacts$.Scala3ReplPrefix: "scala3-repl_" src=lm-core/src/main/scala/sbt/librarymanagement/ScalaArtifacts.scala:29 lib=librarymanagement-core_3-2.1.0-RC1.jar
+    HIT OTHER Apply object [final] sbt.librarymanagement.ScalaArtifacts$.Scala3TastyInspectorPrefix: "scala3-tasty-inspector_" src=lm-core/src/main/scala/sbt/librarymanagement/ScalaArtifacts.scala:28 lib=librarymanagement-core_3-2.1.0-RC1.jar
+    HIT OTHER Apply object [final] sbt.librarymanagement.ScalaArtifacts$.ScaladocPrefix: "scaladoc_" src=lm-core/src/main/scala/sbt/librarymanagement/ScalaArtifacts.scala:26 lib=librarymanagement-core_3-2.1.0-RC1.jar
+    HIT OTHER Apply object [final] sbt.librarymanagement.ScalaArtifacts$.TastyCorePrefix: "tasty-core_" src=lm-core/src/main/scala/sbt/librarymanagement/ScalaArtifacts.scala:25 lib=librarymanagement-core_3-2.1.0-RC1.jar
+    SUMMARY files=213 fail-alone=0 lib=librarymanagement-core_3-2.1.0-RC1.jar
+OK com.github.tminglei::slick-pg:latest.release slick-pg_3-0.23.1.jar
+    SUMMARY files=30 fail-alone=0 lib=slick-pg_3-0.23.1.jar
