@@ -1,0 +1,109 @@
+HARVESTED controls tasty=20 fail-alone=0 defs=152 refs=189
+== findings
+disjoint-equality	hazards.scala:20	controls.hazards.Eq.f	controls.hazards.F == controls.hazards.G
+forward-reference	hazards.scala:8	controls.hazards.A	b read before its initialisation
+generic-isInstanceOf	hazards.scala:30	controls.hazards.hazards$package$.test	scala.Option[scala.Predef.String]
+generic-type-pattern	hazards.scala:23	controls.hazards.hazards$package$.pat	scala.collection.immutable.List[scala.Int] from scala.Any
+inferred-nothing	hazards.scala:27	controls.hazards.hazards$package$.empty	scala.collection.IterableFactory.apply
+inline-reaches-nonpublic	refs.scala:30	controls.refs.P$.exposed	controls.refs.P$.inline$secret (inline accessor)
+kind	site	owner	detail
+nonlocal-return	hazards.scala:4	controls.hazards.hazards$package$.firstPositive	return from firstPositive inside $anonfun
+== module_init
+controls	controls.hazards.ObjA$	hazards.scala:16
+controls	controls.hazards.ObjB$	hazards.scala:15
+lib	target	site
+== refs (controls.*, using/conversion/const/deprecated)
+controls.hazards.A.e	value	const		1
+controls.refs.K$.C	value	const		1
+controls.refs.P$.inline$secret	call			1
+controls.refs.P$.secret	call	synthetic		1
+controls.refs.refs$package$.given_Show_Int	module			2
+controls.refs.refs$package$.given_Show_Int	module	using		1
+controls.refs.refs$package$.given_Show_Int$	new			1
+controls.refs.refs$package$.given_Show_Int$.<init>	call			1
+controls.refs.refs$package$.old	call		deprecated	1
+controls.refs.refs$package$.toWrap2	conversion			1
+scala.Conversion.apply	conversion			1
+scala.Predef$.classOf	call	using,synthetic		1
+scala.quoted.ToExpr$.IntToExpr	call	using		1
+scala.reflect.ClassTag$.apply	call	using,synthetic		1
+== defs (kind, features)
+controls.features.Color	enum	abstract,enum,sealed		
+controls.features.Color	module-val	final,lazy,synthetic	ref	
+controls.features.Color$	object	final,synthetic		
+controls.features.Color$.$new	def	synthetic	ref	
+controls.features.Color$.$values	val	synthetic	applied	
+controls.features.Color$.fromOrdinal	def	synthetic	ref	
+controls.features.Color$.Green	val	case,enum,static	ref	
+controls.features.Color$.MirroredMonoType	abstract-type	synthetic		
+controls.features.Color$.ordinal	def	synthetic	ref	
+controls.features.Color$.Red	val	case,enum,static	ref	
+controls.features.Color$.valueOf	def	synthetic	ref	
+controls.features.Color$.values	def	synthetic	applied	
+controls.features.Color$.writeReplace	def	synthetic	top:Object	
+controls.features.D	case-class	case		
+controls.features.D	module-val	final,lazy,synthetic	ref	
+controls.features.D._1	def	synthetic	ref	
+controls.features.D.canEqual	def	override,synthetic	ref	
+controls.features.D.copy	def	synthetic	ref	default-args
+controls.features.D.copy$default$1	def	synthetic	ref	
+controls.features.D.equals	def	override,synthetic	ref	
+controls.features.D.hashCode	def	override,synthetic	ref	
+controls.features.D.i	val	param-accessor	ref	
+controls.features.D.productArity	def	override,synthetic	ref	
+controls.features.D.productElement	def	override,synthetic	top:Any	
+controls.features.D.productElementName	def	override,synthetic	ref	
+controls.features.D.productPrefix	def	override,synthetic	ref	
+controls.features.D.toString	def	override,synthetic	ref	
+controls.features.D$	object	final,synthetic		
+controls.features.D$.apply	def	synthetic	ref	
+controls.features.D$.derived$Eqq	given-val	given,lazy	applied	
+controls.features.D$.fromProduct	def	synthetic	ref	
+controls.features.D$.MirroredMonoType	abstract-type	synthetic		
+controls.features.D$.toString	def	override,synthetic	ref	
+controls.features.D$.unapply	def	synthetic	ref	
+controls.features.D$.writeReplace	def	synthetic	top:Object	
+controls.features.Eqq	module-val	final,lazy	ref	
+controls.features.Eqq	trait			
+controls.features.Eqq$	object	final		
+controls.features.Eqq$.derived	def		applied	type-params
+controls.features.Eqq$.writeReplace	def	synthetic	top:Object	
+controls.features.features$package	module-val	final,lazy,synthetic	ref	
+controls.features.features$package$	object	final,opaque,synthetic		
+controls.features.features$package$.ctx	def		applied	context-function-type
+controls.features.features$package$.double	extension	extension	ref	
+controls.features.features$package$.either	def		union	union-type
+controls.features.features$package$.Elem	match-type-def			match-type,type-lambda
+controls.features.features$package$.mac	macro	inline,macro	ref	
+controls.features.features$package$.macImpl	def		applied	using-clause
+controls.features.features$package$.Meters	opaque-type	opaque,deferred		
+controls.features.features$package$.named	def		applied	named-tuple
+controls.features.features$package$.poly	val		refinement	poly-function-type
+controls.features.features$package$.ti	transparent-inline-def	inline,transparent	top:Any	
+controls.features.features$package$.writeReplace	def	synthetic	top:Object	
+controls.features.Inner	module-val	final,lazy	ref	
+controls.features.Inner$	object	final		
+controls.features.Inner$.f	def		ref	
+controls.features.Inner$.writeReplace	def	synthetic	top:Object	
+controls.features.Outer	module-val	final,lazy	ref	
+controls.features.Outer$	object	final		
+controls.features.Outer$.f	def	exported,final	ref	
+controls.features.Outer$.writeReplace	def	synthetic	top:Object	
+== hist (findings)
+finding:disjoint-equality	1
+finding:generic-isInstanceOf	1
+finding:generic-type-pattern	1
+finding:implicit-conversion	2
+finding:inferred-nothing	1
+finding:inline-reaches-nonpublic	1
+finding:unchecked-annotation	1
+findings-total:disjoint-equality	1
+findings-total:forward-reference	1
+findings-total:generic-isInstanceOf	1
+findings-total:generic-type-pattern	1
+findings-total:inferred-nothing	1
+findings-total:inline-reaches-nonpublic	1
+findings-total:nonlocal-return	1
+Return	2
+Return:nonlocal	1
+== failures
