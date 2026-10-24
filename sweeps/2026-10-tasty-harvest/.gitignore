@@ -1,0 +1,7 @@
+.venv/
+work/
+harvester/cp.txt
+.scala-build/
+.bsp/
+harvester/.scala-build/
+harvester/.bsp/
